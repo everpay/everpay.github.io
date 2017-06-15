@@ -1,3 +1,9 @@
+---
+layout: page
+title: Features
+permalink: product/features/
+---
+
 <div class="section">
 <div class="container text-center ptm">
 <h1 class="mvl">Elektropay changes the way you accept payments</h1>
