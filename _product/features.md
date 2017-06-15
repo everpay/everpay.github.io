@@ -1,6 +1,6 @@
 <div class="section">
 <div class="container text-center ptm">
-<h1 class="mvl">Elektropay changes the way you schedule</h1>
+<h1 class="mvl">Elektropay changes the way you accept payments</h1>
 <div class="features-navigation row">
 <div class="col1of4 text-center">
 <a href="features.html#flexible">
