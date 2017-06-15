@@ -1,2 +1,13 @@
-# www
-The website for Elektropay
+# Payments Remastered | Elektropay 
+
+This is the Corporate site for Elektropay, built with netlify.
+
+
+**Enjoy!**
+
+## Bug reports, feature requests, etc
+
+We love feedback, contributions, better documentation, tutorials, general comments,
+random hatemail, rants, love, crazy ideas, etc, etc!
+
+Contact us at [any of Elektropay's normal channels](https://www.elektropay.com/contact)

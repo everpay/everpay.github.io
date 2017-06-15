@@ -1,0 +1,170 @@
+---
+layout: default
+---
+
+    <!-- Hero Section
+    ================================================== -->
+    <section id="blog-intro" class="tp--inner-header tp--section tp--section-dark tp--pattern-4 tp--height-100 text-center">
+	    <div class="header-overlay header-overlay50 text-white container">
+    <div class="sub-header">
+        <div class="container">
+  <a href="/"><h1 class="blog-title blog-title--small">&gt;Elektro_byte</h1></a>
+  <span class="blog-description--small e-small-1">: a collection of facts, tidbits, and musings <span class="blog-description--small-addition">about our world and our industry by the wonderful people of Everpay</span></span>
+</div>
+        </div>
+        <div class="item tp--intro-content-left text-sm-center p-top-md-110 p-bottom-md-100">
+          <div class="container">
+
+            <div class="row tp--col-sm-vertical-align tp--col-xs-vertical-align tp--vertical-align-intro text-sm-center p-top-md-140">
+
+              <div class="col-sm-12 col-md-12 text-sm-center p-top-md-100">
+                <div class="text-sm-center">
+                  <h1 class="post__title">{{ page.title }}</h1>
+                  <p></p>
+                    <p></p>
+                    <div class="post__date e-uppercase e-small-1">
+                <time datetime="{{ page.date | date: "%b %-d, %Y" }}">{{ page.date | date: "%b %-d, %Y" }}</time>
+                    </div>
+                    
+                    <div class="divider--squiggle margin-centered"></div>
+                    
+                    <div class="post__author">
+                <a href="#"><div class="author-image--small inline" style="background-image: url('{{ page.author_image }}')"></div></a> 
+                        Authored by <span class="post__author-name"><a href="#" class="link__basic--dotted--white">{% if page.author %} {{ page.author }}{% endif %}</a></span>
+              </div>
+                    <p class="text-center post-meta">{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+               </div>
+              </div>
+ </div>
+            </div>
+
+          </div>
+
+        </div>
+
+    </section>
+
+
+<section id="intro" class="tp--intro tp--intro-dark tp--slider-single tp--owl-carousel-single owl-carousel owl-theme tp--intro-height-100 owl-loaded" data-carousel-options="{ &quot;items&quot;: &quot;1&quot;, &quot;mouseDrag&quot;: false, &quot;touchDrag&quot;: false, &quot;responsive&quot;: { &quot;0&quot;: { &quot;items&quot;:&quot;1&quot; } } }">
+      <div class="item tp--intro-content-left text-sm-center tp--with-image">
+<div class="header-overlay header-overlay50 text-white container">
+<div class="row-fluid">
+<div class="header-txt header-txt-center row tp--col-sm-vertical-align tp--col-xs-vertical-align p-top-md-110 p-bottom-md-40 tp--vertical-align-intro">
+
+              <div class="col-lg-9 col-md-9 col-sm-10 p-top-md-110 p-bottom-md-20">
+                <div class="p-top-md-110">
+                  <h1 class="text-center post-title">{{ page.title }}</h1>
+                <p class="text-center post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %}{{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>           
+                    </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+ </div>
+ </section>
+
+<div class="row-fluid">
+<section id="featured1" class="tp--section tp--featured tp--section-dark tp--gradient-20 tp--padding-lg hidden">
+      <div class="container">
+        <div class="row tp--col-sm-vertical-align">
+          <div class="col-md-12 text-center text-md-left post-header p-top-sm-60">
+    <h1 class="text-center post-title">{{ page.title }}</h1>
+            <p class="text-center post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %}{{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+   </div>
+          </div>
+        </div>
+</section>
+
+<section id="blog" class="tp--section p-top-sm-80 p-bottom-sm-50">
+    <div class="container aos-init aos-animate" data-aos="fade-up" data-aos-duration="750">
+        <div class="row clearfix">
+          <div class="col-md-8 col-md-offset-2 text-left text-md-left">
+    {{ content }}
+		  <div class="row">
+      <section class="col-lg-7 col-md-12">
+        <div class="author-container">
+          <div class="author">
+            <a href="{{ post.url | prepend: site.baseurl }}/author/{{ page.author }}/">
+ <div class="author-image--medium" style="background-image: url('{{ page.author_image }}')"></div></a>
+          </div>
+          <div class="author author-bio-wrap--small margin-top padding-left--medium">
+            <a href="{{ post.url | prepend: site.baseurl }}/author/{{ page.author }}/" class="author__name--small">{% if page.author %}{{ page.author }}{% endif %}</a>
+<span class="author-bio--small block margin-bottom--small"> {% if page.author_bio %}{{ page.author_bio }} {% endif %}</span>
+		  <br>
+   <a class="e-small-2 link__basic--grey" href="{{ post.url | prepend: site.baseurl }}/author/{{ page.author }}" style="font-size: 12px;">More posts by this author &gt;</a>
+          </div>
+        </div>
+      </section>
+      <section class="col-lg-5 col-md-12">
+        <div class="post-tags js-post__tags">
+          <p>Tagged with</p>
+	    {% if site.tags.size > 0 %}
+    {% for tag in site.tags %}
+    <a href="{{ post.url | prepend: site.baseurl }}/tag/{{ tag[0] }}">{{ tag[0] }}_</a>
+    {% endfor %}
+           {% endif %}
+        </div>
+      </section>
+    </div>
+		  <div class="divider--dotted margin-top--large"></div>
+		  
+<div class="background__grey--light padding-y--large">
+  <div class="grid-container">
+    <div class="grid">
+      <div class="row center-lg">
+        <div class="col-lg-10 col-md-12">
+          <button class="link__button--outline--dark show-comments"><span class="load-comments__text">Load Comments</span></button>
+          <div id="disqus_thread" style="display:none;">
+		  <iframe id="dsq-app1" name="dsq-app1" allowtransparency="true" frameborder="0" scrolling="no" tabindex="0" title="Disqus" width="100%" src="https://disqus.com/embed/comments/?base=default&amp;f=strongly-typed&amp;t_u=https%3A%2F%2Fwww.braintreepayments.com%2Fblog%2Fwhy-payments-are-more-than-plumbing%2F&amp;t_d=Why%20Payments%20Are%20More%20Than%20Plumbing&amp;t_t=Why%20Payments%20Are%20More%20Than%20Plumbing&amp;s_o=default#version=5877d19a2375d89d688e97a988aa8ccf" style="width: 1px !important; min-width: 100% !important; border: none !important; overflow: hidden !important; height: 321px !important;" horizontalscrolling="no" verticalscrolling="no"></iframe></div>
+          <section class="post__related-posts margin-top--large">
+            <h3 class="post__related-posts__title e-600">You Might Also Like_</h3>
+            <ul class="js-post__related-posts"></ul>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+           </div>
+          </div>
+        </div>
+
+     <nav class="clearfix text-center" id="article-nav">
+      {% if page.previous.url %}
+	         <div class="grid-container">
+    <div class="grid">
+      <div class="row center-lg text-center">
+        <div class="col-lg-10 col-md-11">
+        <a id="article-nav-next" href="{{ site.url }}{{ page.previous.url }}">
+            <strong>Previous</strong><!--
+            --><span id="article-nav-next-name"><!--
+            	--><strong>:</strong>
+              {{ page.previous.title }}
+            </span>
+			<span class="article-ico" id="article-ico-next"></span>
+        </a>
+		 </div>
+		</div>
+	      </div>
+	    </div>
+      {% endif %}
+	    <div class="grid-container">
+    <div class="grid">
+      <div class="row center-lg text-center">
+        <div class="col-lg-4">
+          <button class="link__button--outline--dark btn-primary btn-lg">
+        <a id="article-nav-blogs" href="{{ site.url }}">
+            <span class="article-ico text-center" id="article-ico-blogs"></span>
+            <strong>Back to Blog</strong>
+        </a></button>
+		  </div>
+		</div>
+	      </div>
+	    </div>
+    </nav>
+	
+      </section>
+</div>
