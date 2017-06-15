@@ -7,33 +7,44 @@
 </div>
 <a class="logo" href="{{ site.baseurl }}/"><img width="115" height="35" src="https://res.cloudinary.com/lmj6rf6tz/image/upload/v1497453042/elektropay/assets/img/logo.png" alt="Logo" /></a>
 <ul class="links">
-      {% for page in site.pages %}
-          {% if page.title %}
-<li><a class="" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-          {% endif %}
-        {% endfor %}
+<li><a class="" href="{{ site.baseurl }}/products/features/">Features</a></li>
+<li><a class="" href="{{ site.baseurl }}/products/integrations/">Integrations</a></li>
+<li><a class="" href="{{ site.baseurl }}/pricing/">Pricing</a></li>
+      
 <li class="dropdown">
 <a class="dropdown-toggle" data-toggle="dropdown" href='#'>
 Customers
 </a>
 <ul class="dropdown-menu">
-<li><a href="customers/sales_and_account_management">Sales &amp; Account Management</a></li>
-<li><a href="customers/startups_and_tech">Startups &amp; Technology Companies</a></li>
-<li><a href="customers/call_centers">Interview Scheduling</a></li>
-<li><a href="customers/customer_service">Customer Service &amp; Client Success</a></li>
-<li><a href="customers/business_consultants">Business Consultants &amp; Coaches</a></li>
-<li><a href="customers/freelancers">Solopreneurs &amp; Freelancers</a></li>
-<li><a href="customers/financial_services">Financial Services</a></li>
-<li><a href="customers/small_businesses">Busy Professionals</a></li>
-<li><a href="customers/retail_locations">Retail Locations</a></li>
+<li><a href="{{ site.baseurl }}/customers/startups_and_tech">Startups &amp; Technology Companies</a></li>
+<li><a href="{{ site.baseurl }}/customers/sales_and_account_management">Sales &amp; Account Management</a></li>
+<li><a href="{{ site.baseurl }}/customers/customer_service">Customer Service &amp; Client Success</a></li>
+<li><a href="{{ site.baseurl }}/customers/business_consultants">Business Consultants &amp; Coaches</a></li>
+<li><a href="{{ site.baseurl }}/customers/freelancers">Solopreneurs &amp; Freelancers</a></li>
+<li><a href="{{ site.baseurl }}/customers/financial_services">Financial Services</a></li>
+<li><a href="{{ site.baseurl }}/customers/small_businesses">Busy Professionals</a></li>
+<li><a href="{{ site.baseurl }}/customers/retail_locations">Retail Locations</a></li>
 </ul>
 </li>
-<li class="mobile-off"><a class="primary" data-section="navbar" href="signup">Sign Up</a></li>
-<li class="mobile-off"><a class="last" href="login">Log In</a></li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href='#'>
+Company
+</a>
+<ul class="dropdown-menu">
+<li><a href="{{ site.baseurl }}/company/about/">Meet The Team</a></li>
+<li><a href="{{ site.baseurl }}/company/press">Press Releases</a></li>
+<li><a href="{{ site.baseurl }}/company/careers/">Jobs &amp; Careers</a></li>
+<li><a href="https://blog.elektropay.com/">Elektro_lyte Blog</a></li>
+</ul>
+</li>
+<li><a class="" href="{{ site.baseurl }}/contact/">Contact</a></li>
+
+<li class="mobile-off"><a class="primary" data-section="navbar" href="{{ site.baseurl }}/signup">Sign Up</a></li>
+<li class="mobile-off"><a class="last" href="{{ site.baseurl }}/login">Log In</a></li>
 <li class="account-options desktop-off">
 <div class="row">
-<div class="col1of2"><a class="primary" data-section="navbar" href="signup">Sign Up</a></div>
-<div class="col1of2"><a href="login">Log In</a></div>
+<div class="col1of2"><a class="primary" data-section="navbar" href="{{ site.baseurl }}/signup">Sign Up</a></div>
+<div class="col1of2"><a href="{{ site.baseurl }}/login">Log In</a></div>
 </div>
 </li>
 </ul>
