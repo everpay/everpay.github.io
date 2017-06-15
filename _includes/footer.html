@@ -1,51 +1,3 @@
-<footer>
-<div class='container'>
-<div class='row'>
-<div class='col2of5 prl'>
-<a class="logo" href="index.html"><img width="82" src="../res.cloudinary.com/lmj6rf6tz/image/upload/v1497453042/elektropay/assets/img/logo.png" alt="Logo" /></a>
-<div class='about'>
-<span>Elektropay makes manageing payments simpler for everybody.</span>
-<span class='copyright'>
-&copy;
-2017
-Calendly
-</span>
-</div>
-<div class='social'>
-<a target="_blank" href="https://twitter.com/elektropay"><i class='icon-twitter'></i>
-</a><a target="_blank" href="https://www.facebook.com/Elektropay"><i class='icon-facebook'></i>
-</a></div>
-</div>
-<div class='col1of5 phs'>
-<strong>Product</strong>
-<ul>
-<li><a href="pages/features">Features</a></li>
-<li><a href="pages/pricing">Pricing</a></li>
-<li><a href="pages/integrations">Integrations</a></li>
-<li><a href="pages/teams">For Teams</a></li>
-</ul>
-</div>
-<div class='col1of5 phs'>
-<strong>Company</strong>
-<ul>
-<li><a target="_blank" href="../blog.elektropay.com/index.html">Blog</a></li>
-<li><a href="pages/about">Our Team</a></li>
-<li><a href="pages/jobs">Jobs</a></li>
-<li><a href="pages/privacy">Privacy Policy</a></li>
-<li><a href="pages/terms">Terms of Service</a></li>
-</ul>
-</div>
-<div class='col1of5 phs'>
-<strong>Support</strong>
-<ul>
-<li><a target="_blank" href="help">Help Center</a></li>
-<li><a href="pages/contact">Contact Us</a></li>
-</ul>
-</div>
-</div>
-
-<<<<<<< HEAD
-=======
 <div class="footer-push"></div>
 </div>
 
@@ -60,8 +12,14 @@ Calendly
 <span class="copyright">&copy;{{ site.title }}</span>
 </div>
 <div class="social">
-<a target="_blank" href="https://twitter.com/elektropay"><i class="icon-twitter"></i></a>
-<a target="_blank" href="https://www.facebook.com/Elektropay"><i class="icon-facebook"></i></a>
+{% if site.twitter_username %}
+<a target="_blank" href="https://twitter.com/{{ site.twitter_username }}"><i class="icon-twitter"></i></a>  
+{% endif %}
+<a target="_blank" href="https://twitter.com/elektropay"><i class="icon-linkedinr"></i></a>
+<a target="_blank" href="https://www.facebook.com/Elektropay"><i class="icon-facebook"></i></a>    
+{% if site.github_username %}
+<a target="_blank" href="https://github.com/{{ site.github_username }}"><i class="icon-github"></i></a>
+  {% endif %}
  </div>
 </div>
 <div class="col1of5 phs">
@@ -92,120 +50,9 @@ Calendly
 </div>
 </div>
 
->>>>>>> origin/master
 </div>
 </footer>
 
-<footer id="footer" class="hidden tp--footer tp--section-dark tp--gradient-22 tp--footer-1 text-xs-center">
-
-      <div class="container">
-
-        <div class="row menu-row">
-
-          <div class="col-sm-3">
-<div class="country-selector-footer text-xs-center">                                       
-                                        
-                    <div class="ui dropdown item">
-
-                            <img src="https://everpayinc.com/site/assets/img/lib/flags-iso/flat/24/US.png" class="ui middle aligned image" style="max-width: inherit !important;" alt="lib/flags-iso/flat/24/US">                            <i class="dropdown icon"></i>
-
-                            <div class="menu">
-                            </div>
-
-                    </div>
-
-</div>
-<br>
-<br>
-<div class="logo"><a href="https://everpayinc.com/"><img src="https://cdn.everpayinc.com/assets/img/round-logo.png" class="logo" width="96" alt="Everpay Logo" title="Everpay - Card processing, e-commerce, and payouts in one simple app"></a></div>
-<div class="small p-top-md-30">Everpay is a full-service payments company that specializes in creating friction-less payment experiences.</div>
-</div>
-
-<div class="col-sm-2-footer">
-<h3>Products</h3>
-<ul class="list-unstyled" id="">
-<li><a href="#">Overview</a></li>
-<li><a href="#">Pricing</a></li>
-<li><a href="#">Services</a></li>
-</ul>
-</div>
-
-  <div class="col-sm-2-footer">
-   <h3>Platform</h3>
-<ul class="list-unstyled" id="">
-<li><a href="https://shop.everpayinc.com">Shopping Cart</a></li>
-</ul>
-          </div>
-
-  <div class="col-sm-2-footer">
-            <h3>Payment Types</h3>
-<ul class="list-unstyled" id="">
-<li><a href="https://shop.everpayinc.com/">Store</a></li>
-<li><a href="https://everpayinc.com/card-processing">Card Processing</a></li>
-</ul>
-          </div>
-
-          <div class="col-sm-2-footer">
-            <h3>Support &amp; Help</h3>
-<ul class="list-unstyled" id="">
-<li><a href="https://everpayinc.com/search">Search</a></li>
-<li><a href="https://everpayinc.com/users">Account</a></li>
-</ul>
-          </div>
-
-          <div class="col-sm-2-footer">
-            <h3>Company</h3>
-<ul class="list-unstyled" id="">
-<li class="active"><a href="https://everpayinc.com/company/about-us">About</a></li>
-<li><a href="https://everpayinc.com/company/contact-us">Contact</a></li>
-<li class="active"><a href="https://blog.everpayinc.com/">Blog</a></li>
-<li><a href="https://everpayinc.com/company/careers">Jobs <span class="label label-primary">We're hiring!</span></a></li>
-</ul>
-          </div>
-
-        </div>
-
-        <div class="row">
-         
-<div class="site-footer-container">
-  <div class="site-footer" role="contentinfo">
-
-<div class="footer-site-links col-sm-4">
-<p class="site-footer-links copyright p-top-md-20">Copyright © 2012 - 2017 Everpay Inc. - All rights reserved.</p>
-</div>
-
-<div class="footer-site-links col-sm-4">
-<div class="row tp--social">
-<a class="btn-icon" href="//twitter.com/everpay" target="_blank"><i class="fa fa-twitter"></i></a>
-<a class="btn-icon" href="//facebook.com.com/everpay" target="_blank"><i class="fa fa-facebook"></i></a>
-<a class="btn-icon" href="//linkedin.com/everpay" target="_blank"><i class="fa fa-linkedin"></i></a>
-<a class="btn-icon" href="//github.com/everpay" target="_blank"><i class="fa fa-github"></i></a>  
-<a class="btn-icon" href="https://www.youtube.com/user/everpay" target="_blank"><i class="fa fa-youtube"></i></a>        
-</div>
-</div>
-
-<ul class="hidden footer-site-links col-sm-2 col-sm-offset-1" id="">
-<li><a href="https://status.everpayinc.com">Status</a></li>
-<li><a href="https://everpay.3scale.net/">API</a></li>
-<li><a href="http://support.everpayinc.com">Support</a></li>
-</ul>
-
-<ul class="col-sm-2 col-sm-offset-1  site-footer-links hidden" id=""><li><a href="https://everpayinc.com/www/#">VISA</a></li><li><a href="https://everpayinc.com/www/#">MasterCard</a></li><li><a href="https://everpayinc.com/www/#">PCI-DSS</a></li></ul>
-
-<ul class="site-footer-links col-sm-3  col-sm-offset-1" id="">
-<li class="cpl-link2"><a href="https://everpayinc.com/legal/privacy">Privacy</a></li>
-<li class="cpl-link1"><a href="https://everpayinc.com/legal/terms">Terms</a></li>
-<li class="cpl-link1"><a href="https://everpayinc.com/legal/security">Security</a></li>
-<li class="cpl-link0"><a href="https://everpayinc.com/legal">Legal</a></li></ul>
-
-  </div>
-</div>
-
-        </div>
-
-      </div>
-
-    </footer>
    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
 
 <script type="text/javascript" src="//cdn.everpayinc.com/assets/js/blog.js"></script>
