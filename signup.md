@@ -1,5 +1,7 @@
 ---
-layout: default
+layout: page
+title: Sign Up
+permalink: /signup/
 ---
 
 <div id="alert-region"></div>
