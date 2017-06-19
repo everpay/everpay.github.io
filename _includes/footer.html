@@ -1,7 +1,79 @@
-<div class="footer-push"></div>
+<footer id="footer" class="tp--footer tp--section-dark tp--gradient-22 tp--footer-1 text-xs-center">
+
+      <div class="container">
+
+        <div class="row menu-row">
+
+          <div class="col-sm-2">
+<div class="logo"><a href="{url path="/"}"><img src="https://cdn.everpayinc.com/assets/img/round-logo.png" class="logo" width="96" alt="Everpay Logo" title="Everpay - Card processing, e-commerce, and payouts in one simple API"></a>
+          <span class="country-selector text-xs-center">                                       
+<a href="country-worldwide" data-pa-click="footer|country-selector" title="See all countries" class="country CA">See all countries</a>
+</span></div>
+<p class="hidden">Everpay is a full-service payments company that specializes in creating friction-less payment experiences.</p>
+</div>
+
+<div class="col-sm-2">
+<h3>Products</h3>
+{menu name="footer_menu_product" show_sub_menus="off" class="list-unstyled"}
+</div>
+
+  <div class="col-sm-2">
+   <h3>Platform</h3>
+{menu name="footer_menu_platform" show_sub_menus="off" class="list-unstyled"}
+          </div>
+
+  <div class="col-sm-2">
+            <h3>Payment Types</h3>
+{menu name="footer_menu_types" show_sub_menus="off" class="list-unstyled"}
+          </div>
+
+          <div class="col-sm-2">
+            <h3>Support & Help</h3>
+{menu name="footer_menu_help" show_sub_menus="off" class="list-unstyled"}
+          </div>
+
+          <div class="col-sm-2">
+            <h3>Company</h3>
+{menu name="footer_menu_company" show_sub_menus="off" class="list-unstyled"}
+          </div>
+
+        </div>
+
+        <div class="row">
+         
+<div class="site-footer-container">
+  <div class="site-footer" role="contentinfo">
+
+<div class="footer-site-links col-sm-4">
+<p class="site-footer-links copyright p-top-md-20"> &copy; {$smarty.now|date_format:"%Y"} <span title="">{setting name="site_name"}</span> Corporation</span> - All rights reserved.</p>
+</div>
+
+<div class="footer-site-links col-sm-4">
+<div class="row tp--social">
+<a class="btn-icon" href="//twitter.com/everpay" target="_blank"><i class="fa fa-twitter"></i></a>
+ <a class="btn-icon" href="//facebook.com.com/everpay" target="_blank"><i class="fa fa-facebook"></i></a>
+<a class="btn-icon" href="//linkedin.com/everpay" target="_blank"><i class="fa fa-linkedin"></i></a>
+<a class="btn-icon" href="//github.com/everpay" target="_blank"><i class="fa fa-github"></i></a>  
+<a class="btn-icon" href="https://www.youtube.com/user/everpay" target="_blank"><i class="fa fa-youtube"></i></a>        
+</div></div>
+
+{menu name="site_footer_links_right" show_sub_menus="no" class="hidden footer-site-links col-sm-2 col-sm-offset-1"}
+
+{menu name="site_footer_links_icons" show_sub_menus="no" class="col-sm-2 col-sm-offset-1  site-footer-links hidden"}
+
+{menu name="copyright_menu" show_sub_menus="no" class="site-footer-links col-sm-3  col-sm-offset-1"}
+
+  </div>
+</div>
+
+        </div>
+
+      </div>
+
+    </footer>
 
 
-<footer class="footer">
+<footer class="footer hidden" style="display:none;">
         <div class="footer-content">
             <div class="container">
                 <div class="row">   
@@ -254,3 +326,64 @@
   </div>
 
 </footer>
+
+		       
+		         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
+   <script type="text/javascript" src="//cdn.everpayinc.com/js/plugins/classie/classie.js"></script>
+<script type="text/javascript" src="//cdn.everpayinc.com/js/uiProgressButton.js"></script>
+   <script type="text/javascript" src="//cdn.everpayinc.com/js/plugins/owl-carousel/owl.carousel.min.js"></script>
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.3/isotope.pkgd.min.js"></script>
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+   <script type="text/javascript" src="//cdn.everpayinc.com/js/plugins/modernizr/modernizr-custom.js"></script>
+   <script type="text/javascript" src="//cdn.everpayinc.com/js/plugins/aos/aos.js"></script>
+    <script type="text/javascript" src="//cdn.everpayinc.com/js/plugins/loaders-css/loaders.css.js"></script>
+   <script type="text/javascript" src="//cdn.everpayinc.com/js/back-to-top.js"></script>
+
+
+<script src="//cdn.everpayinc.com/assets/js/cookies-message.min.js"></script>
+<script type="text/javascript" src="//cdn.everpayinc.com/js/site.js"></script>
+<script type="text/javascript" src="//cdn.everpayinc.com/js/universal.js"></script>
+<script type="text/javascript" src="//cdn.everpayinc.com/js/form.js"></script>
+
+
+
+		<script>
+			[].slice.call( document.querySelectorAll( '.progress-button' ) ).forEach( function( bttn, pos ) {
+				new UIProgressButton( bttn, {
+					callback : function( instance ) {
+						var progress = 0,
+							interval = setInterval( function() {
+								progress = Math.min( progress + Math.random() * 0.1, 1 );
+								instance.setProgress( progress );
+
+								if( progress === 1 ) {
+									instance.stop( pos === 1 || pos === 3 ? -1 : 1 );
+									clearInterval( interval );
+								}
+							}, 150 );
+					}
+				} );
+			} );
+		</script>
+   <script>
+      jQuery(function () {
+          jQuery(".player").mb_YTPlayer();
+      });
+    </script>
+
+ <script>
+$(function () {
+  $('[data-toggle="popover"]').popover()
+})
+ </script>   
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&appId=169746843217608&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
