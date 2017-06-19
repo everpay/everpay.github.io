@@ -5,40 +5,58 @@
         <div class="row menu-row">
 
           <div class="col-sm-2">
-<div class="logo"><a href="{url path="/"}"><img src="https://cdn.everpayinc.com/assets/img/round-logo.png" class="logo" width="96" alt="Everpay Logo" title="Everpay - Card processing, e-commerce, and payouts in one simple API"></a>
+<div class="logo"><a href="{{ site.baseurl }}/"><img src="https://cdn.everpayinc.com/assets/img/round-logo.png" class="logo" width="96" alt="Everpay Logo" title="Everpay - Card processing, e-commerce, and payouts in one simple API"></a>
           <span class="country-selector text-xs-center">                                       
 <a href="country-worldwide" data-pa-click="footer|country-selector" title="See all countries" class="country CA">See all countries</a>
 </span></div>
 <p class="hidden">Everpay is a full-service payments company that specializes in creating friction-less payment experiences.</p>
 </div>
 
-<div class="col-sm-2">
+
+  <div class="col-sm-2-footer">
 <h3>Products</h3>
-{menu name="footer_menu_product" show_sub_menus="off" class="list-unstyled"}
+<ul class="list-unstyled" id="">
+<li><a href="{{ site.baseurl }}/product/">Overview</a></li>
+<li><a href="{{ site.baseurl }}/pricing/">Pricing</a></li>
+<li><a href="{{ site.baseurl }}/solutions/">Services</a></li>
+</ul>
 </div>
 
-  <div class="col-sm-2">
+  <div class="col-sm-2-footer">
    <h3>Platform</h3>
-{menu name="footer_menu_platform" show_sub_menus="off" class="list-unstyled"}
+<ul class="list-unstyled" id="">
+<li><a href="https://{{ site.baseurl }}/www/users">Shopping Cart</a></li>
+</ul>
           </div>
 
-  <div class="col-sm-2">
+  <div class="col-sm-2-footer">
             <h3>Payment Types</h3>
-{menu name="footer_menu_types" show_sub_menus="off" class="list-unstyled"}
+<ul class="list-unstyled" id="">
+<li><a href="https://shop.everpayinc.com/">Store</a></li>
+<li><a href="{{ site.baseurl }}/card-processing">Card Processing</a></li>
+</ul>
           </div>
 
-          <div class="col-sm-2">
+          <div class="col-sm-2-footer">
             <h3>Support & Help</h3>
-{menu name="footer_menu_help" show_sub_menus="off" class="list-unstyled"}
+<ul class="list-unstyled" id="">
+<li><a href="{{ site.baseurl }}/search">Search</a></li>
+<li><a href="{{ site.baseurl }}/users">Account</a></li>
+</ul>
           </div>
 
-          <div class="col-sm-2">
+          <div class="col-sm-2-footer">
             <h3>Company</h3>
-{menu name="footer_menu_company" show_sub_menus="off" class="list-unstyled"}
+<ul class="list-unstyled" id="">
+<li class="active"><a href="{{ site.baseurl }}/company/about-us">About</a></li>
+<li><a href="{{ site.baseurl }}/company/contact-us">Contact</a></li>
+<li><a href="https://blog.everpayinc.com/">Blog</a></li>
+<li><a href="{{ site.baseurl }}/company/careers">Jobs&emsp;<span class="label label-primary">We're hiring!</span></a></li>
+</ul>
           </div>
-
-        </div>
-
+		
+   </div>
+	      
         <div class="row">
          
 <div class="site-footer-container">
@@ -57,12 +75,19 @@
 <a class="btn-icon" href="https://www.youtube.com/user/everpay" target="_blank"><i class="fa fa-youtube"></i></a>        
 </div></div>
 
-{menu name="site_footer_links_right" show_sub_menus="no" class="hidden footer-site-links col-sm-2 col-sm-offset-1"}
+<ul class="hidden footer-site-links col-sm-2 col-sm-offset-1" id="">
+<li><a href="//status.everpayinc.com">Status</a></li>
+<li><a href="//api.everpayinc.com/">API</a></li>
+<li><a href="//support.everpayinc.com">Support</a></li>
+</ul>
 
-{menu name="site_footer_links_icons" show_sub_menus="no" class="col-sm-2 col-sm-offset-1  site-footer-links hidden"}
+<ul class="col-sm-2 col-sm-offset-1  site-footer-links hidden" id=""><li><a href="{{ site.baseurl }}/#">VISA</a></li><li><a href="https://everpayinc.com/www/#">MasterCard</a></li><li><a href="https://everpayinc.com/www/#">PCI-DSS</a></li></ul>
 
-{menu name="copyright_menu" show_sub_menus="no" class="site-footer-links col-sm-3  col-sm-offset-1"}
-
+<ul class="site-footer-links col-sm-3  col-sm-offset-1" id="">
+<li class="cpl-link2"><a href="{{ site.baseurl }}/legal/privacy">Privacy</a></li>
+<li class="cpl-link1"><a href="{{ site.baseurl }}/legal/terms">Terms</a></li>
+<li class="cpl-link1"><a href="{{ site.baseurl }}/legal/security">Security</a></li>
+<li class="cpl-link0"><a href="{{ site.baseurl }}/legal">Legal</a></li></ul>
   </div>
 </div>
 
@@ -83,7 +108,7 @@
                             <ul class="list-unstyled">
                                 <li><a href="{{ site.baseurl }}/company/about/"><i class="fa fa-caret-right"></i>Who we are</a></li>
                                 <li><a href="{{ site.baseurl }}/company/press/"><i class="fa fa-caret-right"></i>Press</a></li>
-                                <li><a href="https://blog.elektropay.com/"><i class="fa fa-caret-right"></i>Blog</a></li>
+                                <li><a href="//blog.elektropay.com/"><i class="fa fa-caret-right"></i>Blog</a></li>
                                 <li><a href="{{ site.baseurl }}/company/careers/"><i class="fa fa-caret-right"></i>Jobs</a></li>
                                 <li><a href="{{ site.baseurl }}/contact/"><i class="fa fa-caret-right"></i>Contact us</a></li>
                             </ul>
