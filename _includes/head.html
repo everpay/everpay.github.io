@@ -72,9 +72,11 @@
 <link href="https://cdn.everpayinc.com/assets/favicon.ico" rel="icon" />
 <link rel="canonical" href="{{ page.url | replace:'index.html','*.html'  }}">
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="feed.xml" />
-	<script data-cfasync="false" type="text/javascript" data-bablic="5910f486eac2b578f6c52f51" data-bablic-m="['1495228170','en','en',1,['es_mx'],0,0,0,0,0,0,0,0,[],'everpayinc.com/www',['admin.everpayinc.com','app.everpayinc.com','status.everpayinc.com','info.everpayinc.com'],['_v',2]]" src="//cdn2.bablic.com/js/bablic.3.9.js"></script>
+	
+<link href="favicon.ico" rel="icon" />
+<script data-cfasync="false" type="text/javascript" data-bablic="5910f486eac2b578f6c52f51" data-bablic-m="['1495228170','en','en',1,['es_mx'],0,0,0,0,0,0,0,0,[],'everpayinc.com/www',['admin.everpayinc.com','app.everpayinc.com','status.everpayinc.com','info.everpayinc.com'],['_v',2]]" src="//cdn2.bablic.com/js/bablic.3.9.js"></script>
 
- <!-- Fonts  -->
+	<!-- Fonts  -->
 <link href="https://fonticons-free-fonticons.netdna-ssl.com/kits/a97ca672/a97ca672.css" rel="stylesheet" />
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
  <!-- Font Awesome CSS -->
@@ -89,7 +91,14 @@
   <!-- Plugin Stylesheets -->
 
 <link href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" /> 
-<link rel="stylesheet" href="https://cdn.everpayinc.com/elektropay/assets/fonts/simple-line-icons/simple-line-icons.css" type="text/css"/>
+<link rel="stylesheet" href="https://cdn.everpayinc.com/assets/css/plugins/owl-carousel/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdn.everpayinc.com/assets/css/plugins/owl-carousel/owl.theme.default.min.css">
+  	<link rel="stylesheet" href="https://cdn.everpayinc.com/assets/css/plugins/owl-carousel/owl.carousel.custom.css">
+  	<link rel="stylesheet" href="https://cdn.everpayinc.com/assets/css/plugins/devices/devices.min.css">
+    <link rel="stylesheet" href="https://cdn.everpayinc.com/assets/css/plugins/magnific-popup/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.everpayinc.com/assets/css/plugins/aos/aos.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.everpayinc.com/assets/css/plugins/loaders-css/loaders.min.css" type="text/css">
+<link rel="stylesheet" href="//cdn.everpayinc.com/fonts/simple-line-icons/simple-line-icons.css" type="text/css"/>
 	
     <!-- Animate -->
     <link href="//cdn.everpayinc.com/css/animate.css" rel="stylesheet">
@@ -98,54 +107,20 @@
     <link href="//cdn.everpayinc.com/css/YTPlayer.css" rel="stylesheet" type="text/css">
    
     <!-- Everpay Styling -->
-    <link rel="stylesheet" href="https://cdn.everpayinc.com/assets/css/elektropay.css" type="text/css">
-	
+<link rel="stylesheet" href="https://cdn.everpayinc.com/assets/css/everpay-v1.3.css" type="text/css">
+
 <!-- jQuery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Bootstrap Core JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-<!-- Site Script -->
-<script src="https://cdn.everpayinc.com/elektropay/assets/js/elektropay.js"></script>
-
    <!--[if lt IE 9]>
         <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
         <script type="text/javascript" src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
     <![endif]-->
-	
-<script type="text/javascript" src="{{ js_url('lib/webfontloader/webfontloader.js') }}"></script>
 
-    <script type="text/javascript">
-    //<![CDATA[
-
-        WebFont.load({
-            custom: {
-                families: [
-                    'Open Sans',
-                    'Open Sans Condensed',
-                    'Material Icons',
-                    'FontAwesome',
-                    'Ionicons',
-                    'Glyphons',
-                    'Simple Line Icons'
-                ],
-                urls: [
-				    ASSET_CSS_URI + 'lib/open-sans/open-sans.min.css',
-                                    ASSET_CSS_URI + 'lib/open-sans-condensed/open-sans-condensed.min.css',
-				    ASSET_CSS_URI + 'lib/material-icons/material-icons.min.css',
-                                    ASSET_CSS_URI + 'lib/font-awesome-4/font-awesome.min.css',
-                                    ASSET_CSS_URI + 'lib/ionicons/ionicons.min.css',
-                	            ASSET_CSS_URI + 'lib/bootstrap-3/bootstrap-font-face.min.css',
-				    ASSET_CSS_URI + 'lib/simple-line-icons/simple-line-icons.css'
-                ]
-            },
-            timeout: 2000
-        });
-
-    //]]>
-    </script>
 	
-	
+
 <script type="text/javascript">
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="4.0.0";
   analytics.load("JJvxnFWgaeZHx7upF4pNfkLs9dz1djok");
