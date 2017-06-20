@@ -1,27 +1,18 @@
-<div id="wrapper">
-
-<div class="messages" id="notices"></div>
-
-    <header class="tp--header tp--header-fixed tp--header-shrink tp--header-1">
-
-      <a href="#0" class="nav-trigger">Open Nav<span aria-hidden="true"></span></a>
+<header class="tp--header tp--header-fixed tp--header-shrink tp--header-1">
+<a href="#0" class="nav-trigger">Open Nav<span aria-hidden="true"></span></a>
 
       <nav class="navbar-wrapper">
 
         <div class="container clearfix">
 
-          <!-- LOGO
-          ================================================== -->
-
           <h1 class="logo">
             <a href="{{ site.baseurl }}/">
-               <img src="https://cdn.everpayinc.com/assets/img/logo.png" class="logo-main" width="140" alt="Everpay Logo" title="Everpay - Card processing, e-commerce, and payouts in one simple API">
+              <img src="https://cdn.everpayinc.com/assets/img/logo.png" class="logo-main" width="140" alt="Everpay Logo" title="Everpay - Card processing, e-commerce, and payouts in one simple API">
               <img src="https://cdn.everpayinc.com/assets/img/logo-dark.png" class="logo-dark" width="140" alt="Everpay Logo" title="Everpay - Card processing, E-commerce, and payouts in one simple API">
             </a>
           </h1>
-
-
-          <!-- NAVIGATION
+	
+<!-- NAVIGATION
           ================================================== -->
 
           <div class="navbar tp--nav-dropdown pull-right">
@@ -29,41 +20,30 @@
             <div class="navbar-collapse collapse">
 
               <ul class="nav navbar-nav">
-            
-                <li class="has-dropdown links" data-content="services">
-                  <a href="javascript:void(0);">What We Do</a>
+                <li>
+                  <a href="{{ site.baseurl }}/">Home</a>
                 </li>
                 <li>
-                  <a href="{{ site.baseurl }}#featured1" class="tp--scroll">Features</a>
+                  <a href="{{ site.baseurl }}#about/" class="tp--scroll">How it works</a>
                 </li>
                 <li>
-                  <a href="{{ site.baseurl }}/pricing">Pricing</a>
+                  <a href="{{ site.baseurl }}#featured1/" class="tp--scroll">Features</a>
                 </li>
-              
-                 <li class="has-dropdown links" data-content="resources">
-                  <a href="javascript:void(0);">Resources</a>
+                <li>
+                  <a href="{{ site.baseurl }}/pricing/">Pricing</a>
+                </li>
+                <li class="has-dropdown links" data-content="more">
+                  <a href="#0">More</a>
                 </li>
 
-               <li class="has-dropdown links" data-content="company">
-                  <a href="javascript:void(0);">Company</a>
-                </li>
-
-                <li class="tp--nav-divider"><a></a></li>
-             
-                <li class="">
-                <a class="btn btn-ghost" href="javascript:void(0);" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Sales: 800.566.6003">
-              <span class="fa-stack fa-lg">
-  <i class="fa fa-phone fa-lg fa-stack-1x"></i>
-</span>
-                 </a>               
-               </li>
+	
+     <li class="tp--nav-divider"><a></a></li>
                 <li>
-                  <a class="" href="{{ site.baseurl }}/login"><span class="btn-empty">Login <i class="fa fa-sign-in"></i></span></a>
+                  <a class="" href="https://app.everpayinc.com"><span class="btn btn-empty">Login</span></a>
                 </li>
                 <li class="tp--nav-signup">
-                  <a class="" href="https://id.everpayinc.com/signup"><span class="btn btn-lg btn-primary">Get Started</span></a>
+                  <a class="" href="https://id.everpayinc.com/signup"><span class="btn btn-lg btn-primary btn-circular btn-box-shadow">Sign up</span></a>
                 </li>
-             
               </ul>
             </div>
 
@@ -76,219 +56,61 @@
                 <ul>
 
                   <li class="links">
-                    <a href="{{ site.baseurl }}/products" class="tp--nav-label tp--scroll">What we do</a>
+                    <a href="{{ site.baseurl }}#about" class="tp--nav-label tp--scroll">How it works</a>
                   </li>
-                  
+
                   <li class="links">
                     <a href="{{ site.baseurl }}#featured1" class="tp--nav-label tp--scroll">Features</a>
                   </li>
 
                   <li class="links">
-                    <a href="{{ site.baseurl }}/pricing" class="tp--nav-label">Pricing</a>
+                    <a href="{{ site.baseurl }}/pricing/" class="tp--nav-label">Pricing</a>
                   </li>
 
-      <li id="services" class="dropdown links">
-                    <a href="javascript:void(0);" class="tp--nav-label" data-event="meganav-clicked" data-ga-click="MegaNav click meganav-product">What We Do</a> 
-<div class="content" style="width:580px;"> 
-<ul class="navigation__sub row">
-<li class="navigation__productnav col-md-3">
- <ul class="navigation__productlist">
-               <li class="navigation__producttitle">
-                          <strong>MAXIMIZE REVENUE</strong>
+                  <li id="more" class="dropdown links">
+                    <a href="#0" class="tp--nav-label">Additional Links</a>
+                    
+                    <div class="content"> 
+                      <ul>
+                        <li>
+                          <a href="{{ site.baseurl }}/about/">About Us</a>
+                        </li>
+                       <li>
+                          <a href="{{ site.baseurl }}/contact/">Contact us</a>
                         </li>
                         <li>
-                          <a href="{{ site.baseurl }}/solutions/card-processing">Card Processing</a>
-                        </li>
-                        <li>
-                          <a href="{{ site.baseurl }}/solutions/check-processing">ACH/E-Check </a>
-                        </li>
-
-                        <li>
-                          <a href="{{ site.baseurl }}/solutions/mobile-processing">Everpay Mobile</a>
-                        </li>
-
-                        <li>
-                          <a href="{{ site.baseurl }}/solutions/bitcoin-processing">Bitcoin</a>
-                        </li>
-                      
-                      </ul>
-                    </li>
-<li class="navigation__productnav col-md-3">
-                      <ul class="navigation__productlist">
-                       <li class="navigation__producttitle">
-                          <strong>Expand Your Reach</strong>
-                        </li>
-                        <li>
-                          <a href="{{ site.baseurl }}/product/marketplace/">Everpay Marketplace</a>
-                        </li>
-                        <li>
-                          <a href="{{ site.baseurl }}/product/everlytics">Detailed Analytics</a>
-                        </li>
-                      
-                        <li>
-                          <a href="{{ site.baseurl }}/solutions/integrations/">App Integrations</a>
+                          <a href="https://developers.everpayinc.com/">Developers</a>
                         </li>
                          <li>
-                          <a href="{{ site.baseurl }}/solutions/get-leads/">Everpay Lead Development</a>
-                        </li>
-                      </ul>
-</li>
-<li class="navigation__productnav col-md-3">
-                    <ul class="navigation__productlist">
-                       <li class="navigation__producttitle">
-                          <strong>Ensure Security </strong>
-                        </li>
-                      <li>
-                          <a href="{{ site.baseurl }}/security/pci-compliance">PCI-compliance</a>
-                        </li>
-                       <li>
-                          <a href="{{ site.baseurl }}/security/fraud-prevention"> Fraud Prevention</a>
-                        </li>
-                        
-                       <li>
-                          <a href="//blog.everpayinc.com">Blog</a>
-                        </li>
-                      </ul>
-          </li>
-      </ul>
-
-<ul class="navigation__sub row">
-<li class="navigation__productnav col-md-3">
- <ul class="navigation__productlist">
-               <li class="navigation__producttitle">
-                          <strong>ADVISORY EXPERTISE</strong>
-                        </li>
-                        <li>
-                          <a href="{{ site.baseurl }}/security/advisory">Card Processing</a>
-                        </li>
-                        <li>
-                          <a href="{{ site.baseurl }}/">E-Check </a>
-                        </li>
-
-                        <li>
-                          <a href="{{ site.baseurl }}/">Bitcoin</a>
-                        </li>
-
-                        <li>
-                          <a href="//blog.everpayinc.com">Blog</a>
+                          <a href="https://docs.everpayinc.com/">API Docs</a>
                         </li>
                       
-                      </ul>
-</li>
-<li class="navigation__productnav col-md-3">
-                      <ul class="navigation__productlist">
-                       <li class="navigation__producttitle">
-                          <strong>Visualize your data</strong>
-                        </li>
-                        <li>
-                          <a href="{{ site.baseurl }}/contact-us/">Ask A Question</a>
-                        </li>
-
-                      
-                        <li>
-                          <a href="//blog.everpayinc.com">Blog</a>
-                        </li>
-                      
-                      </ul>
-</li>
-<li class="navigation__productnav col-md-3">
-                    <ul class="navigation__productlist">
-                       <li class="navigation__producttitle">
-                          <strong>BOOST PRODUCTIVITY </strong>
-                        </li>
-                      <li>
-                          <a href="{{ site.baseurl }}/products/elektropay/">Elektropay Gateway</a>
-                        </li>
-                       <li>
-                          <a href="https://shop.everpayinc.com/">POS Terminals</a>
-                        </li>
-                        
-                       <li>
-                          <a href="{{ site.baseurl }}/solutions/capital/">Everpay Capital</a>
-                        </li>
-                        <li>
-                          <a href="{{ site.baseurl }}/solutions/gift-loyalty-programs/">Gift & Loyalty Program</a> 
-                       </li>                      
-                   </ul>
-          </li>
-
-       </ul>
-</div>
-</li>
-
-
- <li id="resources" class="dropdown links">
-                    <a href="javascript:void(0);" class="tp--nav-label">Resources</a>  
-                    <div class="content" style="width:170px;"> 
-                      <ul>
-                        <li>
-                          <a href="//support.everpayinc.com">Support & Help</a>
-                        </li>
-                        <li>
-                          <a href="//developer.everpayinc.com/">Developer Hub</a>
-                        </li>
-
-                        <li>
-                          <a href="//docs.everpayinc.com/">Documentation</a>
-                        </li>
-                                               
-                       <li>
-                          <a href="{{ site.baseurl }}/">PayDep&emsp;<span class="label label-primary">New!</span></a>
-                        </li>
-                      </ul>
-                    </div>
-                  </li>
-
-                  <li id="company" class="dropdown links">
-                    <a href="javascript:void(0);" class="tp--nav-label">Company</a>
-                    
-                    <div class="content" style="width:155px;"> 
-                      <ul>
-                        <li>
-                          <a href="{{ site.baseurl }}/company/about/">About</a>
-                        </li>
-                        <li>
-                          <a href="{{ site.baseurl }}/contact/">Contact</a>
-                        </li>
-                       <li>
-                          <a href="{{ site.baseurl }}/company/careers/">Careers</a>
-                        </li>
-
-                          <li>
-                          <a href="https://blog.everpayinc.com">Our Blog</a>
-                        </li>
                       </ul>
                     </div>
                   </li>
 
                   <li class="tp--nav-divider"><a></a></li>
- <li class="links tp--nav-auth">
- <a class="btn btn-ghost btn-circular" href="javascript:void(0);" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Sales: 800.566.6003">
-<span class="fa-stack fa-lg">
-  <i class="fa fa-phone fa-stack-1x"></i>
-</span>
-                 </a> 
-                 </li>
-           
-<li class="links tp--nav-auth">
-                    <a class="tp--nav-label" href="https://app.everpayinc.com/login"><span class="btn btn-lg btn-primary btn-empty">Login</span></a>
+
+                  <li class="links tp--nav-auth">
+                    <a class="tp--nav-label" href="https://app.everpayinc.com/login/"><span class="btn btn-lg btn-primary btn-empty">Login</span></a>
                   </li>
 
- <li class="links tp--nav-auth">
-                    <a class="tp--nav-label" href="https://id.everpayinc.com/signup/"><span class="btn btn-lg btn-primary">Get Started</span></a>
+                  <li class="links tp--nav-auth">
+   <a class="popup-modal tp--nav-label" href="http://id.everpayinc.com/signup/"><span class="btn btn-primary btn-circular btn-box-shadow btn-lg">Sign up</span></a>
                   </li>
 
-                  </ul>
+                </ul>
 
                 <div class="bg-layer" aria-hidden="true"></div>
               </div> <!-- dropdown-list -->
             </div>
           </div> <!-- morph-dropdown-wrapper -->
 
-        </div>
+
+         </div>
 
       </nav>
-      
+
     </header>
 
     
@@ -297,7 +119,7 @@
 
 
 <div class="navbar hidden" style="display:none;">
-<div class="header clearfix">
+<div class="header clearfix hidden" style="display:none;">
 <div class="toggle">
 <div class="toggle-bar"></div>
 <div class="toggle-bar"></div>
