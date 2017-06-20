@@ -1,6 +1,6 @@
-# Payments Remastered | Elektropay 
+# Payments Remastered | Everpay 
 
-This is the Corporate site for Elektropay, built with netlify.
+This is the Corporate site for Everpay, built with netlify.
 
 
 **Enjoy!**
