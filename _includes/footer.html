@@ -40,7 +40,7 @@
           </div>
 
           <div class="col-sm-2-footer">
-            <h3>Support & Help</h3>
+            <h3>Support</h3>
 <ul class="list-unstyled" id="">
 <li><a href="{{ site.baseurl }}/search/">Search</a></li>
 <li><a href="{{ site.baseurl }}/users/">Account</a></li>
@@ -174,7 +174,13 @@
     <script src="https://cdn.everpayinc.com/assets/js/plugins/loaders-css/loaders.css.js"></script>
 
     <!-- Site Javascript -->
-    <script src="https://cdn.everpayinc.com/assets/js/site.js"></script>
+
+	   <script src="{{ site.path }}/js/site.js"></script>
+
+	   <script src="{{ site.path }}/js/universal.js"></script>
+
+	   <script src="{{ site.path }}/js/form.js"></script>
+
 	
 		<script>
 			document.getElementById("open-nav").onclick = function () {
