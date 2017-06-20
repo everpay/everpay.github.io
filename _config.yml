@@ -1,15 +1,15 @@
 # Site settings
-title: Elektropay
-email: hello@elektropay.com
+title: Everpay
+email: hello@everpayinc.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-url: "http://www.elektropay.com" # the base hostname & protocol for your site - used for feed.xml
+url: "http://www.everpayinc.com" # the base hostname & protocol for your site - used for feed.xml
 include: ["_pages"]
 permalink: /:title/
-twitter_username: elektropay
-github_username:  elektropay
+twitter_username: everpay
+github_username:  everpay
 
 # Build settings
 markdown: kramdown
