@@ -111,6 +111,27 @@ sitemap: true
                             <div class="help-block with-errors"></div>
                         </div>
                     </div>
+			
+			
+  <label for="recaptcha_response_field">Captcha</label>
+  <div id="recaptcha_widget" class="recaptcha">
+    <div class="image">
+      <div id="recaptcha_image"></div>
+    </div>
+
+    <div class="headline recaptcha_only_if_image">Enter the words above:</div>
+    <div class="headline recaptcha_only_if_audio">Enter the numbers you hear:</div>
+
+    <input type="text" id="recaptcha_response_field" name="recaptcha_response_field" required />
+
+    <span class="recaptcha_icon"><a href="javascript:Recaptcha.reload()"><i class="fa fa-refresh"></i></a></span>
+    <span class="recaptcha_icon recaptcha_only_if_image"><a href="javascript:Recaptcha.switch_type('audio')"><i class="fa fa-volume-up"></i></a></span>
+    <span class="recaptcha_icon recaptcha_only_if_audio"><a href="javascript:Recaptcha.switch_type('image')"><i class="fa fa-font"></i></a></span>
+    <span class="recaptcha_icon"><a href="javascript:Recaptcha.showhelp()"><i class="fa fa-question-circle"></i></a></span>
+  </div><br/>
+  <div id="notice" class="notice" data-captcha-failed="Incorrect captcha!" data-error="There was an error sending the message, please try again."></div>
+  
+			
                     <div class="col-md-12 text-center">
                         <input type="submit" class="btn btn-primary btn-lg btn-send" value="Send your message">
                     </div>
