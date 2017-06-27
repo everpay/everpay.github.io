@@ -1,0 +1,111 @@
+---
+layout: default
+---
+
+  <!-- Inner Page Header
+    ================================================== -->
+    <section class="tp--inner-header tp--section tp--section-with-bg-overlay tp--section-with-bg-cover tp--height-50 text-center" style="background: url('images/bg-intro-1.jpg');">
+
+      <div class="container tp--vertical-align">
+        
+        <div class="row">
+          
+          <div class="col-xs-12">
+            
+            <h2>Contact Us</h2>
+            <p>Send us a message and we'll get back to you as quickly as possible</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+
+    <!-- Contact Section
+    ================================================== -->
+    <section id="contact" class="tp--section tp--contact tp--padding-lg">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-sm-6 col-sm-offset-3">
+            
+            <form id="contact-form" method="post" action="contact-form/contact.php" role="form">
+
+              <div class="messages"></div>
+
+              <div class="controls">
+
+                <div class="row">
+                    <div class="col-md-12">
+
+                      <label for="form_name">Full Name *</label>
+                      
+                      <div class="row">
+                        
+                      <div class="col-md-6">
+
+                        <div class="form-group">
+                          <label for="form_lastname" class="sr-only">First Name *</label> 
+                          <input id="form_name" type="text" name="name" class="form-control" placeholder="First name" required="required">
+                          <div class="help-block with-errors"></div>
+                        </div>
+
+                      </div>
+
+                      <div class="col-md-6">
+
+                        <div class="form-group">
+                            <label for="form_lastname" class="sr-only">Last Name *</label>
+                            <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Last name" required="required">
+                            <div class="help-block with-errors"></div>
+                        </div>
+
+                      </div>
+
+                      </div>
+                        
+                    </div>
+                    
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="form_email">Email *</label>
+                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email" required="required">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="form_message">Message *</label>
+                            <textarea id="form_message" name="message" class="form-control" placeholder="Please enter your message" rows="4" required="required"></textarea>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 text-center">
+                        <input type="submit" class="btn btn-primary btn-lg btn-send" value="Send your message">
+                    </div>
+                </div>
+
+              </div>
+
+            </form>
+
+          </div>
+
+        </div><!-- /.row -->
+      </div>
+
+    </section>
+
