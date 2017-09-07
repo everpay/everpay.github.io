@@ -63,6 +63,52 @@ function playVideo() {
 	}
 }
 
+	
+	//jQuery Counter
+	$('.counter').counterUp({
+		delay: 10,
+		time: 1000
+	});
+	
+	//Portfolio Lightbox
+	$('.filtr-item').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		gallery: {
+			// options for gallery
+			enabled: true
+		},
+		removalDelay: 300,
+		mainClass: 'mfp-fade'
+	});
+	
+	//Text Rotate
+	$("#js-rotating").Morphext({
+		animation: "flipInX"
+	});
+	
+	//Scroll Spy
+	$('body').scrollspy({ target: '#main-nav' });
+	
+	//Typed JS
+	$("#typed").typed({
+		stringsElement: $('#typed-strings'),
+		typeSpeed: 50,
+		backDelay: 1000,
+		loop: true,
+		contentType: 'html',
+		loopCount: true
+	});
+	
+	//WOW JS
+	new WOW().init();
+	
+	//Smooth Scrool
+	smoothScroll.init();
+	
+	//YTPlayer JS
+	jQuery("#intro").YTPlayer();
+
 /* Home Slider JS
 ============================*/
 (function( $ ) {
