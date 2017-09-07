@@ -108,6 +108,20 @@ function playVideo() {
 	
 	//YTPlayer JS
 	jQuery("#intro").YTPlayer();
+	
+	//Preloader
+	$(window).on('load', function (e) { 
+		$('#status').fadeOut(); 
+		$('#preloader').delay(350).fadeOut('slow');
+		$('body').delay(350).css({'overflow':'visible'});
+                
+                //Initialize filterizr
+	        $('.filtr-container').filterizr();
+	        //Filter controls
+                $('.work-filter li').on('click', function (e) {
+                     $('.work-filter li').removeClass('active');
+                     $(this).addClass('active');
+                });
 
 /* Home Slider JS
 ============================*/
