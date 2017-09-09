@@ -10,6 +10,8 @@ $(window).on('load', function(){
 $(document).ready(function() {
   owlCarousel();
   isotope();
+  newWOW();
+  smoothScroll();
   magnificPopup();
   smoothScroll();
   contactForm();
@@ -100,21 +102,11 @@ function playVideo() {
 		loopCount: true
 	});
 	
-	//WOW JS
-	new WOW().init();
-	
-	//Smooth Scrool
-	smoothScroll.init();
 	
 	//YTPlayer JS
 	jQuery("#intro").YTPlayer();
 	
-	//Preloader
-	$(window).on('load', function (e) { 
-		$('#status').fadeOut(); 
-		$('#preloader').delay(350).fadeOut('slow');
-		$('body').delay(350).css({'overflow':'visible'});
-                
+	
                 //Initialize filterizr
 	        $('.filtr-container').filterizr();
 	        //Filter controls
