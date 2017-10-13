@@ -7,7 +7,7 @@ print "Local time from the browser: <br>"."<script src='date.js'></script>"
 layout: default
 title: Contact Us
 description: Send us a message
-permalink: /company/contact
+permalink: /company/contact/index.php
 sitemap: true
 ---
 
