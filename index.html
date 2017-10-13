@@ -2,6 +2,26 @@
 layout: default
 ---
 
+<script>
+$(document).ready(function() {
+$.CookiesMessage({
+	messageText: "We use technical and analytics cookies to ensure that we give you the best experience on our website.",
+messageBg: "#151515",								// Message box background color
+	messageColor: "#FFFFFF",						// Message box text color
+messageLinkColor: "#F0FFAA",				// Message box links color
+ closeEnable: true,									// Show the close icon
+	closeColor: "#444444",							// Close icon color
+closeBgColor: "#000000",						// Close icon background color
+ acceptEnable: true,									// Show the Accept button
+ 	acceptText: "Accept & Close",				// Accept button text
+infoEnable: true,										// Show the More Info button
+infoText: "More Info",							// More Info button text
+	infoUrl: "{url path="security"}",												// More Info button URL
+cookieExpire: 180										// Cookie expire time (days)
+});
+
+ });
+</script>
 <!-- Home -->
 <section class="tp--inner-header tp--section tp--section-with-bg-overlay tp--section-with-bg-cover tp--height-90 text-center" style="background: url('https://res.cloudinary.com/lmj6rf6tz/image/upload/v1457566689/big-resto_bkvv08.jpg');">
  <div class="container tp--vertical-align tp--vertical-align-intro p-top-md-10 p-bottom-md-40">
