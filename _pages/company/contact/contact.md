@@ -6,9 +6,7 @@ permalink: /company/contact/
 sitemap: true
 ---
 
-  <!-- Inner Page Header
-    ================================================== -->
-    <section class="tp--inner-header tp--section tp--section-with-bg-overlay tp--section-with-bg-cover tp--height-50 text-center" style="background: url('images/bg-intro-1.jpg');">
+    <section class="tp--inner-header tp--section tp--section-with-bg-overlay tp--section-with-bg-cover tp--height-50 text-center" style="background: url('../images/bg-intro-1.jpg');">
 
       <div class="container tp--vertical-align">
         
@@ -30,8 +28,6 @@ sitemap: true
 
 
 
-    <!-- Contact Section
-    ================================================== -->
     <section id="contact" class="tp--section tp--contact tp--padding-lg">
 
       <div class="container">
@@ -145,9 +141,10 @@ sitemap: true
 
         </div><!-- /.row -->
       </div>
+      
 <div class="contact-map">
-			<a href="#" class="map-toggle wow rotateIn" data-toggle="tooltip" data-trigger="hover" title="Toggle Map"><i class="ti-map-alt"></i> <span class="sr-only">Map Toggle</span></a>
-			<div id="map"></div>
+<a href="#" class="map-toggle wow rotateIn" data-toggle="tooltip" data-trigger="hover" title="Toggle Map"><i class="ti-map-alt"></i> <span class="sr-only">Map Toggle</span></a>
+<div id="map"></div>
     </section>
 
 <script type="text/javascript" src="http://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
