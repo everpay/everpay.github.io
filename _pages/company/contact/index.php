@@ -7,7 +7,7 @@ print "Local time from the browser: <br>"."<script src='date.js'></script>"
 layout: default
 title: Contact Us
 description: Send us a message
-permalink: /company/contact/index.php
+permalink: /company/contact
 sitemap: true
 ---
 
@@ -58,9 +58,7 @@ sitemap: true
 					</ul>
 				</div>
           <div class="col-sm-6">
-            
-            <form name="contact" id="contact-form" action="contact.html" netlify>
-
+            <form name="contact" id="contact-form" action="https://formspree.io/hello@everpayinc.com" method="POST">
               <div class="messages"></div>
 
               <div class="controls">
