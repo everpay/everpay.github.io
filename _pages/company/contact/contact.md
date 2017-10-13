@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: page
 title: Contact Us
 description: Send us a message
-permalink: /contact.html
+permalink: /company/contact/
 sitemap: true
 ---
 
