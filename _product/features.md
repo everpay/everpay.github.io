@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Features
-permalink: product/features/
+permalink: products/features/
 ---
 
 <div class="section">
