@@ -168,7 +168,14 @@
     <script src="https://cdn.everpayinc.com/assets/js/plugins/aos/aos.js"></script>
     <script src="https://cdn.everpayinc.com/assets/js/plugins/loaders-css/loaders.css.js"></script>
    <script src="//cdn.everpayinc.com/js/back-to-top.js"></script>
-   <script src="//cdn.everpayinc.com/js/cookies-message.min.js"></script>
+ <script src="//cdn.everpayinc.com/assets/js/jquery.mb.YTPlayer.min.js"></script>
+<script>
+      jQuery(function () {
+          jQuery(".player").mb_YTPlayer();
+      });
+    </script>
+<script src="//cdn.everpayinc.com/assets/js/main.js"></script>
+<script src="//cdn.everpayinc.com/assets/js/cookies-message.min.js"></script>
 <script>
 $(document).ready(function() {
 $.CookiesMessage({
@@ -188,28 +195,3 @@ cookieExpire: 180					// Cookie expire time (days)
 });
  });
 </script>
-<script>
-(function() {
-  /**
-   * Video element
-   * @type {HTMLElement}
-   */
-  var video = document.getElementById("#tp--video");
-
-  /**
-   * Check if video can play, and play it
-   */
-  video.addEventListener( "canplay", function() {
-    video.play();
-  });
-})();
-</script>
-
- <script type="text/javascript" src="//cdn.everpayinc.com/assets/js/jquery.mb.YTPlayer.min.js"></script>
-
- <script type="text/javascript" src="//cdn.everpayinc.com/assets/js/main.js"></script>
-<script>
-      jQuery(function () {
-          jQuery(".player").mb_YTPlayer();
-      });
-    </script>
