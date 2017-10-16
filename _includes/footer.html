@@ -188,6 +188,22 @@ cookieExpire: 180					// Cookie expire time (days)
 });
  });
 </script>
+<script>
+(function() {
+  /**
+   * Video element
+   * @type {HTMLElement}
+   */
+  var video = document.getElementById("tp--video");
+
+  /**
+   * Check if video can play, and play it
+   */
+  video.addEventListener( "canplay", function() {
+    video.play();
+  });
+})();
+</script>
 
  <script type="text/javascript" src="//cdn.everpayinc.com/assets/js/jquery.mb.YTPlayer.min.js"></script>
 
