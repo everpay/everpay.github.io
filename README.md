@@ -15,7 +15,7 @@ Contact us at [any of Everpay's normal channels](https://www.everpayinc.com/comp
 
 ## <a name="ask"></a>Ask questions on the Everpay Community
 
-[![alt text]( "The Everpay Community is a great place to ask questions and find answers about conducting commerce.")](https://support.everpayinc.com/community?via=github)
+[![alt text](https://res.cloudinary.com/lmj6rf6tz/image/upload/v1496853370/everpay-rnd-logo_s7wmeh.png "The Everpay Community is a great place to ask questions and find answers about conducting commerce.")](https://support.everpayinc.com/community?via=github)
 
 ## <a name="docs"></a>Everpay C2E documentation
 
