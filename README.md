@@ -17,6 +17,8 @@ Contact us at [any of Everpay's normal channels](https://www.everpayinc.com/comp
 
 [![alt text](https://res.cloudinary.com/lmj6rf6tz/image/upload/v1496853370/everpay-rnd-logo_s7wmeh.png "The Everpay Community is a great place to ask questions and find answers about conducting commerce.")](https://support.everpayinc.com/community?via=github)
 
+[![alt text](https://github.com/apigee/api-platform-samples/images/apigee-community.png "Apigee Community is a great place to ask questions and find answers about developing API proxies. ")](https://community.apigee.com?via=github)
+
 ## <a name="docs"></a>Everpay C2E documentation
 
 The Everpay C2E docs are [here](https://everpayinc.com/docs). 
