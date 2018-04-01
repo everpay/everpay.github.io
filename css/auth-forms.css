@@ -455,6 +455,15 @@ form.form label {
     background: #048864;
 }
 	
+.enterprise-panel__footer__lead {
+    margin-bottom: 28px;
+    opacity: .39;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #434C5F;
+    letter-spacing: .91px;
+}	
+	
 .app-footer {
     margin-top: 20px;
     min-height: 20px;
