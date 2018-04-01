@@ -52,7 +52,7 @@ body {
 .tp--diagonal {
     position: relative;
     z-index: 1;
-    padding: 5px 0!important;
+    padding: 35px 0!important;
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -243,7 +243,7 @@ button{font-weight:700}
 .feature-panel{display:none;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;position:absolute;top:0;right:0;width:460px;min-height:600px;height:100%;overflow:hidden;background:#048864;}
 
 @media (min-width:1076px){.feature-panel{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}}
-@media (min-width:600px){.feature-panel{position:fixed}}
+@media (min-height:600px){.feature-panel{position:fixed}}
 .feature-panel--enterprise{background:url('');background-size:cover;text-align:center}
 .enterprise-panel__footer{position:absolute;bottom:40px;left:55px;right:55px}
 .enterprise-panel__footer__lead{margin-bottom:15px;opacity:.39;font-size:12px!important;text-transform:uppercase;color:#FFF;letter-spacing:.91px}
