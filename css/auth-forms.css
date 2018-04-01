@@ -141,7 +141,7 @@ button{font-weight:700}
 .main-panel__switch__text{display:none}
 
 @media (min-width:600px)
-{.everpay-logo{left: 29%;top: 5px;}
+{.everpay-logo{left: 5%;top: 5px;}
 .main-panel__switch{margin-right:38px}
 .main-panel__switch__text{display:inline}}
 .main-panel__table{display:table;width:100%;height:100%}
