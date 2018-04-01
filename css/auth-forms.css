@@ -427,9 +427,9 @@ form.form label {
     -webkit-backface-visibility: hidden;
     backface-visibility: initial;
 }
-.tp--section.tp--diagonal:before {
-    background-color: #f5faff !important;
-    height: 620px!important;
+	
+.tp--diagonal:before {
+    height: 595px!important;
 }
 	
 
