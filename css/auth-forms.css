@@ -414,7 +414,7 @@ form.form label {
     transform: skewY(-3deg)!important;
 }
 	
-.tp--diagonal:before {
+.tp--diagonal.tp--diagonal:before {
     content: '';
     position: absolute;
     left: 0;
@@ -427,10 +427,7 @@ form.form label {
     -webkit-backface-visibility: hidden;
     backface-visibility: initial;
 }
-	
-.tp--diagonal:before {
-    height: 595px!important;
-}
+
 	
 
 .feature-panel {
