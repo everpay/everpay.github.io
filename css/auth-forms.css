@@ -244,7 +244,7 @@ button{font-weight:700}
 
 @media (min-width:1076px){.feature-panel{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}}
 @media (min-height:600px){.feature-panel{position:static}}
-.feature-panel--enterprise{background:;background-size:cover;text-align:center}
+.feature-panel--enterprise{background:none;background-size:cover;text-align:center}
 .enterprise-panel__footer{position:absolute;bottom:40px;left:55px;right:55px}
 .enterprise-panel__footer__lead{margin-bottom:15px;opacity:.39;font-size:12px!important;text-transform:uppercase;color:#434C5F;letter-spacing:.91px}
 .enterprise-panel__content{padding:0 40px}
