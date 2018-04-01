@@ -7,8 +7,113 @@
 
 html{box-sizing:border-box}input[type="text"],input[type="email"],input[type="search"],input[type="password"]{-webkit-appearance:none;-moz-appearance:none}
 html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
-body{ background: white!important; margin:0}
+body {
+    background: #048864!important; margin:0;
+}
 
+.navbar {
+    display: none;
+}
+
+
+.footer {
+      display: none;
+}
+
+.feature-panel {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 460px;
+    min-height:600px;
+    height: 100%;
+    overflow: hidden;
+    background: #048864;
+}
+
+.feature-panel--enterprise {
+    background: url();
+    background-size: cover;
+    text-align: center;
+    background: #048864;
+}
+
+.form__help {
+    position: relative;
+    top: 0;
+    right: 0;
+    font-size: 12px;
+    color: #8C96A9;
+    -webkit-transition: color .2s ease;
+    transition: color .2s ease;
+}
+
+.main-panel__switch__button {
+    display: inline-block;
+    vertical-align: middle;
+    background: #fff;
+    border: 1px solid #C6CCD7;
+    border-radius: 6px;
+    font-weight: 700;
+    color: #596377;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-left: 12px;
+    padding: 0 28px;
+    height: 36px;
+    line-height: 36px;
+    text-decoration: none;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+}
+.tp--diagonal {
+    position: relative;
+    z-index: 1;
+    padding: 5px 0!important;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.main-panel__table-cell {
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.btn-primary, .fc-today-button {
+    color: #FFFFFF;
+    background-color: transparent;
+    border-color: #12a56f;
+}
+
+
+.btn-primary.focus,.btn-primary:focus {
+    color: #12a56f!important;
+    background-color: transparent;
+    border-color: #12a56f;
+}
+
+.btn-primary.hover,.btn-primary:hover {
+    color: #12a56f!important;
+    background-color: transparent;
+    border-color: #12a56f;
+}
+
+.tp--featured .btn {
+    margin: 1em 0;
+    padding: 0.65em 2em;
+    font-size: 1em;
+}
 
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}
 
@@ -326,7 +431,7 @@ form.form label {
     line-height: 1.2;
 }	
 
-	.tp--diagonal.tp--diagonal-1:before {
+.tp--diagonal.tp--diagonal-1:before {
     -webkit-transform: skewY(-3deg);
     -moz-transform: skewY(-3deg);
     -ms-transform: skewY(-3deg);
@@ -334,7 +439,7 @@ form.form label {
     transform: skewY(-6deg)!important;
 }
 	
-	.tp--diagonal:before {
+.tp--diagonal:before {
     content: '';
     position: absolute;
     left: 0;
@@ -346,4 +451,15 @@ form.form label {
     z-index: -1;
     -webkit-backface-visibility: hidden;
     backface-visibility: initial;
+}
+	
+	
+.app-footer {
+    margin-top: 20px;
+    min-height: 20px;
+    padding: 0 1rem;
+    line-height: 20px;
+    font-size: 12px;
+    border-top: 0px solid #e4e6eb;
+    position: absolute!important;
 }
