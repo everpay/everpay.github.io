@@ -411,7 +411,7 @@ form.form label {
     -moz-transform: skewY(-3deg);
     -ms-transform: skewY(-3deg);
     -o-transform: skewY(-3deg);
-    transform: skewY(-6deg)!important;
+    transform: skewY(-3deg)!important;
 }
 	
 .tp--diagonal:before {
@@ -462,5 +462,5 @@ form.form label {
     line-height: 20px;
     font-size: 12px;
     border-top: 0px solid #e4e6eb;
-    position: absolute!important;
+    position: static!important;
 }
