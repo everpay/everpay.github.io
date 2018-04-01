@@ -51,7 +51,7 @@ button{font-weight:700}
 
 .form__button,.form__legal,.main-panel--single .main-panel__heading,.main-panel__footer,.saml-button,.sso-knock-modal .content,.sso-knocking__options,.sso-knocking__title{text-align:center}
 
-.everpay-logo{display:block;position:absolute;z-index:1;position:absolute;display:inline-block;vertical-align:middle;top:30px;right:35%;;width:140px;height:135px;background:url('https://res.cloudinary.com/lmj6rf6tz/image/upload/v1496853370/everpay-rnd-logo_s7wmeh.png');background-size:100%;color:transparent;font-size:1px}
+.everpay-logo{display:block;position:absolute;z-index:1;position:absolute;display:inline-block;vertical-align:middle;top:5px;right:35%;;width:130px;height:125px;background:url('https://res.cloudinary.com/lmj6rf6tz/image/upload/v1496853370/everpay-rnd-logo_s7wmeh.png');background-size:100%;color:transparent;font-size:1px}
 .form__input,.form__select{height:50px;display:block;width:100%}
 @media (min-width:1076px){.everpay-logo{background-image:url('https://res.cloudinary.com/lmj6rf6tz/image/upload/v1496853370/everpay-rnd-logo_s7wmeh.png')}
 .everpay-logo--single{background-image:url('https://res.cloudinary.com/lmj6rf6tz/image/upload/v1506199019/Everpay-icon_ihn2fk.png')}}
@@ -141,7 +141,7 @@ button{font-weight:700}
 .main-panel__switch__text{display:none}
 
 @media (min-width:600px)
-{.everpay-logo{left: 28%;top: 30px;}
+{.everpay-logo{left: 28%;top: 5px;}
 .main-panel__switch{margin-right:38px}
 .main-panel__switch__text{display:inline}}
 .main-panel__table{display:table;width:100%;height:100%}
@@ -159,12 +159,12 @@ button{font-weight:700}
 .main-panel__badge{display:block;width:82px;height:82px;margin:0 auto;border-radius:6px}
 
 .main-panel__badge--default{background-image:url('https://res.cloudinary.com/lmj6rf6tz/image/upload/v1496853370/everpay-rnd-logo_s7wmeh.png')
-;background-position:center;background-repeat:no-repeat;background-color:#898f9a}
-.feature-panel{display:none;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;position:absolute;top:0;right:0;width:460px;min-height:600px;height:100%;overflow:hidden;background:rgba(36,40,56,.65)}
+;background-position:center;background-repeat:no-repeat;background-color:#048864}
+.feature-panel{display:none;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;position:absolute;top:0;right:0;width:460px;min-height:600px;height:100%;overflow:hidden;background:#048864;}
 
 @media (min-width:1076px){.feature-panel{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}}
 @media (min-height:600px){.feature-panel{position:fixed}}
-.feature-panel--enterprise{background:url('https://cdn.everpayinc.com/assets/img/login-signup/enterprise-panel-photo.jpg');background-size:cover;text-align:center}
+.feature-panel--enterprise{background:url('');background-size:cover;text-align:center}
 .enterprise-panel__footer{position:absolute;bottom:40px;left:55px;right:55px}
 .enterprise-panel__footer__lead{margin-bottom:28px;opacity:.39;font-size:11px;text-transform:uppercase;color:#FFF;letter-spacing:.91px}
 .enterprise-panel__content{padding:0 50px}
