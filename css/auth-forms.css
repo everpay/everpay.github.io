@@ -20,31 +20,6 @@ body {
       display: none;
 }
 
-.feature-panel {
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 460px;
-    min-height:600px;
-    height: 100%;
-    overflow: hidden;
-    background: #048864;
-}
-
-.feature-panel--enterprise {
-    background: url();
-    background-size: cover;
-    text-align: center;
-    background: #048864;
-}
 
 .form__help {
     position: relative;
@@ -86,8 +61,8 @@ body {
     position: relative;
     display: table-cell;
     vertical-align: middle;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .btn-primary, .fc-today-button {
@@ -118,7 +93,7 @@ body {
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}
 
 .form__button,.form__label{letter-spacing:1px;text-transform:uppercase}*{box-sizing:border-box}
-body,html{height:100%;margin:0;padding:0;-webkit-font-smoothing:antialiased;background:#ffffff!important;color:#5f697a}
+body,html{height:100%;margin:0;padding:0;-webkit-font-smoothing:antialiased;background:#ffffff;color:#5f697a}
 
 .form__label,button{font-family:brandon-grotesque,"Open Sans",open-sans,sans-serif}
 
@@ -446,13 +421,39 @@ form.form label {
     top: 0;
     overflow: visible;
     width: 100%;
-    height: 576px!important;
+    height: 520px!important;
     background: #f7f7f7;
     z-index: -1;
     -webkit-backface-visibility: hidden;
     backface-visibility: initial;
 }
 	
+
+.feature-panel {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 460px;
+    min-height:600px;
+    height: 100%;
+    overflow: hidden;
+    background: #048864;
+}
+
+.feature-panel--enterprise {
+    background: url();
+    background-size: cover;
+    text-align: center;
+    background: #048864;
+}
 	
 .app-footer {
     margin-top: 20px;
