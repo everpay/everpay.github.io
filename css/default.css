@@ -4284,6 +4284,14 @@ Licensed under MIT
     border-top-right-radius: 25px;
 }
 
+.alert {
+    padding: .95rem 0.85rem;
+    margin-bottom: 1rem;
+    font-size: 16px;
+    border: 1px solid transparent;
+    border-radius: 0.65rem;
+}
+
 .alert-purple { border-color: #694D9F;background: #694D9F;color: #fff; }
 .alert-info-alt { border-color: #B4E1E4;background: #81c7e1;color: #fff; }
 .alert-danger-alt { border-color: #B63E5A;background: #E26868;color: #fff; }
