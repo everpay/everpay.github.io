@@ -4301,9 +4301,16 @@ Licensed under MIT
 .alert a {color: gold;}
 
 .alert h4, .alert.h4 {
-	margin: 10px 0;
+    margin: 15px 0;
     margin-bottom: 0.1em;
     line-height: 1.5;
+}
+
+.alert-dismissable .close, .alert-dismissible .close {
+    position: relative;
+    top: 0px;
+    right: 5px;
+    color: inherit;
 }
 
 #notices {
