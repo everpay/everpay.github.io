@@ -4293,6 +4293,7 @@ Licensed under MIT
 .alert a {color: gold;}
 
 .alert h4, .alert.h4 {
+	margin: 10px 0;
     margin-bottom: 0.1em;
     line-height: 1.5;
 }
