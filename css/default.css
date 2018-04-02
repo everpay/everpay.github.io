@@ -4292,6 +4292,11 @@ Licensed under MIT
 .glyphicon { margin-right:10px; }
 .alert a {color: gold;}
 
+.alert h4, .alert.h4 {
+    margin-bottom: 0.1em;
+    line-height: 1.5;
+}
+
 #notices {
 }
 
