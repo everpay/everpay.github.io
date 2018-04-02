@@ -4318,8 +4318,10 @@ Licensed under MIT
 	background-color: #20A286;
 	color: #fff;
 }
+
 .stepwizard-step p {
     margin-top: 10px;
+    text-align: center;
 }
 
 .stepwizard-row {
