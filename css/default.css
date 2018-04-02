@@ -2922,7 +2922,7 @@ a.btn:active {
 }
 
 .alert-icon i {
-  font-size: 50px;
+  font-size: 50px!important;
   line-height: 1.35;
 }
 
