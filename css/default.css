@@ -3286,6 +3286,58 @@ a:hover, a:focus {
     line-height: 6.5;
 }
 
+
+/* --- dashboard--- */
+
+#dashboard .user-stat-boxes.loaded {
+    visibility: visible;
+}
+#dashboard .user-stat-boxes {
+    line-height: normal;
+    text-align: center;
+}
+
+#dashboard .row-transfers {
+    border-top: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #666;
+    height: 114px;
+}
+
+#dashboard .row-transfers span {
+    display: block;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+#dashboard .row-transfers small {
+    opacity: .5;
+    display: block;
+    font-size: 13px;
+}
+
+#dashboard .row-transfers strong {
+    color: #000;
+    font-size: 34px;
+    font-weight: 400;
+    height: 50px;
+    display: block;
+}
+
+#dashboard .user-stat-boxes .stat-box {
+    display: inline-block;
+    width: 25%;
+}
+
+
 /* --- pay-method --- */
 
 .plan-card-group {
