@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: "budicon-font";
-  src:url("https://geteverpay.netlify.com/fonts/budicons/fonts/budicon-font.eot");
-  src:url("https://geteverpay.netlify.com/fonts/budicons/fonts/budicon-font.eot?#iefix") format("embedded-opentype"),
-    url("https://geteverpay.netlify.com/fonts/budicons/fonts/budicon-font.woff") format("woff"),
-    url("https://geteverpay.netlify.com/fonts/budicons/fonts/budicon-font.ttf") format("truetype"),
-    url("https://geteverpay.netlify.com/fonts/budicons/fonts/budicon-font.svg#budicon-font") format("svg");
+  src:url("/fonts/budicons/fonts/budicon-font.eot");
+  src:url("fonts/budicons/fonts/budicon-font.eot?#iefix") format("embedded-opentype"),
+    url("fonts/budicons/fonts/budicon-font.woff") format("woff"),
+    url("fonts/budicons/fonts/budicon-font.ttf") format("truetype"),
+    url("fonts/budicons/fonts/budicon-font.svg#budicon-font") format("svg");
   font-weight: normal;
   font-style: normal;
 
