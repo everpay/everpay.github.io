@@ -665,6 +665,7 @@ blockquote.blockquote-large {
 
 .tp--header nav .navbar .nav {
   float: right;
+  display: inline;
 }
 
 .tp--header nav .navbar .nav > li > a {
