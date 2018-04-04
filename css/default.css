@@ -1,8 +1,22 @@
+/**
+** ------------------------------------------
+**    ╔═╗┬ ┬┌─┐┬─┐┌┬┐╔╦╗┌─┐┌─┐┬ ┬┬  
+**    ║  ├─┤├─┤├┬┘ │ ║║║│ ││ ┬│ ││  
+**    ╚═╝┴ ┴┴ ┴┴└─ ┴ ╩ ╩└─┘└─┘└─┘┴─┘
+** ------------------------------------------
+**
+**    everpay-site v1.3.2
+**    https://everpayinc.com
+**    (c) 2017 EverPay - All Rights Reserved 
+**
+** ------------------------------------------
+**/@charset "UTF-8";/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css";
 @import "https://cdn.rawgit.com/tonystar/bootstrap-float-label/v4.0.0/dist/bootstrap-float-label.css";
-
 @font-face {
   font-family: "budicon-font";
-  src:url("/fonts/budicons/fonts/budicon-font.eot");
+  src:url("../fonts/budicons/fonts/budicon-font.eot");
   src:url("fonts/budicons/fonts/budicon-font.eot?#iefix") format("embedded-opentype"),
     url("fonts/budicons/fonts/budicon-font.woff") format("woff"),
     url("fonts/budicons/fonts/budicon-font.ttf") format("truetype"),
