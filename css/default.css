@@ -3101,7 +3101,7 @@ a.btn:active {
 }
 
 .sidebar-fixed .main, .sidebar-fixed .app-footer {
-margin-left: 300px!;
+margin-left: 300px!important;
 }
 
 .sidebar-compact.sidebar-fixed.sidebar-hidden .main, .sidebar-compact.sidebar-fixed.sidebar-hidden .app-footer {
