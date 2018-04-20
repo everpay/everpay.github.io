@@ -3046,7 +3046,7 @@ a.btn:active {
 }
 
 .header-fixed .app-body {
-    margin-top: 60px;
+    margin-top: 80px;
     margin-bottom: 60px;
 }
 
@@ -3101,7 +3101,7 @@ a.btn:active {
 }
 
 .sidebar-fixed .main, .sidebar-fixed .app-footer {
-margin-left: 260px!important;
+margin-left: 300px!;
 }
 
 .sidebar-compact.sidebar-fixed.sidebar-hidden .main, .sidebar-compact.sidebar-fixed.sidebar-hidden .app-footer {
