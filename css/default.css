@@ -4454,3 +4454,12 @@ Licensed under MIT
 button, html [type="button"], [type="reset"], [type="submit"] {
     -webkit-appearance: none!important;
 }
+
+.ep-footer-links li {
+display: inline-block;	
+}
+
+.ep-footer {
+font-size: 85%;
+text-align: left;	
+}
