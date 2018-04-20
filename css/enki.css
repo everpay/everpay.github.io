@@ -1,3 +1,13 @@
+.language-selector {
+margin-top: 3px;
+font-size: 14px;
+color: #444;	
+}
+
+.language-selector a {
+color: #666;	
+}
+
 #session-language {
     margin: 05px 15px 0 10px;
 }
