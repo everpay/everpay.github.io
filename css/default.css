@@ -3547,7 +3547,7 @@ tbody {
 .app-header.navbar .navbar-brand {
     position: absolute;
     left: 50%;
-    margin-left: -100px;
+    margin-left: -130px;
     background-color: #fff;
     background-image: url(https://res.cloudinary.com/lmj6rf6tz/image/upload/v1496853334/Everpay-dark-logo_lghtzd.png);
  background-repeat: no-repeat;
@@ -3556,13 +3556,13 @@ tbody {
 }
 
 .sidebar-hidden .sidebar {
-    margin-left: -240px;
+    margin-left: -260px;
 }
 
 
 .sidebar {
     position: fixed;
-    margin-left: -240px;
+    margin-left: -260px;
 }
 .sidebar-mobile-show .sidebar {
     width: 220px;
