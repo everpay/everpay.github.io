@@ -5774,6 +5774,7 @@ body {
 .page-container .sidebar-menu #main-menu li a {
   position: relative;
   display: block;
+font-size: 15px;
   padding: 10px 20px;
   color: #aaabae;
   z-index: 2;
@@ -19561,7 +19562,7 @@ body .page-container .sidebar-menu #main-menu li ul > li > a {
   background-color: #00a651;
 }
 body .page-container .sidebar-menu #main-menu li.active > a {
-  background: #009549;
+  background: rgba(44, 139, 177, 0.14);
 }
 body .page-container .sidebar-menu #main-menu li ul > li > a {
   background-color: #009549;
@@ -19579,40 +19580,11 @@ body .page-container .sidebar-menu .sidebar-user-info {
 body .page-container .sidebar-menu .sidebar-user-info .sui-hover {
   background-color: #00a651;
 }
-body .page-container .sidebar-menu #main-menu li {
-  border-color: #00b458;
-}
-body .page-container .sidebar-menu #main-menu li a {
-  color: #ddefe3;
-}
+
 body .page-container .sidebar-menu #main-menu li a:hover {
   background-color: #009549;
 }
-body .page-container .sidebar-menu #main-menu li ul > li > a:hover {
-  background-color: #049a4e;
-}
-body .page-container.sidebar-collapsed .sidebar-menu #main-menu > li > ul li {
-  border-color: #00b458;
-}
-body .page-container .sidebar-menu #main-menu li ul > li ul > li > a {
-  background-color: #008541;
-}
-body .page-container .sidebar-menu #main-menu li ul > li ul > li ul > li > a {
-  background-color: #008541;
-}
-body .page-container .sidebar-menu #main-menu li ul > li ul > li ul > li ul > li > a {
-  background-color: #008541;
-}
-body .page-container.sidebar-collapsed .sidebar-menu #main-menu > li > a > span:not(.badge) {
-  background: #00a651;
-  border-color: #00b458;
-}
-body .page-container.sidebar-collapsed .sidebar-menu #main-menu > li ul {
-  border-color: #00b458;
-}
-body .profile-info.dropdown .dropdown-menu > .caret {
-  border-bottom-color: #00a651;
-}
+
 body #chat {
   background: #00a651;
 }
