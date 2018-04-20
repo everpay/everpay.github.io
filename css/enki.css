@@ -19530,53 +19530,16 @@ dd-content,
 body a {
   color: #00a651;
 }
-body .profile-info.dropdown .dropdown-menu {
-  background: #00a651;
-  border-color: #00a651;
-}
+
 body .profile-info.dropdown .dropdown-menu > li {
   border-bottom-color: transparent;
 }
-body .profile-info.dropdown .dropdown-menu li a {
-  color: #ddefe3;
-}
-body .profile-info.dropdown .dropdown-menu li a:hover {
-  background: #009549;
-}
 
-body .page-container.sidebar-collapsed .sidebar-menu #main-menu > li#search .search-input {
-  background-color: #009549 !important;
-  border-color: #00b458 !important;
-}
-body .page-container .sidebar-menu #main-menu li#search {
-  background-color: #009549;
-  border-color: #00b458;
-}
-body .page-container .sidebar-menu #main-menu li ul {
-  border-color: #069c50;
-}
-body .page-container .sidebar-menu #main-menu li ul > li {
-  border-color: #069c50;
-}
-body .page-container .sidebar-menu #main-menu li ul > li > a {
-  background-color: #00a651;
-}
+
 body .page-container .sidebar-menu #main-menu li.active > a {
   background: rgba(44, 139, 177, 0.14);
 }
-body .page-container .sidebar-menu #main-menu li ul > li > a {
-  background-color: #009549;
-}
-body .page-container .sidebar-menu .logo-env > div.sidebar-collapse a,
-body .page-container .sidebar-menu .logo-env > div.sidebar-mobile-menu a {
-  border-color: #00b458;
-}
-body .page-container .sidebar-menu .logo-env > div.sidebar-collapse a:hover {
-  background: #009549;
-}
-body .page-container .sidebar-menu .sidebar-user-info {
-  border-color: #00b458;
-}
+
 body .page-container .sidebar-menu .sidebar-user-info .sui-hover {
   background-color: #00a651;
 }
