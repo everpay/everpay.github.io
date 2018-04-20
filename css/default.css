@@ -3077,7 +3077,7 @@ a.btn:active {
 }
 
 .sidebar-compact.sidebar-fixed .main, .sidebar-compact.sidebar-fixed .app-footer {
-    margin-left: 240px;
+    margin-left: 260px;
 }
 
 .sidebar-minimized .sidebar .nav {
@@ -3184,7 +3184,7 @@ margin-left: 300px;
 
 .app-header.navbar .navbar-brand {
     display: inline-block;
-    width: 238px;
+    width: 258px;
     height: 60px;
     padding: 0.5rem 1rem;
     margin-right: 0px;
@@ -3225,12 +3225,12 @@ a:hover, a:focus {
 
 .sidebar-fixed .sidebar {
     position: fixed;
-    width: 240px;
+    width: 260px;
     height: 100%;
 }
 
 .app-body .sidebar {
-    flex: 0 0 240px;
+    flex: 0 0 260px;
     order: -1;
 }
 
