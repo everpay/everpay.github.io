@@ -21784,6 +21784,12 @@ fieldset:not([disabled]) .has-error .form-radio.form-normal.active:after,
 .popover.popover-default.right .arrow:after {
   border-right-color: #ebebeb;
 }
+
+.links-list {
+  white-space: nowrap;
+  padding-top: 14px;
+  padding-bottom: 8px;
+}
 .links-list > li.sep {
   display: inline-block;
   border-left: 1px solid #eeeef0;
@@ -21793,6 +21799,7 @@ fieldset:not([disabled]) .has-error .form-radio.form-normal.active:after,
   overflow: hidden;
   margin-left: 10px;
 }
+
 .scrollable {
   position: relative;
   overflow: hidden;
