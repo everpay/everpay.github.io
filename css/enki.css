@@ -21160,3 +21160,386 @@ hr {
 
 
 
+.form-checkbox:not(.btn), .form-radio:not(.btn) {
+	display: inline-block;
+	background-color: transparent;
+	border: 0;
+	position: relative;
+	padding: 3px 3px 3px 25px;
+	line-height: 1em;
+	min-width: 19px;
+	margin: 0
+}
+.input-group-addon>.form-checkbox, .input-group-addon>.form-radio {
+	margin-bottom: 5px
+}
+.form-text.form-checkbox:not(.btn), .form-text.form-radio:not(.btn) {
+	padding-left: 25px
+}
+.form-checkbox>input[type="checkbox"], .form-radio>input[type="radio"] {
+	margin-left: -50px;
+	opacity: 0;
+	position: absolute !important;
+	visibility: hidden;
+	z-index: -1
+}
+#container.show-form .form-checkbox>input[type="checkbox"], #container.show-form .form-radio>input[type="radio"] {
+	margin-top: -0.1em;
+	opacity: 1;
+	visibility: visible;
+	z-index: 1
+}
+.form-checkbox:hover, .form-radio:hover {
+	cursor: pointer
+}
+fieldset[disabled] .form-checkbox:hover, fieldset[disabled] .form-radio:hover {
+	cursor: no-drop
+}
+fieldset[disabled] .form-checkbox, fieldset[disabled] .form-radio, .form-checkbox.disabled, .form-radio.disabled {
+	opacity: .5;
+	cursor: default;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none
+}
+.form-checkbox.disabled::selection, .form-radio.disabled::selection {
+	background: transparent
+}
+.form-checkbox.disabled::-moz-selection, .form-radio.disabled::-moz-selection {
+    background: transparent
+}
+.form-checkbox.form-normal:before, .form-radio.form-normal:before {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	background-color: transparent;
+	border: 1px solid #dddddd;
+	border-radius: 0;
+	left: 0;
+	top: 50%;
+	margin-top: -9px
+}
+.form-radio.form-normal:before {
+	background-color: transparent
+}
+.has-success .form-checkbox {
+	color: #24692f
+}
+.has-success .form-checkbox.form-normal:before, 
+.has-success .form-checkbox.form-normal:not(.disabled):hover:before, 
+.has-success .form-radio.form-normal:before, 
+.has-success .form-radio.form-normal:not(.disabled):hover:before {
+	background-color: transparent;
+	border-color: #699737
+}
+#container .has-success .form-radio.form-normal.active:before {
+	background-color: #699737;
+	border-color: #699737
+}
+.has-warning .form-checkbox {
+	color: #bb7815
+}
+.has-warning .form-checkbox.form-normal:before, 
+.has-warning .form-checkbox.form-normal:not(.disabled):hover:before, 
+.has-warning .form-radio.form-normal:before, 
+.has-warning .form-radio.form-normal:not(.disabled):hover:before {
+	background-color: transparent;
+	border-color: #bb7815
+}
+#container .has-warning .form-radio.form-normal:before {
+	background-color: #bb7815;
+	border-color: #bb7815
+}
+.has-error .form-checkbox {
+	color: #d82b0a
+}
+.has-error .form-checkbox.form-normal:before, 
+.has-error .form-checkbox.form-normal:not(.disabled):hover:before, 
+.has-error .form-radio.form-normal:before, 
+.has-error .form-radio.form-normal:not(.disabled):hover:before {
+	background-color: transparent;
+	border-color: #d82b0a
+}
+#container .has-error .form-radio.form-normal.active:before {
+	background-color: #d82b0a;
+	border-color: #d82b0a
+}
+.form-radio.form-normal:before {
+	border-radius: 50%
+}
+fieldset:not([disabled]) .form-checkbox.form-normal:not(.disabled):hover:after, 
+fieldset:not([disabled]) .form-checkbox.form-normal.active:after, 
+.form-checkbox.form-normal:not(.disabled):hover:after, 
+.form-checkbox.form-normal.active:after {
+	content: '';
+	position: absolute;
+	height: 6px;
+	width: 11px;
+	left: 3px;
+	top: 50%;
+	margin-top: -5px;
+	-webkit-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	border-bottom: 2.5px solid #515151;
+	border-left: 2.5px solid #515151
+}
+fieldset:not([disabled]) .has-success .form-checkbox.form-normal:not(.disabled):hover:after, 
+fieldset:not([disabled]) .has-success .form-checkbox.form-normal.active:after, 
+.has-success .form-checkbox.form-normal:not(.disabled):hover:after, 
+.has-success .form-checkbox.form-normal.active:after {
+	border-color: #24692f
+}
+fieldset:not([disabled]) .has-warning .form-checkbox.form-normal:not(.disabled):hover:after, 
+fieldset:not([disabled]) .has-warning .form-checkbox.form-normal.active:after, 
+.has-warning .form-checkbox.form-normal:not(.disabled):hover:after, 
+.has-warning .form-checkbox.form-normal.active:after {
+	border-color: #f0a238
+}
+fieldset:not([disabled]) .has-error .form-checkbox.form-normal:not(.disabled):hover:after, 
+fieldset:not([disabled]) .has-error .form-checkbox.form-normal.active:after, 
+.has-error .form-checkbox.form-normal:not(.disabled):hover:after, 
+.has-error .form-checkbox.form-normal.active:after {
+	border-color: #e33a4b
+}
+fieldset:not([disabled]) .form-radio.form-normal:not(.disabled):hover:after, 
+fieldset:not([disabled]) .form-radio.form-normal.active:after, 
+.form-radio.form-normal:not(.disabled):hover:after, 
+.form-radio.form-normal.active:after {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	background-color: #515151;
+	border-radius: 50%;
+	left: 4px;
+	bottom: 50%;
+	margin-bottom: -3px
+}
+fieldset:not([disabled]) .has-success .form-radio.form-normal:not(.disabled):not(.active):hover:after, 
+fieldset:not([disabled]) .has-success .form-radio.form-normal.active:after, 
+.has-success .form-radio.form-normal:not(.disabled):not(.active):hover:after, 
+.has-success .form-radio.form-normal.active:after {
+	background-color: #699737
+}
+fieldset:not([disabled]) .has-warning .form-radio.form-normal:not(.disabled):not(.active):hover:after, 
+fieldset:not([disabled]) .has-warning .form-radio.form-normal.active:after, 
+.has-warning .form-radio.form-normal:not(.disabled):not(.active):hover:after, 
+.has-warning .form-radio.form-normal.active:after {
+	background-color: #bb7815
+}
+fieldset:not([disabled]) .has-error .form-radio.form-normal:not(.disabled):not(.active):hover:after, 
+fieldset:not([disabled]) .has-error .form-radio.form-normal.active:after, 
+.has-error .form-radio.form-normal:not(.disabled):not(.active):hover:after, 
+.has-error .form-radio.form-normal.active:after {
+	background-color: #d82b0a
+}
+.form-checkbox.form-normal:not(.active):hover:after, .form-radio.form-normal:not(.active):hover:after {
+	opacity: .3
+}
+.form-checkbox.form-normal.form-primary.active:after, 
+.form-checkbox.form-normal.form-info.active:after, 
+.form-checkbox.form-normal.form-success.active:after, 
+.form-checkbox.form-normal.form-warning.active:after, 
+.form-checkbox.form-normal.form-danger.active:after, 
+.form-checkbox.form-normal.form-mint.active:after, 
+.form-checkbox.form-normal.form-purple.active:after, 
+.form-checkbox.form-normal.form-pink.active:after, 
+.form-checkbox.form-normal.form-dark.active:after {
+	border-color: #000000
+}
+.form-checkbox.form-normal:not(.disabled):hover:before, .form-radio.form-normal:not(.disabled):hover:before {
+	border-color: #54abd9
+}
+.form-checkbox.form-normal.active:after {
+	border-color: #404449
+}
+.form-checkbox.form-normal.form-primary:hover:before, .form-radio.form-normal.form-primary.active:before, .form-checkbox.form-normal.form-primary:not(.active):hover:after {
+	border-color: #489eed
+}
+.form-checkbox.form-normal.form-primary.active:before, .form-radio.form-normal.form-primary.active:after {
+	border-color: #5fa2dd
+}
+.form-checkbox.form-normal.form-info:hover:before, .form-radio.form-normal.form-info.active:before, .form-checkbox.form-normal.form-info:not(.active):hover:after {
+	border-color: #4ebcda
+}
+.form-checkbox.form-normal.form-info.active:before, .form-radio.form-normal.form-info.active:after {
+	background-color: #4ebcda;
+	border-color: #4ebcda
+}
+.form-checkbox.form-normal.form-success:hover:before, .form-radio.form-normal.form-success.active:before, .form-checkbox.form-normal.form-success:not(.active):hover:after {
+	border-color: #9cc96b
+}
+.form-checkbox.form-normal.form-success.active:before, .form-radio.form-normal.form-success.active:after {
+	background-color: #9cc96b;
+	border-color: #9cc96b
+}
+.form-checkbox.form-normal.form-warning:hover:before, .form-radio.form-normal.form-warning.active:before, .form-checkbox.form-normal.form-warning:not(.active):hover:after {
+	border-color: #EEA236
+}
+.form-checkbox.form-normal.form-warning.active:before, .form-radio.form-normal.form-warning.active:after {
+	background-color: #EEA236;
+	border-color: #EEA236
+}
+.form-checkbox.form-normal.form-danger:hover:before, .form-radio.form-normal.form-danger.active:before, .form-checkbox.form-normal.form-danger:not(.active):hover:after {
+	border-color: #f76c51
+}
+.form-checkbox.form-normal.form-danger.active:before, .form-radio.form-normal.form-danger.active:after {
+	background-color: #f76c51;
+	border-color: #f76c51
+}
+.form-checkbox.form-normal.form-mint:hover:before, .form-radio.form-normal.form-mint.active:before, .form-checkbox.form-normal.form-mint:not(.active):hover:after {
+	border-color: #50c7a7
+}
+.form-checkbox.form-normal.form-mint.active:before, .form-radio.form-normal.form-mint.active:after {
+	background-color: #50c7a7;
+	border-color: #50c7a7
+}
+.form-checkbox.form-normal.form-purple:hover:before, .form-radio.form-normal.form-purple.active:before, .form-checkbox.form-normal.form-purple:not(.active):hover:after {
+	border-color: #986291
+}
+.form-checkbox.form-normal.form-purple.active:before, .form-radio.form-normal.form-purple.active:after {
+	background-color: #986291;
+	border-color: #986291
+}
+.form-checkbox.form-normal.form-pink:hover:before, .form-radio.form-normal.form-pink.active:before, .form-checkbox.form-normal.form-pink:not(.active):hover:after {
+	border-color: #e17ca7
+}
+.form-checkbox.form-normal.form-pink.active:before, .form-radio.form-normal.form-pink.active:after {
+	background-color: #e17ca7;
+	border-color: #e17ca7
+}
+.form-checkbox.form-normal.form-dark:hover:before, .form-radio.form-normal.form-dark.active:before, .form-checkbox.form-normal.form-dark:not(.active):hover:after {
+	border-color: #3b4146
+}
+.form-checkbox.form-normal.form-dark.active:before, .form-radio.form-normal.form-dark.active:after {
+	background-color: #3b4146;
+	border-color: #3b4146
+}
+.form-inline .form-checkbox, .form-inline .form-radio {
+	padding-right: 15px
+}
+.form-checkbox.form-icon:after, .form-radio.form-icon:after {
+	content: "\f096";
+	color: inherit;
+	font-size: 19px;
+	display: inline-block;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	position: absolute;
+	left: .1em;
+	top: 50%;
+	margin-top: -0.44em;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale
+}
+.input-group .form-checkbox:after, .input-group .form-radio:after {
+	left: 1px
+}
+.input-group .form-checkbox, .input-group .form-radio {
+	padding: 0
+}
+.form-checkbox.active.form-icon:after {
+	content: "\f046"
+}
+.form-radio.form-icon:after {
+	content: "\f10c"
+}
+.form-radio.form-icon.active:after {
+	content: "\f192"
+}
+.form-checkbox.form-icon.form-primary:after, .form-radio.form-icon.form-primary:after {
+	color: #5fa2dd
+}
+.form-checkbox.form-icon.form-info:after, .form-radio.form-icon.form-info:after {
+	color: #4ebcda
+}
+.form-checkbox.form-icon.form-success:after, .form-radio.form-icon.form-success:after {
+	color: #9cc96b
+}
+.form-checkbox.form-icon.form-warning:after, .form-radio.form-icon.form-warning:after {
+	color: #EEA236
+}
+.form-checkbox.form-icon.form-danger:after, .form-radio.form-icon.form-danger:after {
+	color: #f76c51
+}
+.form-checkbox.form-icon.form-mint:after, .form-radio.form-icon.form-mint:after {
+	color: #50c7a7
+}
+.form-checkbox.form-icon.form-purple:after, .form-radio.form-icon.form-purple:after {
+	color: #986291
+}
+.form-checkbox.form-icon.form-pink:after, .form-radio.form-icon.form-pink:after {
+	color: #e17ca7
+}
+.form-checkbox.form-icon.form-dark:after, .form-radio.form-icon.form-dark:after {
+	color: #3b4146
+}
+.form-checkbox.form-icon.btn, .form-radio.form-icon.btn {
+	position: relative;
+	padding-left: 2.7em;
+	margin-bottom: 12px
+}
+.form-checkbox.form-icon.btn:active, .form-radio.form-icon.btn:active {
+	margin-bottom: 12px
+}
+.form-checkbox.form-icon.btn.form-no-label, .form-radio.form-icon.btn.form-no-label {
+	padding-left: 0;
+	padding-right: 0;
+	min-height: 2.5em;
+	min-width: 2.85em
+}
+.form-checkbox.form-icon.btn:after, .form-radio.form-icon.btn:after {
+	margin-top: -0.46em;
+	left: .45em
+}
+.form-icon.btn.btn-primary:after, 
+.form-icon.btn.btn-info:after, 
+.form-icon.btn.btn-success:after, 
+.form-icon.btn.btn-warning:after, 
+.form-icon.btn.btn-danger:after, 
+.form-icon.btn.btn-mint:after{
+	color: #fff
+}
+.form-checkbox.form-icon.btn.btn-labeled, .form-radio.form-icon.btn.btn-labeled {
+	padding-left: 3em
+}
+.form-checkbox.form-icon.btn.btn-labeled:before, .form-radio.form-icon.btn.btn-labeled:before {
+	content: '';
+	position: absolute;
+	display: inline-block;
+	margin-left: 0;
+	width: 2.7em;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.15)
+}
+.checkbox.form-block {
+	padding-top: 4px
+}
+.form-radio.form-block, 
+.form-radio.form-block:active, 
+.form-checkbox.form-block, 
+.form-checkbox.form-block:active, 
+.form-block>.form-radio, 
+.form-block>.form-radio:active, 
+.form-block>.form-checkbox, 
+.form-block .form-checkbox:active {
+	width: 100%;
+	margin: 5px 0
+}
+.list-todo .form-checkbox input:checked~span {
+	text-decoration: line-through;
+	opacity: .7
+}
+
+
+
+
