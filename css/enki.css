@@ -6069,7 +6069,8 @@ font-size: 15.75px;
   -webkit-transition: color 250ms ease-in-out, background-color 250ms ease-in-out;
   -moz-transition: color 250ms ease-in-out, background-color 250ms ease-in-out;
   -o-transition: color 250ms ease-in-out, background-color 250ms ease-in-out;
-  transition: color 250ms ease-in-out, background-color 250ms ease-in-out;
+  transition: color 250ms ease-in-out, background-color 250ms ease-in-out;	
+margin-left: 10px;
 }
 .page-container .sidebar-menu #main-menu li a i {
   top: 5px;
