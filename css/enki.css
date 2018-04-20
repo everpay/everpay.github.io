@@ -6056,13 +6056,13 @@ body {
 }
 .page-container .sidebar-menu #main-menu li i {
   position: relative;
-  font-size: 16px;
+  font-size: 22px;
   margin-right: 10px;
 }
 .page-container .sidebar-menu #main-menu li a {
   position: relative;
   display: block;
-font-size: 15px;
+font-size: 15.75px;
   padding: 10px 20px;
   color: #aaabae;
   z-index: 2;
@@ -6072,7 +6072,7 @@ font-size: 15px;
   transition: color 250ms ease-in-out, background-color 250ms ease-in-out;
 }
 .page-container .sidebar-menu #main-menu li a i {
-  top: 2px;
+  top: 5px;
   display: inline-block;
 }
 .page-container .sidebar-menu #main-menu li a span {
