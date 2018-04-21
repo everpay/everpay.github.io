@@ -52,7 +52,7 @@ color: #666;
 }
 
 .title {
-  padding: 0px 0px 15px;
+  padding: 0px 10px 15px;
 }
 
 .margin-left-10 {
@@ -12283,7 +12283,7 @@ body.page-fade-only-init > .page-container {
   opacity: 1;
 }
 .language-selector {
-  margin-top: 5px;
+  margin-top: 3.5px;
 }
 .language-selector > .dropdown-toggle {
   display: inline-block;
