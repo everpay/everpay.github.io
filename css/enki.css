@@ -22836,7 +22836,8 @@ display: inline-block;
 }
 
 #tabs .nav-tabs .nav-link.active {
-    color: #666;
+    color: #f3f3f3;
+   border-color: transparent transparent #f3f3f3;	
     border-bottom: 2px solid !important;
 }
 
