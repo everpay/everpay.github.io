@@ -21801,7 +21801,7 @@ fieldset:not([disabled]) .has-error .form-radio.form-normal.active:after,
   display: none;
 }
 .nav-tabs {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 0px solid #ddd;
   margin-top: 20px;
   margin-bottom: 10px;
 }
@@ -22830,14 +22830,14 @@ width: 99.5%;
     color: #f3f3f3;
     background-color: transparent;
     border-color: transparent transparent #f3f3f3;
-    border-bottom: 4px solid !important;
+    border-bottom: 3px solid !important;
     font-size: 16px;
     font-weight: bold;
 display: inline-block;
 }
 
 #tabs .nav-tabs .nav-link {
-    border: 1px solid transparent;
+    border: 0px solid transparent;
     border-top-left-radius: .25rem;
     border-top-right-radius: .25rem;
     color: #666;
