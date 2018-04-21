@@ -22837,6 +22837,8 @@ display: inline-block;
 
 #tabs .nav-tabs .nav-link.active {
     color: #f3f3f3;
+	   font-size: 16px;
+	    font-weight: bold;
    border-color: transparent transparent #f3f3f3;	
     border-bottom: 2px solid !important;
 }
