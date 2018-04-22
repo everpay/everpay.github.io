@@ -22377,7 +22377,7 @@ canvas + .knob {
     border-color: transparent; }
   @media (min-width: 1200px) {
     .card-block {
-      padding: 20px; } }
+      padding: 10px; } }
   @media (max-width: 767px) {
     .card-block {
       padding: 10px; } }
