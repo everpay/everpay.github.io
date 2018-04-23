@@ -22827,17 +22827,17 @@ width: 99.5%;
 }
 
 #tabs .nav-tabs .nav-item.show .nav-link {
-    color: #f3f3f3;
+    color: #666;
     background-color: transparent;
     border-color: transparent transparent #f3f3f3;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
 display: inline-block;
 }
 
 #tabs .nav-tabs .nav-link.active {
-    color: #f3f3f3;
-	   font-size: 16px;
+    color: #333;
+	   font-size: 14px;
 	    font-weight: bold;
    border-color: transparent transparent #f3f3f3;	
     border-bottom: 2px solid !important;
@@ -22848,6 +22848,6 @@ display: inline-block;
     border-top-left-radius: .25rem;
     border-top-right-radius: .25rem;
     color: #666;
-    font-size: 16px;
+    font-size: 14px;
 display: inline-block;
 }
