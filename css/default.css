@@ -6887,3 +6887,111 @@ footer .pull-center {
     width: 100%;
   }
 }
+
+/*            Navigation menu                */
+
+.wizard-card .nav-pills > li {
+text-align: center;
+}
+.nav-pills>li {
+float: left;
+}
+.nav>li {
+position: relative;
+display: block;
+}
+
+.nav-pills {
+  background-color: rgba(200, 200, 200, 0.2);
+}
+.nav-pills > li + li {
+  margin-left: 0;
+}
+.nav-pills > li > a {
+  border: 0 !important;
+  border-radius: 0;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  min-width: 100px;
+  text-align: center;
+  color: #555555 !important;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus,
+.nav-pills > li > a:hover,
+.nav-pills > li > a:focus {
+  background-color: inherit;
+}
+.nav-pills > li i {
+  display: block;
+  font-size: 30px;
+  padding: 15px 0;
+}
+
+.popover, .tooltip-inner {
+  color: #555555;
+  line-height: 1.5em;
+  background: #FFFFFF;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+}
+
+.popover {
+  padding: 0;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.popover.left > .arrow, .popover.right > .arrow, .popover.top > .arrow, .popover.bottom > .arrow {
+  border: none;
+}
+
+.popover-title {
+  background-color: #FFFFFF;
+  border: none;
+  padding: 15px 15px 5px;
+  font-size: 1.3em;
+}
+
+.popover-content {
+  padding: 10px 15px 15px;
+  line-height: 1.4;
+}
+
+.tooltip.in {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0px, 0);
+  -moz-transform: translate3d(0, 0px, 0);
+  -o-transform: translate3d(0, 0px, 0);
+  -ms-transform: translate3d(0, 0px, 0);
+  transform: translate3d(0, 0px, 0);
+}
+
+.tooltip {
+  opacity: 0;
+  transition: opacity, transform .2s ease;
+  -webkit-transform: translate3d(0, 5px, 0);
+  -moz-transform: translate3d(0, 5px, 0);
+  -o-transform: translate3d(0, 5px, 0);
+  -ms-transform: translate3d(0, 5px, 0);
+  transform: translate3d(0, 5px, 0);
+}
+.tooltip.left .tooltip-arrow {
+  border-left-color: #FFFFFF;
+}
+.tooltip.right .tooltip-arrow {
+  border-right-color: #FFFFFF;
+}
+.tooltip.top .tooltip-arrow {
+  border-top-color: #FFFFFF;
+}
+.tooltip.bottom .tooltip-arrow {
+  border-bottom-color: #FFFFFF;
+}
+
+.tooltip-inner {
+  padding: 10px 15px;
+  min-width: 130px;
+}
