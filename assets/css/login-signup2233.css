@@ -21,7 +21,7 @@ button, button:active, button:focus {
 .box-highlight {
 padding: 40px!important;
 margin-top: 20px;
-background: #f9f9f9;
+background: #ffffff!important;
 border-radius:25px;
 }
 
