@@ -1,12 +1,8 @@
-body, html, input {
-    font-family: "Open Sans", open-sans, sans-serif;
-    font-weight: 400;
-    font-size: 12px
-}
-
-body, button, html, input {
-    font-size: 12px
-}
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
 
 button, button:active, button:focus {
     border: 0;
@@ -58,331 +54,28 @@ button {
     text-align: right
 }
 
-.form__button, .form__legal, .main-panel--single .main-panel__heading,
-.main-panel__footer, .saml-button, .sso-knock-modal .content, .sso-knocking__options,
-.sso-knocking__title {
-    text-align: center
+html{box-sizing:border-box}input[type="text"],input[type="email"],input[type="search"],input[type="password"]{-webkit-appearance:none;-moz-appearance:none}
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+body {
+    background: #048864!important; margin:0;
 }
 
-.invision-logo {
-    display: block;
-    position: absolute;
-    z-index: 1;
-    top: 38px;
-    left: 5%;
-    width: 40px;
-    height: 40px;
-    background: url(../img/login-signup/invision-logo-gray.png);
-    background-size: 100%;
-    color: transparent;
-    font-size: 1px
+.navbar {
+    display: none;
 }
 
-.form__input, .form__select {
-    height: 50px;
-    display: block;
-    width: 100%
-}
-
-@media (min-width:1076px) {
-    .invision-logo {
-        background-image: url(../img/login-signup/invision-logo-white.png)
-    }
-
-    .invision-logo--single {
-        background-image: url(../img/login-signup/invision-logo-gray.png)
-    }
-}
-
-.form__group {
-    position: relative;
-    margin-bottom: 23px
-}
-
-.form__label {
-    display: block;
-    font-weight: 700;
-    font-size: 11px;
-    color: #434C5E;
-    margin-bottom: 8px
-}
-
-.form__input {
-    border: 1px solid #D4D9E2;
-    border-radius: 3px;
-    padding: 15px;
-    font-size: 14px;
-    color: #596377;
-    outline: 0;
-    -webkit-transition: border-color .2s ease;
-    transition: border-color .2s ease
-}
-
-.form__input::-webkit-input-placeholder {
-    color: #C6CCD7
-}
-
-.form__input:-moz-placeholder {
-    color: #C6CCD7
-}
-
-.form__input::-moz-placeholder {
-    color: #C6CCD7
-}
-
-.form__input:ms-input-placeholder {
-    color: #C6CCD7
-}
-
-.form__select, .form__select > select {
-    color: #596377;
-    font-size: 14px;
-    outline: 0
-}
-
-.form__input:focus {
-    border-color: #8C96A9
-}
-
-.form__input.error {
-    border: 1px solid #E73737;
-    margin-bottom: 10px
-}
-
-.form__select {
-    border: 1px solid #D4D9E2;
-    border-radius: 3px;
-    padding: 14px 15px;
-    overflow: hidden;
-    position: relative;
-    -webkit-transition: border-color .2s ease;
-    transition: border-color .2s ease
-}
-
-.form__select:after {
-    content: "";
-    display: block;
-    position: absolute;
-    right: 32px;
-    top: 50%;
-    margin-top: -4px;
-    border-bottom: 2px solid #596377;
-    border-left: 2px solid #596377;
-    width: 6px;
-    height: 6px;
-    -webkit-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    transform: rotate(-45deg)
-}
-
-.form__select.focus, .form__select:focus {
-    border-color: #596377
-}
-
-.form__select.error {
-    border: 1px solid #E73737;
-    margin-bottom: 10px
-}
-
-.form__select > select {
-    background: 0 0;
-    border: none;
-    font-family: "Open Sans", open-sans, sans-serif;
-    width: 110%;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none
-}
-
-.enterprise-panel__footer__lead, .enterprise-panel__header, .form__button,
-.main-panel__switch__button {
-    font-family: brandon-grotesque, "Open Sans", open-sans, sans-serif
-}
-
-.form__select.form__select--empty select {
-    color: #C6CCD7
+.footer {
+      display: none;
 }
 
 .form__help {
-    position: absolute;
+    position: relative;
     top: 0;
     right: 0;
     font-size: 12px;
     color: #8C96A9;
     -webkit-transition: color .2s ease;
-    transition: color .2s ease
-}
-
-.main-panel, .panel-wrapper {
-    position: relative
-}
-
-.form__help:focus, .form__help:hover {
-    color: #434C5E
-}
-
-.form__button {
-    display: inline-block;
-    margin: 20px auto;
-    background: #F36;
-    border-radius: 100px;
-    height: 50px;
-    line-height: 50px;
-    padding: 0 60px;
-    font-size: 12px;
-    font-weight: 700;
-    color: #FFF;
-    cursor: pointer;
-    -webkit-transition: box-shadow .2s ease, border .2s ease;
-    transition: box-shadow .2s ease, border .2s ease
-}
-
-.form__button:focus, .form__button:hover {
-    cursor: pointer;
-    box-shadow: 0 3px 15px 0 rgba(0, 0, 0, .25)
-}
-
-.form__button:active {
-    box-shadow: 0 1px 4px rgba(0, 0, 0, .2)
-}
-
-.form__button--alternate {
-    background-color: #11B683
-}
-
-.form__error {
-    font-size: 14px;
-    font-weight: 600;
-    color: #E73737;
-    letter-spacing: 0;
-    margin-bottom: 24px
-}
-
-.form__legal, .form__legal a, .form__legal a:hover {
-    color: #8C96A9
-}
-
-.form__legal {
-    margin-bottom: 0;
-    padding-bottom: 30px
-}
-
-.form__legal a {
-    text-decoration: underline
-}
-
-.alert-dynamic, .alert-error {
-    color: #E73737
-}
-
-.alert-error {
-    display: none
-}
-
-.alert-dynamic {
-    display: block
-}
-
-.panel-wrapper {
-    display: block;
-    width: 100%
-}
-
-@media (min-width:1076px) {
-    .main-panel {
-        margin-left: 460px
-    }
-}
-
-@media (min-width:1076px) and (min-height:600px) {
-    .panel-wrapper {
-        height: 100%
-    }
-
-    .main-panel {
-        height: 100%;
-        overflow: auto
-    }
-}
-
-.main-panel__switch {
-    position: absolute;
-    right: 0;
-    top: 0;
-    margin-top: 38px;
-    margin-bottom: 46px;
-    margin-right: 5%;
-    font-size: 13px;
-    color: #596377;
-    letter-spacing: 0;
-    line-height: 36px
-}
-
-.main-panel__switch__text {
-    display: none
-}
-
-@media (min-width:600px) {
-    .invision-logo {
-        left: 38px
-    }
-
-    .main-panel__switch {
-        margin-right: 38px
-    }
-
-    .main-panel__switch__text {
-        display: inline
-    }
-}
-
-.main-panel__table {
-    display: table;
-    width: 100%;
-    height: 100%
-}
-
-.main-panel__table-cell {
-    position: relative;
-    display: table-cell;
-    vertical-align: middle;
-    padding-top: 100px;
-    padding-bottom: 100px
-}
-
-.main-panel__content {
-    clear: both;
-    width: 90%;
-    max-width: 540px;
-    margin: 0 auto
-}
-
-.main-panel__footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    padding: 20px;
-    width: 100%;
-    border-top: 1px solid #D4D9E2
-}
-
-.main-panel__heading {
-    font-size: 28px;
-    font-weight: 400;
-    color: #434C5F;
-    margin-bottom: 50px
-}
-
-.main-panel__heading.referral .main-panel__subheading .emphasizeOffer {
-    color: #11B683;
-    font-weight: 700
-}
-
-.main-panel__subheading {
-    display: block;
-    margin-top: 10px;
-    font-size: 16px;
-    color: #596377
+    transition: color .2s ease;
 }
 
 .main-panel__switch__button {
@@ -390,9 +83,8 @@ button {
     vertical-align: middle;
     background: #fff;
     border: 1px solid #C6CCD7;
-    border-radius: 100px;
+    border-radius: 6px;
     font-weight: 700;
-    font-size: 10px;
     color: #596377;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -402,44 +94,281 @@ button {
     line-height: 36px;
     text-decoration: none;
     -webkit-transition: all .2s ease;
-    transition: all .2s ease
+    transition: all .2s ease;
 }
 
-.main-panel__switch__button:focus, .main-panel__switch__button:hover {
-    color: #fff;
-    text-decoration: none;
-    box-shadow: 0 3px 12px 0 rgba(0, 0, 0, .25);
-    background-color: #F36;
-    border: 1px solid #F36
+.form__button, .form__legal, .main-panel--single .main-panel__heading,
+.main-panel__footer, .saml-button, .sso-knock-modal .content, .sso-knocking__options,
+.sso-knocking__title {
+    text-align: center
 }
 
-.main-panel__switch__button:active {
-    box-shadow: 0 1px 4px rgba(0, 0, 0, .2)
+.text--left{text-align:left}
+.text--center{text-align:center}
+.text--right{text-align:right}
+
+.form__button,.form__legal,.main-panel--single .main-panel__heading,.main-panel__footer,.saml-button,.sso-knock-modal .content,.sso-knocking__options,.sso-knocking__title{text-align:center}
+
+.everpay-logo{display:block;position:absolute;z-index:1;position:absolute;display:inline-block;vertical-align:middle;top:5px;right:35%;background:url('https://res.cloudinary.com/lmj6rf6tz/image/upload/v1496853370/everpay-rnd-logo_s7wmeh.png');background-size:120px;color:transparent;font-size:1px}
+.form__input,.form__select{height:50px;display:block;width:100%}
+@media (min-width:1076px){.everpay-logo{background-image:url('https://res.cloudinary.com/lmj6rf6tz/image/upload/v1496853370/everpay-rnd-logo_s7wmeh.png')}
+.everpay-logo--single{background-image:url('https://res.cloudinary.com/lmj6rf6tz/image/upload/v1506199019/Everpay-icon_ihn2fk.png')}}
+
+.form__group{position:relative;margin-bottom:23px}
+.form__label{display:block;font-weight:700;font-size:11px;color:#434C5E;margin-bottom:8px}
+.form__input{border:1px solid #D4D9E2;border-radius:3px;padding:15px;font-size:14px;color:#596377;outline:0;-webkit-transition:border-color .2s ease;transition:border-color .2s ease}
+.form__input::-webkit-input-placeholder{color:#C6CCD7}
+.form__input:-moz-placeholder{color:#C6CCD7}
+.form__input::-moz-placeholder{color:#C6CCD7}
+.form__input:ms-input-placeholder{color:#C6CCD7}
+.form__select,.form__select>select{color:#596377;font-size:14px;outline:0}
+.form__input:focus{border-color:#8C96A9}
+.form__input.error{border:1px solid #E73737;margin-bottom:10px}
+.form__select{border:1px solid #D4D9E2;border-radius:3px;padding:14px 15px;overflow:hidden;position:relative;-webkit-transition:border-color .2s ease;transition:border-color .2s ease}
+.form__select:after{content:"";display:block;position:absolute;right:32px;top:50%;margin-top:-4px;border-bottom:2px solid #596377;border-left:2px solid #596377;width:6px;height:6px;-webkit-transform:rotate(-45deg);-ms-transform:rotate(-45deg);transform:rotate(-45deg)}
+.form__select.focus,.form__select:focus{border-color:#596377}
+.form__select.error{border:1px solid #E73737;margin-bottom:10px}
+.form__select>select{background:0 0;border:none;font-family:"Open Sans",open-sans,sans-serif;width:110%;-webkit-appearance:none;-moz-appearance:none;appearance:none}
+.enterprise-panel__footer__lead,.enterprise-panel__header,.form__button,.main-panel__switch__button{font-family:brandon-grotesque,"Open Sans",open-sans,sans-serif}
+.form__select.form__select--empty select{color:#C6CCD7}
+.form__help{position:absolute;top:0;right:0;font-size:12px;color:#8C96A9;-webkit-transition:color .2s ease;transition:color .2s ease}
+.main-panel,.panel-wrapper{position:relative}
+.form__help:focus,.form__help:hover{color:#434C5E}
+
+.form__button {
+    display: inline-block;
+    margin: 20px auto;
+    background-color: #1ec89a;
+    border: 1px solid transparent;
+    border-radius: 100px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 60px;
+    font-size: 1em;
+    font-weight: 700;
+    color: #FFF;
+    cursor: pointer;
+    -webkit-transition: box-shadow .2s ease,border .2s ease;
+    transition: box-shadow .2s ease,border .2s ease;
 }
 
-@media (min-width:1076px) {
-    .main-panel--single {
-        margin-left: 0
-    }
+.form__button {-webkit-transition: all 0.3s; -moz-transition: all 0.3s;transition: all 0.3s;-webkit-transition: box-shadow .2s ease;transition: box-shadow .2s ease;}
+.form__button:focus,.form__button:hover{cursor:pointer; opacity: 1;box-shadow:0 3px 15px 0 rgba(0,0,0,.25)}
+.form__button:active{box-shadow:0 1px 4px rgba(0,0,0,.2)}
+.form__button {
+    display: inline-block;
+    margin: 20px auto;
+    background-color: #1ec89a!important;
+    border: 1px solid transparent;
+    border-radius: 100px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 60px;
+    font-size: 1em;
+    font-weight: 700;
+    color: #FFF!important;
+    cursor: pointer;
+    -webkit-transition: box-shadow .2s ease,border .2s ease;
+    transition: box-shadow .2s ease,border .2s ease;
+}
+.form__button--alternate{background-color:#11B683}
+.form__error{font-size:14px;font-weight:600;color:#E73737;letter-spacing:0;margin-bottom:24px}
+.form__legal,.form__legal a,.form__legal a:hover{color:#8C96A9}
+.form__legal{margin-bottom:0;padding-bottom:30px}
+.form__legal a{text-decoration:underline}
+
+.alert-dynamic,.alert-error{color:#E73737!important;}
+.alert-error{display:none}
+.alert-dynamic{display:block}
+
+.panel-wrapper{display:block;width:100%}
+
+.main-panel__switch__button {
+    border-radius: 100px!important;
+    font-weight: 600!important;
+    font-size: 0.875em!important;
+    margin-top: -5px;
+    position: relative!important;
 }
 
-.main-panel__badge {
+@media (min-width:1076px){.main-panel{margin-left:460px}}
+
+@media (min-width:1076px) and (min-height:600px){.panel-wrapper{height:100%}
+.main-panel{height:100%;overflow:auto}}
+.main-panel__switch{position:absolute;right:0;top:0;margin-top:34px;margin-bottom:46px;margin-right:5%;font-size:13px;color:#596377;letter-spacing:0;line-height:36px}
+.main-panel__switch__text{display:none}
+
+@media (min-width:600px)
+{.everpay-logo{left: 1%;top: -1%;}
+.main-panel__switch{margin-right:38px}
+.main-panel__switch__text{display:inline}}
+.main-panel__table{display:table;width:100%;height:100%}
+.main-panel__table-cell{position:relative;display:table-cell;vertical-align:middle;padding-top:80px;padding-bottom:100px}
+.main-panel__content{clear:both;width:90%;max-width:540px;margin:0 auto}
+.main-panel__footer{position:absolute;bottom:0;left:0;padding:20px;width:100%;border-top:1px solid #D4D9E2}
+.main-panel__heading{font-size:28px;font-weight:400;color:#434C5F;margin-bottom:50px}
+.main-panel__heading.referral .main-panel__subheading .emphasizeOffer{color:#11B683;font-weight:700}
+.main-panel__subheading{display:block;margin-top:10px;font-size:16px;color:#596377}
+.main-panel__switch__button{display:inline-block;vertical-align:middle;background:#fff;border:1px solid #C6CCD7;border-radius:6px;font-weight:700;color:#596377;letter-spacing:1px;text-transform:uppercase;margin-left:12px;padding:0 28px;height:36px;line-height:36px;text-decoration:none;-webkit-transition:all .2s ease;transition:all .2s ease}
+.main-panel__switch__button:focus,.main-panel__switch__button:hover{color:#fff;text-decoration:none;box-shadow:0 3px 12px 0 rgba(0,0,0,.25);background-color:#1ec89a;border:1px solid #1ec89a}
+.main-panel__switch__button:active{box-shadow:0 1px 4px rgba(0,0,0,.2)}
+
+@media (min-width:1076px){.main-panel--single{margin-left:0}}
+.main-panel__badge{display:block;width:82px;height:82px;margin:0 auto;border-radius:6px}
+
+.main-panel__badge--default{background-image:url('https://res.cloudinary.com/lmj6rf6tz/image/upload/v1496853370/everpay-rnd-logo_s7wmeh.png')
+;background-position:center;background-repeat:no-repeat;background-color:#048864}
+.feature-panel{display:none;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;position:absolute;top:0;right:0;width:460px;min-height:600px;height:100%;overflow:hidden;background:transparent;}
+
+@media (min-width:1076px){.feature-panel{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}}
+@media (min-height:600px){.feature-panel{position:relative}}
+.feature-panel--enterprise{background:none;background-size:cover;text-align:center}
+.enterprise-panel__footer{position:absolute;bottom:40px;left:55px;right:55px}
+.enterprise-panel__footer__lead{margin-bottom:15px;opacity:.39;font-size:12px!important;text-transform:uppercase;color:#434C5F;letter-spacing:.91px}
+.enterprise-panel__content{padding:0 40px}
+.enterprise-panel__header{margin-bottom:33px;opacity:.89;font-weight:600;font-size:20px;color:#434C5F;letter-spacing:1.42px;text-transform:uppercase}
+.enterprise-panel__button,.sso-knocking__title{font-family:brandon-grotesque,"Open Sans",open-sans,sans-serif;font-weight:700;text-transform:uppercase}
+.enterprise-panel__subheader{display:block;margin-bottom:17px;font-size:12px;color:#434C5F;letter-spacing:1.09px}
+.enterprise-panel__caption{margin-bottom:35px;opacity:.69;font-style:italic;font-size:14px!important;color:#434C5F;line-height:25px}
+.enterprise-panel__button{margin-bottom:40px;display:inline-block;background:#1E8FE1;border-radius:100px;font-size:10px;color:#434C5F;letter-spacing:1px;padding:0 36px;height:36px;line-height:36px;text-decoration:none;-webkit-transition:box-shadow .2s ease;transition:box-shadow .2s ease}
+.feature-panel--quotes,.sso-knocking__option-item{background-position:center;background-repeat:no-repeat}
+.enterprise-panel__button:focus,.enterprise-panel__button:hover{text-decoration:none;box-shadow:0 3px 12px 0 rgba(0,0,0,.25)}
+.feature-panel--sign-up{background-image:url('https://cdn.everpayinc.com/assets/img/login-signup/signup-photo.jpg');background-size:cover}
+.feature-panel--quotes{background-size:cover}
+.feature-panel--quotes:before{content:"";position:absolute;bottom:0;left:0;width:100%;height:480px;background-image:-webkit-linear-gradient(91deg,#141516 7%,rgba(43,51,65,0) 100%);background-image:linear-gradient(-1deg,#141516 7%,rgba(43,51,65,0) 100%)}
+
+.sso-alternate{font-size:13px;color:#596377;letter-spacing:0;text-decoration:underline}
+.sso-knocking__title{font-size:11px}
+.sso-knocking__options{display:block;margin:0 auto;padding:0;list-style:none}
+.sso-knocking__option-item{display:inline-block;width:36px;height:36px;margin-left:5px;margin-right:5px;border-radius:36px;background-size:16px 16px;background-color:#fff;-webkit-transition:box-shadow .2s ease;transition:box-shadow .2s ease;cursor:pointer}
+.sso-knocking__option-item:hover{box-shadow:0 3px 15px 0 rgba(0,0,0,.25)}
+.sso-knocking__option-item--google{background-image:url('https://cdn.everpayinc.com/assets/img/login-signup/sso-google-logo.png')}
+.sso-knocking__option-item--okta{background-image:url('https://cdn.everpayinc.com/assets/img/login-signup/sso-okta-logo.png');background-size:18px 18px}
+.sso-knocking__option-item--ping{background-image:url('https://cdn.everpayinc.com/assets/img/login-signup/sso-ping-logo.png')}
+.sso-knocking__option-item--onelogin{background-image:url('https://cdn.everpayinc.com/assets/img/login-signup/sso-onelogin-logo.png');background-size:18px 18px}
+
+.sso-knock-modal{position:fixed;z-index:1;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;top:0;left:0;height:100%;width:100%;background:rgba(255,255,255,.87)}
+.sso-knock-modal .content{width:760px;margin:0 auto;padding:75px 20px;background:#FFF;border:1px solid rgba(0,0,0,.1);box-shadow:0 0 20px 0 rgba(0,0,0,.1);border-radius:4px}
+.sso-knock-modal .title{margin-top:0;margin-bottom:12px;font-size:30px;font-weight:400;color:#434C5F}
+.button,.sso-knock-modal .back{border-radius:100px;font-family:brandon-grotesque,"Open Sans",open-sans,sans-serif;font-weight:700;letter-spacing:1px;text-transform:uppercase}
+.sso-knock-modal .message{width:430px;margin:15px auto;line-height:24px;font-size:16px;color:#8C96A9}
+.sso-knock-modal .back{display:block;margin:50px auto 30px;background:#11B683;height:50px;line-height:50px;width:200px;font-size:12px;color:#FFF;cursor:pointer;-webkit-transition:box-shadow .2s ease,border .2s ease;transition:box-shadow .2s ease,border .2s ease}
+.sso-knock-modal .back:focus,.sso-knock-modal .back:hover{box-shadow:0 3px 15px 0 rgba(0,0,0,.25)}
+.sso-knock-modal .contact{margin-top:55px;margin-bottom:0;font-size:14px}
+.sso-knock-modal .contact a{color:#1E8FE1;text-decoration:underline}
+
+.button{display:inline-block;background:#1E8FE1;font-size:10px;color:#FFF;padding:0 36px;height:36px;line-height:36px;text-decoration:none;-webkit-transition:all .2s ease;transition:all .2s ease}
+.sign-up__quote__logo--netflix,.sign-up__quote__logo--twitter,.sign-up__quote__logo--uber{background-size:100%;background-repeat:no-repeat;overflow:hidden}
+.button:hover{text-decoration:none;box-shadow:0 3px 12px 0 rgba(0,0,0,.25)}
+.button:active{box-shadow:0 1px 4px rgba(0,0,0,.2)}
+.button--link{color:#596377;background-color:transparent}
+.button--link:active,.button--link:hover{color:#434C5E;box-shadow:none;background-color:transparent}
+
+.alert{margin-bottom:23px}
+.alert--success{color:#14B876}
+.alert--error{color:#b94a48}
+
+.remember_me {
+	    margin-top: -10px;
+    font-size: 14px;
+    color: #8C96A9;
+    -webkit-transition: color .2s ease;
+    transition: color .2s ease;
+	}
+
+form.form label {
     display: block;
-    width: 82px;
-    height: 82px;
+    float: none;
+    width: 99%;
+    text-align: left;
+    padding-right: 10px;
+    /* font-weight: bold; */
+}
+
+.quotes--twitter{background-image:url('https://cdn.everpayinc.com/assets/img/login-signup/mike-davidson.jpg')}
+
+@media only screen and (min-device-pixel-ratio:2),only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){.quotes--twitter{background-image:url('https://cdn.everpayinc.com/assets/img/login-signup/mike-davidson@2x.jpg')}}
+.quotes--uber{background-image:url('https://cdn.everpayinc.com/assets/img/login-signup/molly-nix.jpg')}
+
+@media only screen and (min-device-pixel-ratio:2),only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){.quotes--uber{background-image:url('https://cdn.everpayinc.com/assets/img/login-signup/molly-nix@2x.jpg')}}
+.quotes--netflix{background-image:url('https://cdn.everpayinc.com/assets/img/login-signup/andy-law.jpg')}
+
+@media only screen and (min-device-pixel-ratio:2),only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){.quotes--netflix{background-image:url('https://cdn.everpayinc.com/assets/img/login-signup/andy-law@2x.jpg')}}
+
+.quotes__pagination{position:absolute;width:50%;bottom:40px;right:40px;margin:0;text-align:right}
+.pagination__page{cursor:pointer;display:inline-block;width:6px;height:6px;margin-left:20px;border-radius:100%;background-color:rgba(255,255,255,.5);-webkit-transition:background-color .2s ease;transition:background-color .2s ease}
+
+.pagination__page.selected{background-color:#fff}
+.sign-up__quote{display:none;position:absolute;bottom:0;left:0;right:0;padding:0 40px}
+.sign-up__quote.selected{display:block}
+.sign-up__quote__excerpt{position:relative;margin-bottom:40px;font-size:16px;font-style:italic;color:#FFF;line-height:26px;opacity:.8}
+.sign-up__quote__name{opacity:.8;font-weight:600;font-size:11px;color:#FFF;letter-spacing:1px;text-transform:uppercase}
+.sign-up__quote__logo{margin-bottom:40px}
+.sign-up__quote__logo--twitter{display:block;width:39px;height:32px;background-image:url('https://cdn.everpayinc.com/assets/img/login-signup/twitter-logo.png')}
+.sign-up__quote__logo--uber{display:block;width:119px;height:24px;background-image:url('https://cdn.everpayinc.com/assets/img/login-signup/uber-logo.png')}
+.sign-up__quote__logo--netflix{display:block;width:110px;height:31px;background-image:url('https://cdn.everpayinc.com/assets/img/login-signup/netflix-logo.png')}
+.hidden{display:none}
+.truncate-text{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+.enterprise-select-brand-title{font-size:28px;font-weight:400;color:#434C5F;margin-bottom:40px;text-align:center}
+.new-enterprise-select-brand{border-radius:5px;width:90%;max-width:540px;margin:0 auto}
+.new-enterprise-select-brand form{margin:0;padding:0}
+.new-enterprise-select-brand .new-brand-select{list-style:none;margin:0;padding:0}
+.new-enterprise-select-brand .new-brand-select li{padding:24px;color:#3e4b59;cursor:pointer;font:400 16px/1em 'Open Sans';margin-bottom:16px;background:#fff;border-radius:5px;box-shadow:0 -1px 1px 0 rgba(0,0,0,.05),0 1px 2px 0 rgba(0,0,0,.2);height:96px;position:relative}
+.new-enterprise-select-brand .new-brand-select li div,.new-enterprise-select-brand .new-brand-select li i,.new-enterprise-select-brand .new-brand-select li p{display:inline-block;margin:0;vertical-align:middle}
+.new-enterprise-select-brand .new-brand-select li p{max-width:167px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;line-height:20px;font-weight:400;color:#434C5E}
+.new-enterprise-select-brand .new-brand-select li p small{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#8C96A9;display:block;font-size:13px;font-weight:400}
+
+@media (min-width:400px){.new-enterprise-select-brand .new-brand-select li p{max-width:250px}}
+
+@media (min-width:600px){.new-enterprise-select-brand .new-brand-select li p{max-width:290px}}
+.new-enterprise-select-brand .new-brand-select li .brand-logo{width:48px;height:48px;margin-right:20px;background:#fff;border-radius:3px;overflow:hidden}
+.new-enterprise-select-brand .new-brand-select li .brand-logo.no-logo{background:#ccc}
+.new-enterprise-select-brand .new-brand-select li .brand-logo img{max-width:48px;max-height:48px}
+.new-enterprise-select-brand .new-brand-select li .brand-logo.my-inv{background:0 0}
+.new-enterprise-select-brand .new-brand-select li input{display:none}
+.new-enterprise-select-brand .new-brand-select li .form__button{display:inline;margin:0;padding:0;height:36px;width:115px;border-radius:100px;border:1px solid #a3aebf;font-family:brandon-grotesque,"Open Sans",open-sans,sans-serif;font-size:10px;text-align:center;letter-spacing:1px;text-transform:uppercase;background-color:#fff;color:#596377;cursor:pointer;line-height:0;position:absolute;right:24px;top:30px}
+.new-enterprise-select-brand .new-brand-select li:focus,.new-enterprise-select-brand .new-brand-select li:hover{background:#fff;border-radius:5px;box-shadow:0 4px 16px 0 rgba(0,0,0,.2)}
+.new-enterprise-select-brand .new-brand-select li:focus .form__button,.new-enterprise-select-brand .new-brand-select li:hover .form__button{background-color:#11B683;border-color:#11B683;color:#fff}
+.new-enterprise-select-brand .new-brand-select li:focus .form__button:focus,.new-enterprise-select-brand .new-brand-select li:focus .form__button:hover,.new-enterprise-select-brand .new-brand-select li:hover .form__button:focus,.new-enterprise-select-brand .new-brand-select li:hover .form__button:hover{box-shadow:0 0}
+@media (max-width:600px){.new-enterprise-select-brand
+.padding-override {
+    padding: 0 15px !important;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
     margin: 0 auto;
-    border-radius: 6px
 }
 
-.main-panel__badge--default {
-    background-image: url(../img/login-signup/invision-logo-inversed-white.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: #898f9a
+.form-signin .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-signin input[type="text"],
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
 .feature-panel {
-    display: none;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -452,595 +381,17 @@ button {
     top: 0;
     left: 0;
     width: 460px;
-    min-height: 600px;
     height: 100%;
     overflow: hidden;
-    background: rgba(36, 40, 56, .65)
-}
-
-@media (min-width:1076px) {
-    .feature-panel {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex
-    }
-}
-
-@media (min-height:600px) {
-    .feature-panel {
-        position: fixed
-    }
+    background: #048864;
 }
 
 .feature-panel--enterprise {
-    background: url(../img/login-signup/enterprise-panel-photo.jpg);
+    background: url();
     background-size: cover;
-    text-align: center
-}
-
-.enterprise-panel__footer {
-    position: absolute;
-    bottom: 40px;
-    left: 55px;
-    right: 55px
-}
-
-.enterprise-panel__footer__lead {
-    margin-bottom: 28px;
-    opacity: .39;
-    font-size: 11px;
-    text-transform: uppercase;
-    color: #FFF;
-    letter-spacing: .91px
-}
-
-.enterprise-panel__content {
-    padding: 0 55px
-}
-
-.enterprise-panel__header {
-    margin-bottom: 33px;
-    opacity: .89;
-    font-weight: 600;
-    font-size: 20px;
-    color: #FFF;
-    letter-spacing: 1.42px;
-    text-transform: uppercase
-}
-
-.enterprise-panel__button, .sso-knocking__title {
-    font-family: brandon-grotesque, "Open Sans", open-sans, sans-serif;
-    font-weight: 700;
-    text-transform: uppercase
-}
-
-.enterprise-panel__subheader {
-    display: block;
-    margin-bottom: 17px;
-    font-size: 12px;
-    color: #FFF;
-    letter-spacing: 1.09px
-}
-
-.enterprise-panel__caption {
-    margin-bottom: 35px;
-    opacity: .69;
-    font-style: italic;
-    font-size: 15px;
-    color: #FFF;
-    line-height: 25px
-}
-
-.enterprise-panel__button {
-    display: inline-block;
-    background: #1E8FE1;
-    border-radius: 100px;
-    font-size: 10px;
-    color: #FFF;
-    letter-spacing: 1px;
-    padding: 0 36px;
-    height: 36px;
-    line-height: 36px;
-    text-decoration: none;
-    -webkit-transition: box-shadow .2s ease;
-    transition: box-shadow .2s ease
-}
-
-.feature-panel--quotes, .sso-knocking__option-item {
-    background-position: center;
-    background-repeat: no-repeat
-}
-
-.enterprise-panel__button:focus, .enterprise-panel__button:hover {
-    text-decoration: none;
-    box-shadow: 0 3px 12px 0 rgba(0, 0, 0, .25)
-}
-
-.feature-panel--sign-up {
-    background-image: url(../img/login-signup/signup-photo.jpg);
-    background-size: cover
-}
-
-.feature-panel--quotes {
-    background-size: cover
-}
-
-.feature-panel--quotes:before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 480px;
-    background-image: -webkit-linear-gradient(91deg, #141516 7%, rgba(43, 51, 65, 0) 100%);
-    background-image: linear-gradient(-1deg, #141516 7%, rgba(43, 51, 65, 0) 100%)
-}
-
-.sso-alternate {
-    font-size: 13px;
-    color: #596377;
-    letter-spacing: 0;
-    text-decoration: underline
-}
-
-.sso-knocking__title {
-    font-size: 11px
-}
-
-.sso-knocking__options {
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-    list-style: none
-}
-
-.sso-knocking__option-item {
-    display: inline-block;
-    width: 36px;
-    height: 36px;
-    margin-left: 5px;
-    margin-right: 5px;
-    border-radius: 36px;
-    background-size: 16px 16px;
-    background-color: #fff;
-    -webkit-transition: box-shadow .2s ease;
-    transition: box-shadow .2s ease;
-    cursor: pointer
-}
-
-.sso-knocking__option-item:hover {
-    box-shadow: 0 3px 15px 0 rgba(0, 0, 0, .25)
-}
-
-.sso-knocking__option-item--google {
-    background-image: url(../img/login-signup/sso-google-logo.png)
-}
-
-.sso-knocking__option-item--okta {
-    background-image: url(../img/login-signup/sso-okta-logo.png);
-    background-size: 18px 18px
-}
-
-.sso-knocking__option-item--ping {
-    background-image: url(../img/login-signup/sso-ping-logo.png)
-}
-
-.sso-knocking__option-item--onelogin {
-    background-image: url(../img/login-signup/sso-onelogin-logo.png);
-    background-size: 18px 18px
-}
-
-.sso-knock-modal {
-    position: fixed;
-    z-index: 1;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: rgba(255, 255, 255, .87)
-}
-
-.sso-knock-modal .content {
-    width: 760px;
-    margin: 0 auto;
-    padding: 75px 20px;
-    background: #FFF;
-    border: 1px solid rgba(0, 0, 0, .1);
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .1);
-    border-radius: 4px
-}
-
-.sso-knock-modal .title {
-    margin-top: 0;
-    margin-bottom: 12px;
-    font-size: 30px;
-    font-weight: 400;
-    color: #434C5F
-}
-
-.button, .sso-knock-modal .back {
-    border-radius: 100px;
-    font-family: brandon-grotesque, "Open Sans", open-sans, sans-serif;
-    font-weight: 700;
-    letter-spacing: 1px;
-    text-transform: uppercase
-}
-
-.sso-knock-modal .message {
-    width: 430px;
-    margin: 15px auto;
-    line-height: 24px;
-    font-size: 16px;
-    color: #8C96A9
-}
-
-.sso-knock-modal .back {
-    display: block;
-    margin: 50px auto 30px;
-    background: #11B683;
-    height: 50px;
-    line-height: 50px;
-    width: 200px;
-    font-size: 12px;
-    color: #FFF;
-    cursor: pointer;
-    -webkit-transition: box-shadow .2s ease, border .2s ease;
-    transition: box-shadow .2s ease, border .2s ease
-}
-
-.sso-knock-modal .back:focus, .sso-knock-modal .back:hover {
-    box-shadow: 0 3px 15px 0 rgba(0, 0, 0, .25)
-}
-
-.sso-knock-modal .contact {
-    margin-top: 55px;
-    margin-bottom: 0;
-    font-size: 14px
-}
-
-.sso-knock-modal .contact a {
-    color: #1E8FE1;
-    text-decoration: underline
-}
-
-.button {
-    display: inline-block;
-    background: #1E8FE1;
-    font-size: 10px;
-    color: #FFF;
-    padding: 0 36px;
-    height: 36px;
-    line-height: 36px;
-    text-decoration: none;
-    -webkit-transition: all .2s ease;
-    transition: all .2s ease
-}
-
-.sign-up__quote__logo--netflix, .sign-up__quote__logo--twitter,
-.sign-up__quote__logo--uber {
-    background-size: 100%;
-    background-repeat: no-repeat;
-    overflow: hidden
-}
-
-.button:hover {
-    text-decoration: none;
-    box-shadow: 0 3px 12px 0 rgba(0, 0, 0, .25)
-}
-
-.button:active {
-    box-shadow: 0 1px 4px rgba(0, 0, 0, .2)
-}
-
-.button--link {
-    color: #596377;
-    background-color: transparent
-}
-
-.button--link:active, .button--link:hover {
-    color: #434C5E;
-    box-shadow: none;
-    background-color: transparent
-}
-
-.alert {
-    margin-bottom: 23px
-}
-
-.alert--success {
-    color: #14B876
-}
-
-.alert--error {
-    color: #b94a48
-}
-
-.quotes--twitter {
-    background-image: url(../img/login-signup/mike-davidson.jpg)
-}
-
-@media only screen and (min-device-pixel-ratio:2), only screen and (-webkit-min-device-pixel-ratio:2), only screen and (min-resolution:192dpi), only screen and (min-resolution:2dppx) {
-    .quotes--twitter {
-        background-image: url(../img/login-signup/mike-davidson%402x.jpg)
-    }
-}
-
-.quotes--uber {
-    background-image: url(../img/login-signup/molly-nix.jpg)
-}
-
-@media only screen and (min-device-pixel-ratio:2), only screen and (-webkit-min-device-pixel-ratio:2), only screen and (min-resolution:192dpi), only screen and (min-resolution:2dppx) {
-    .quotes--uber {
-        background-image: url(../img/login-signup/molly-nix%402x.jpg)
-    }
-}
-
-.quotes--netflix {
-    background-image: url(../img/login-signup/andy-law.jpg)
-}
-
-@media only screen and (min-device-pixel-ratio:2), only screen and (-webkit-min-device-pixel-ratio:2), only screen and (min-resolution:192dpi), only screen and (min-resolution:2dppx) {
-    .quotes--netflix {
-        background-image: url(../img/login-signup/andy-law%402x.jpg)
-    }
-}
-
-.quotes__pagination {
-    position: absolute;
-    width: 50%;
-    bottom: 40px;
-    right: 40px;
-    margin: 0;
-    text-align: right
-}
-
-.pagination__page {
-    cursor: pointer;
-    display: inline-block;
-    width: 6px;
-    height: 6px;
-    margin-left: 20px;
-    border-radius: 100%;
-    background-color: rgba(255, 255, 255, .5);
-    -webkit-transition: background-color .2s ease;
-    transition: background-color .2s ease
-}
-
-.pagination__page.selected {
-    background-color: #fff
-}
-
-.sign-up__quote {
-    display: none;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 0 40px
-}
-
-.sign-up__quote.selected {
-    display: block
-}
-
-.sign-up__quote__excerpt {
-    position: relative;
-    margin-bottom: 40px;
-    font-size: 16px;
-    font-style: italic;
-    color: #FFF;
-    line-height: 26px;
-    opacity: .8
-}
-
-.sign-up__quote__name {
-    opacity: .8;
-    font-weight: 600;
-    font-size: 11px;
-    color: #FFF;
-    letter-spacing: 1px;
-    text-transform: uppercase
-}
-
-.sign-up__quote__logo {
-    margin-bottom: 40px
-}
-
-.sign-up__quote__logo--twitter {
-    display: block;
-    width: 39px;
-    height: 32px;
-    background-image: url(../img/login-signup/twitter-logo.png)
-}
-
-.sign-up__quote__logo--uber {
-    display: block;
-    width: 119px;
-    height: 24px;
-    background-image: url(../img/login-signup/uber-logo.png)
-}
-
-.sign-up__quote__logo--netflix {
-    display: block;
-    width: 110px;
-    height: 31px;
-    background-image: url(../img/login-signup/netflix-logo.png)
-}
-
-.hidden {
-    display: none
-}
-
-.truncate-text {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap
-}
-
-.enterprise-select-brand-title {
-    font-size: 28px;
-    font-weight: 400;
-    color: #434C5F;
-    margin-bottom: 40px;
-    text-align: center
-}
-
-.new-enterprise-select-brand {
-    border-radius: 5px;
-    width: 90%;
-    max-width: 540px;
-    margin: 0 auto
-}
-
-.new-enterprise-select-brand form {
-    margin: 0;
-    padding: 0
-}
-
-.new-enterprise-select-brand .new-brand-select {
-    list-style: none;
-    margin: 0;
-    padding: 0
-}
-
-.new-enterprise-select-brand .new-brand-select li {
-    padding: 24px;
-    color: #3e4b59;
-    cursor: pointer;
-    font: 400 16px / 1em 'Open Sans';
-    margin-bottom: 16px;
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 -1px 1px 0 rgba(0, 0, 0, .05), 0 1px 2px 0 rgba(0, 0, 0, .2);
-    height: 96px;
-    position: relative
-}
-
-.new-enterprise-select-brand .new-brand-select li div, .new-enterprise-select-brand .new-brand-select li i,
-.new-enterprise-select-brand .new-brand-select li p {
-    display: inline-block;
-    margin: 0;
-    vertical-align: middle
-}
-
-.new-enterprise-select-brand .new-brand-select li p {
-    max-width: 167px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    line-height: 20px;
-    font-weight: 400;
-    color: #434C5E
-}
-
-.new-enterprise-select-brand .new-brand-select li p small {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    color: #8C96A9;
-    display: block;
-    font-size: 13px;
-    font-weight: 400
-}
-
-@media (min-width:400px) {
-    .new-enterprise-select-brand .new-brand-select li p {
-        max-width: 250px
-    }
-}
-
-@media (min-width:600px) {
-    .new-enterprise-select-brand .new-brand-select li p {
-        max-width: 290px
-    }
-}
-
-.new-enterprise-select-brand .new-brand-select li .brand-logo {
-    width: 48px;
-    height: 48px;
-    margin-right: 20px;
-    background: #fff;
-    border-radius: 3px;
-    overflow: hidden
-}
-
-.new-enterprise-select-brand .new-brand-select li .brand-logo.no-logo {
-    background: #ccc
-}
-
-.new-enterprise-select-brand .new-brand-select li .brand-logo img {
-    max-width: 48px;
-    max-height: 48px
-}
-
-.new-enterprise-select-brand .new-brand-select li .brand-logo.my-inv {
-    background: 0 0
-}
-
-.new-enterprise-select-brand .new-brand-select li input {
-    display: none
-}
-
-.new-enterprise-select-brand .new-brand-select li .form__button {
-    display: inline;
-    margin: 0;
-    padding: 0;
-    height: 36px;
-    width: 115px;
-    border-radius: 100px;
-    border: 1px solid #a3aebf;
-    font-family: brandon-grotesque, "Open Sans", open-sans, sans-serif;
-    font-size: 10px;
     text-align: center;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    background-color: #fff;
-    color: #596377;
-    cursor: pointer;
-    line-height: 0;
-    position: absolute;
-    right: 24px;
-    top: 30px
+    background: #048864;
 }
-
-.new-enterprise-select-brand .new-brand-select li:focus, .new-enterprise-select-brand .new-brand-select li:hover {
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .2)
-}
-
-.new-enterprise-select-brand .new-brand-select li:focus .form__button,
-.new-enterprise-select-brand .new-brand-select li:hover .form__button {
-    background-color: #11B683;
-    border-color: #11B683;
-    color: #fff
-}
-
-.new-enterprise-select-brand .new-brand-select li:focus .form__button:focus,
-.new-enterprise-select-brand .new-brand-select li:focus .form__button:hover,
-.new-enterprise-select-brand .new-brand-select li:hover .form__button:focus,
-.new-enterprise-select-brand .new-brand-select li:hover .form__button:hover {
-    box-shadow: 0 0
-}
-
-@media (max-width:600px) {
-    .new-enterprise-select-brand .new-brand-select li .form__button {
-        display: none
-    }
-}
+	
 
 
