@@ -18,6 +18,13 @@ button, button:active, button:focus {
     box-sizing: border-box
 }
 
+.box-highlight {
+padding: 40px!important;
+margin-top: 20px;
+background: #f9f9f9;
+border-radius:25px;
+}
+
 body, html {
     height: 100%;
     margin: 0;
