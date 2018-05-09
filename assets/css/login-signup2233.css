@@ -19,10 +19,13 @@ button, button:active, button:focus {
 }
 
 .box-highlight {
-padding: 40px!important;
+padding-top: 40px!important;
+padding-bottom: 40px!important;	
 margin-top: 20px;
-background: #ffffff!important;
-border-radius:25px;
+background: #fff;
+border-radius: 25px;
+padding-right: 40px!important;
+padding-left: 0px;
 }
 
 body, html {
