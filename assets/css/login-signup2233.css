@@ -107,7 +107,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 
 .form__button,.form__legal,.main-panel--single .main-panel__heading,.main-panel__footer,.saml-button,.sso-knock-modal .content,.sso-knocking__options,.sso-knocking__title{text-align:center}
 
-.everpay-logo{display:block;position:absolute;z-index:10;display:inline-block;vertical-align:middle;top:5%!important;left:2%!important;background:url('https://res.cloudinary.com/lmj6rf6tz/image/upload/v1496853334/Everpaylogo-261x67_jrwizm.png') no-repeat;width:180px!important;background-size:90%;color:transparent;font-size:1px}
+.everpay-logo{display:block;position:absolute;z-index:10;display:inline-block;vertical-align:middle;top:5%!important;left:5%!important;background:url('https://res.cloudinary.com/lmj6rf6tz/image/upload/v1496853334/Everpaylogo-261x67_jrwizm.png') no-repeat;width:180px!important;background-size:90%;color:transparent;font-size:1px}
 .form__input,.form__select{height:50px;display:block;width:100%}
 @media (min-width:1076px){.everpay-logo{background-image:url('https://res.cloudinary.com/lmj6rf6tz/image/upload/v1496853334/Everpaylogo-261x67_jrwizm.png')no-repeat}
 .everpay-logo--single{background-image:url('https://res.cloudinary.com/lmj6rf6tz/image/upload/v1506199019/Everpay-icon_ihn2fk.png')}}
