@@ -413,48 +413,17 @@ form.form label {
 	
 
 
-.wizard-container {
+.panel-wrapper .wizard-container {
   padding-top: 100px;
   z-index: 3;
 }
-.wizard-container .wizard-navigation {
+.panel-wrapper .wizard-container .wizard-navigation {
   position: relative;
 }
 
-h1, .h1 {
-  font-size: 3.8em;
-  line-height: 1.15em;
-}
-
-h2, .h2 {
-  font-size: 2.6em;
-}
-
-h3, .h3 {
-  font-size: 1.825em;
-  line-height: 1.4em;
-  margin: 20px 0 10px;
-}
-
-h4, .h4 {
-  font-size: 1.3em;
-  line-height: 1.4em;
-}
-
-h5, .h5 {
-  font-size: 1.25em;
-  line-height: 1.4em;
-  margin-bottom: 15px;
-}
-
-h6, .h6 {
-  font-size: 0.9em;
-  text-transform: uppercase;
-}
-
-.title,
-.card-title,
-.wizard-title {
+.panel-wrapper .title,
+.panel-wrapper .card-title,
+.panel-wrapper .wizard-title {
   font-weight: 700;
 }
 .title,
@@ -467,11 +436,8 @@ h6, .h6 {
   text-decoration: none;
 }
 
-h2.title {
-  margin-bottom: 30px;
-}
 
-.description,
+.panel-wrapper .description,
 .card-description,
 .footer-big p {
   color: #999999;
@@ -497,7 +463,7 @@ h2.title {
   color: #00bcd4;
 }
 
-.card {
+.panel-wrapper .card {
   background-color: #FFFFFF;
   padding: 10px 0;
   width: 100%;
@@ -506,16 +472,16 @@ h2.title {
   background: #fff;
 }
 
-.wizard-card {
+.panel-wrapper .wizard-card {
   min-height: 410px;
   box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
-.wizard-card .picture-container {
+.panel-wrapper .wizard-card .picture-container {
   position: relative;
   cursor: pointer;
   text-align: center;
 }
-.wizard-card .picture {
+.panel-wrapper .wizard-card .picture {
   width: 106px;
   height: 106px;
   background-color: #999999;
@@ -527,10 +493,10 @@ h2.title {
   transition: all 0.2s;
   -webkit-transition: all 0.2s;
 }
-.wizard-card .picture:hover {
+.panel-wrapper .wizard-card .picture:hover {
   border-color: #2ca8ff;
 }
-.wizard-card[data-color="purple"] .moving-tab {
+.panel-wrapper .wizard-card[data-color="purple"] .moving-tab {
   position: absolute;
   text-align: center;
   padding: 12px;
@@ -565,7 +531,7 @@ h2.title {
 .wizard-card[data-color="purple"] .radio input[type=radio]:checked ~ .circle {
   border-color: #9c27b0;
 }
-.wizard-card[data-color="green"] .moving-tab {
+.panel-wrapper .wizard-card[data-color="green"] .moving-tab {
   position: absolute;
   text-align: center;
   padding: 12px;
@@ -581,23 +547,23 @@ h2.title {
   font-weight: 500;
   box-shadow: 0 16px 26px -10px rgba(76, 175, 80, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(76, 175, 80, 0.2);
 }
-.wizard-card[data-color="green"] .picture:hover {
+.panel-wrapper .wizard-card[data-color="green"] .picture:hover {
   border-color: #4caf50;
 }
-.wizard-card[data-color="green"] .choice:hover .icon, .wizard-card[data-color="green"] .choice.active .icon {
+.panel-wrapper .wizard-card[data-color="green"] .choice:hover .icon, .wizard-card[data-color="green"] .choice.active .icon {
   border-color: #4caf50;
   color: #4caf50;
 }
-.wizard-card[data-color="green"] .form-group .form-control {
+.panel-wrapper .wizard-card[data-color="green"] .form-group .form-control {
   background-image: linear-gradient(#4caf50, #4caf50), linear-gradient(#D2D2D2, #D2D2D2);
 }
-.wizard-card[data-color="green"] .checkbox input[type=checkbox]:checked + .checkbox-material .check {
+.panel-wrapper .wizard-card[data-color="green"] .checkbox input[type=checkbox]:checked + .checkbox-material .check {
   background-color: #4caf50;
 }
-.wizard-card[data-color="green"] .radio input[type=radio]:checked ~ .check {
+.panel-wrapper .wizard-card[data-color="green"] .radio input[type=radio]:checked ~ .check {
   background-color: #4caf50;
 }
-.wizard-card[data-color="green"] .radio input[type=radio]:checked ~ .circle {
+.panel-wrapper .wizard-card[data-color="green"] .radio input[type=radio]:checked ~ .circle {
   border-color: #4caf50;
 }
 .wizard-card[data-color="blue"] .moving-tab {
@@ -705,7 +671,7 @@ h2.title {
 .wizard-card[data-color="red"] .radio input[type=radio]:checked ~ .circle {
   border-color: #f44336;
 }
-.wizard-card .picture input[type="file"] {
+.panel-wrapper .wizard-card .picture input[type="file"] {
   cursor: pointer;
   display: block;
   height: 100%;
@@ -718,7 +684,7 @@ h2.title {
 .wizard-card .picture-src {
   width: 100%;
 }
-.wizard-card .tab-content {
+.panel-wrapper .wizard-card .tab-content {
   min-height: 340px;
   padding: 20px 15px;
 }
@@ -731,7 +697,7 @@ h2.title {
 .wizard-card .disabled {
   display: none;
 }
-.wizard-card .wizard-header {
+.panel-wrapper .wizard-card .wizard-header {
   text-align: center;
   padding: 25px 0 35px;
 }
