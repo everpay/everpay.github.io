@@ -14,6 +14,7 @@ button, button:active, button:focus {
     text-transform: uppercase
 }
 
+
 * {
     box-sizing: border-box
 }
@@ -405,14 +406,12 @@ form.form label {
     width: 43%;
     height: 100%;
     overflow: hidden;
-    background: #048864;
 }
 
 .feature-panel--enterprise {
     background: url(https://res.cloudinary.com/lmj6rf6tz/image/upload/v1491557710/monica-replacement_zc3anj.png);
     background-size: cover;
     text-align: center;
-    background: #048864;
 }
 	
 
