@@ -76,7 +76,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 }
 
 
-.feature-panel .feature-panel--enterprise:before {
+.feature-panel:before {
 content: "";
 position: absolute;
 top: 0;
