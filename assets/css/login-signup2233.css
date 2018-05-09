@@ -236,7 +236,7 @@ z-index: 1;
 .enterprise-panel__content{padding:0 40px;z-index: 2;}
 .enterprise-panel__header{margin-bottom:33px;opacity:.89;font-weight:600;font-size:20px;color:#FFFFFF;letter-spacing:1.42px;text-transform:uppercase}
 .enterprise-panel__button,.sso-knocking__title{font-family:brandon-grotesque,"Open Sans",open-sans,sans-serif;font-weight:700;text-transform:uppercase}
-.enterprise-panel__subheader{display:block;margin-bottom:17px;font-size:12px;color:#FFFFFF;letter-spacing:1.09px}
+.enterprise-panel__subheader{display:block;margin-bottom:17px;font-size:15px;color:#FFFFFF;letter-spacing:1.09px}
 .enterprise-panel__caption{margin-bottom:35px;opacity:.69;font-style:italic;font-size:14px!important;color:#FCFCFC;line-height:25px}
 .enterprise-panel__button{margin-bottom:40px;display:inline-block;background:#1E8FE1;border-radius:100px;font-size:10px;color:#FFFFFF;letter-spacing:1px;padding:0 36px;height:36px;line-height:36px;text-decoration:none;-webkit-transition:box-shadow .2s ease;transition:box-shadow .2s ease}
 .feature-panel--quotes,.sso-knocking__option-item{background-position:center;background-repeat:no-repeat}
