@@ -56,9 +56,6 @@ button {
 
 html{box-sizing:border-box}input[type="text"],input[type="email"],input[type="search"],input[type="password"]{-webkit-appearance:none;-moz-appearance:none}
 html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
-body {
-    background: #048864!important; margin:0;
-}
 
 .navbar {
     display: none;
