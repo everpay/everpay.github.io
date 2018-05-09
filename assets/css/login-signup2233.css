@@ -242,7 +242,7 @@ top: 0;
 right: 0;
 bottom: 0;
 left: 0;
-background: rgba(61, 72, 112, 0.8);
+background: #048864;
 z-index: 1;
 }
 .enterprise-panel__footer{position:absolute;bottom:40px;left:55px;right:55px;color:#FFFFFF;z-index:2;}
