@@ -246,6 +246,9 @@ left: 0;
 background: #048864;
 opacity: 0.85;
 z-index: 1;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
 }
 .enterprise-panel__footer{position:absolute;bottom:40px;left:55px;right:55px;color:#FFFFFF;z-index:2;}
 .enterprise-panel__footer__lead{margin-bottom:15px;opacity:.75;font-size:12px!important;text-align:center;text-transform:uppercase;color:#FFFFFF;letter-spacing:.91px}
