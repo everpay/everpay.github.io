@@ -51,9 +51,8 @@ body {
     position: relative;
     z-index: 1;
     height: 100%;
-    padding: 35px 0!important;
+    padding: 5px 0!important;
     margin-top: 0px;
-	
     margin-bottom: 0px;
 }
 
@@ -62,7 +61,7 @@ body {
     display: table-cell;
     vertical-align: middle;
     padding-top: 100px;
-    padding-bottom: 0px;
+    padding-bottom: 100px;
 }
 
 .btn-primary, .fc-today-button {
