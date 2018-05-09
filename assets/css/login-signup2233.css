@@ -204,9 +204,9 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 .main-panel__table-cell{position:relative;display:table-cell;vertical-align:middle;padding-top:80px;padding-bottom:100px}
 .main-panel__content{clear:both;width:90%;max-width:540px;margin:0 auto}
 .main-panel__footer{position:absolute;bottom:0;left:0;padding:20px;width:100%;border-top:1px solid #D4D9E2}
-.main-panel__heading{font-size:28px;font-weight:400;color:#434C5F;margin-bottom:50px}
+.main-panel__heading{font-size:36px;font-weight:700;color:#434C5F;margin-bottom:50px}
 .main-panel__heading.referral .main-panel__subheading .emphasizeOffer{color:#11B683;font-weight:700}
-.main-panel__subheading{display:block;margin-top:10px;font-size:16px;color:#596377}
+.main-panel__subheading{display:block;margin-top:12px;font-size:16px;color:#596377}
 .main-panel__switch__button{display:inline-block;vertical-align:middle;background:#fff;border:1px solid #C6CCD7;border-radius:6px;font-weight:700;color:#596377;letter-spacing:1px;text-transform:uppercase;margin-left:12px;padding:0 28px;height:36px;line-height:36px;text-decoration:none;-webkit-transition:all .2s ease;transition:all .2s ease}
 .main-panel__switch__button:focus,.main-panel__switch__button:hover{color:#fff;text-decoration:none;box-shadow:0 3px 12px 0 rgba(0,0,0,.25);background-color:#1ec89a;border:1px solid #1ec89a}
 .main-panel__switch__button:active{box-shadow:0 1px 4px rgba(0,0,0,.2)}
