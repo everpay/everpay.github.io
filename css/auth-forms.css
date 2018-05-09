@@ -50,8 +50,10 @@ body {
 .tp--diagonal {
     position: relative;
     z-index: 1;
+    height: 100%;
     padding: 35px 0!important;
     margin-top: 0px;
+	
     margin-bottom: 0px;
 }
 
@@ -60,7 +62,7 @@ body {
     display: table-cell;
     vertical-align: middle;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 0px;
 }
 
 .btn-primary, .fc-today-button {
@@ -442,7 +444,6 @@ form.form label {
     top: 0;
     left: 0;
     width: 460px;
-    min-height:600px;
     height: 100%;
     overflow: hidden;
     background: #048864;
@@ -456,7 +457,7 @@ form.form label {
 }
 	
 .enterprise-panel__footer__lead {
-    margin-bottom: 28px;
+    margin-bottom: 2px;
     opacity: .39;
     font-size: 11px;
     text-transform: uppercase;
