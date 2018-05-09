@@ -14209,11 +14209,11 @@ height: 100%;
 }
 
 @media (min-width: 1200px){
-.body-container, .hero--nu2-landing, .blog .blog-content-group, .blog .blog-comment-group, .blog .blog-pagination, .blog .cta-group, .resources .featured, .resources .stories, .resources .papers, .resources .sheets, .resources .other, .resources .feed, .resources .trusted .row-fluid-wrapper, .resources .cta-group .widget-type-raw_jinja, .navigation-page__wrap, .container, .nu2-landing.thank-you .thankyou-content, .nu2-landing.thank-you .recommended, .header {
+.body-container, .hero--nu2-landing, .blog .blog-content-group, .blog .blog-comment-group, .blog .blog-pagination, .blog .cta-group, .resources .featured, .resources .stories, .resources .papers, .resources .sheets, .resources .other, .resources .feed, .resources .trusted .row-fluid-wrapper, .resources .cta-group .widget-type-raw_jinja, .navigation-page__wrap, .nu2-landing.thank-you .thankyou-content, .nu2-landing.thank-you .recommended, .header {
     width: 1170px;
 }}
 
-.body-container, .hero--nu2-landing, .blog .blog-content-group, .blog .blog-comment-group, .blog .blog-pagination, .blog .cta-group, .resources .featured, .resources .stories, .resources .papers, .resources .sheets, .resources .other, .resources .feed, .resources .trusted .row-fluid-wrapper, .resources .cta-group .widget-type-raw_jinja, .navigation-page__wrap, .container, .nu2-landing.thank-you .thankyou-content, .nu2-landing.thank-you .recommended, .header {
+.body-container, .hero--nu2-landing, .blog .blog-content-group, .blog .blog-comment-group, .blog .blog-pagination, .blog .cta-group, .resources .featured, .resources .stories, .resources .papers, .resources .sheets, .resources .other, .resources .feed, .resources .trusted .row-fluid-wrapper, .resources .cta-group .widget-type-raw_jinja, .navigation-page__wrap, .nu2-landing.thank-you .thankyou-content, .nu2-landing.thank-you .recommended, .header {
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
@@ -14468,13 +14468,6 @@ height: 100%;
 	    float: left;
 }
 
-.body-container, .hero--nu2-landing, .blog .blog-content-group, .blog .blog-comment-group, .blog .blog-pagination, .blog .cta-group, .resources .featured, .resources .stories, .resources .papers, .resources .sheets, .resources .other, .resources .feed, .resources .trusted .row-fluid-wrapper, .resources .cta-group .widget-type-raw_jinja, .navigation-page__wrap, .container, .nu2-landing.thank-you .thankyou-content, .nu2-landing.thank-you .recommended, .header {
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    min-width: 320px;
-}
 
 .row-fluid [class*="span"] {
     min-height: 1px;
