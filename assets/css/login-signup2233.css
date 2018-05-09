@@ -216,7 +216,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 
 .main-panel__badge--default{background-image:url('https://res.cloudinary.com/lmj6rf6tz/image/upload/v1496853370/everpay-rnd-logo_s7wmeh.png')
 ;background-position:center;background-repeat:no-repeat;background-color:#048864}
-.feature-panel{display:none;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;position:absolute;top:0;right:0;width:40%;min-height:600px;height:100%;overflow:hidden;background:transparent;}
+.feature-panel{display:none;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;position:absolute;top:0;right:0;width:35%;min-height:600px;height:100%;overflow:hidden;background:transparent;}
 
 @media (min-width:1076px){.feature-panel{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}}
 @media (min-height:600px){.feature-panel{position:absolute}}
