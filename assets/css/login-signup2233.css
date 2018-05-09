@@ -75,10 +75,15 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
     transition: color .2s ease;
 }
 
-feature-panel feature-panel--enterprise {
-display: flex;
-width: 42%;
-position: relative;
+
+.feature-panel .feature-panel--enterprise:before {
+content: "";
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background: rgba(61, 72, 112, 0.8);
 z-index: 1;
 }
 
