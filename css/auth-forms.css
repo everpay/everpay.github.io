@@ -50,7 +50,7 @@ body {
 .tp--diagonal {
     position: relative;
     z-index: 1;
-    height: 100%;
+    height: auto;
     padding: 5px 0!important;
     margin-top: 0px;
     margin-bottom: 0px;
