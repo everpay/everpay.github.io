@@ -4361,6 +4361,9 @@ Licensed under MIT
     font-size: 16px;
     border: 1px solid transparent;
     border-radius: 0.65rem;
+    z-index: 1000;
+    width: 100%!important;
+    position: absolute;
 }
 
 .alert-purple { border-color: #694D9F;background: #694D9F;color: #fff; }
