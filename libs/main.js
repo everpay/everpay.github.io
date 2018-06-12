@@ -309,6 +309,25 @@ function owlCarousel() {
     items: 3
  
  });
+
+ $(".#clients").owlCarousel({
+
+    autoPlay: 1000, //Set AutoPlay to 1 seconds
+    nav: false,
+	dots: true,
+    items: 15
+ 
+ });	
+	
+ $(".#why-us").owlCarousel({
+
+    autoPlay: 1000, //Set AutoPlay to 1 seconds
+    nav: false,
+	dots: true,
+    items: 4
+ 
+ });	
+	
 }
 
 
