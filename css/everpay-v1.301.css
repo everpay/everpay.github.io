@@ -5768,7 +5768,7 @@ footer .site-footer-links  ul {
 .tp--portfolio.tp--portfolio-hover-2 .tp--portfolio-grid .tp--portfolio-item {
   float: left;
   padding: 0px;
-  position: relative!important;
+  position: relative;
   overflow: hidden;
   height: 297px;
   margin-top: 0;
