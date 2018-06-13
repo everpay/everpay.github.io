@@ -299,34 +299,6 @@ function owlCarousel() {
           }
       }, el.data('carousel-options')));
   });
-  
-   
- $("#testimonials").owlCarousel({
-
-    autoPlay: 3000, //Set AutoPlay to 3 seconds
-    nav: false,
-    dots: false,
-    items: 3
- 
- });
-
- $("#clients").owlCarousel({
-
-    autoPlay: 1000, //Set AutoPlay to 1 seconds
-    nav: false,
-    dots: false,
-    items: 5
- 
- });	
-	
- $(".#why-us").owlCarousel({
-
-    autoPlay: 1000, //Set AutoPlay to 1 seconds
-    nav: false,
-    dots: false,
-    items: 3
- 
- });	
 	
 }
 
