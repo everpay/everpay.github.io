@@ -301,21 +301,21 @@ function owlCarousel() {
   });
   
    
- $(".#testimonials").owlCarousel({
+ $("#testimonials").owlCarousel({
 
     autoPlay: 3000, //Set AutoPlay to 3 seconds
     nav: false,
-	dots: true,
+    dots: false,
     items: 3
  
  });
 
- $(".#clients").owlCarousel({
+ $("#clients").owlCarousel({
 
     autoPlay: 1000, //Set AutoPlay to 1 seconds
     nav: false,
-	dots: true,
-    items: 15
+    dots: false,
+    items: 5
  
  });	
 	
@@ -323,8 +323,8 @@ function owlCarousel() {
 
     autoPlay: 1000, //Set AutoPlay to 1 seconds
     nav: false,
-	dots: true,
-    items: 4
+    dots: false,
+    items: 3
  
  });	
 	
