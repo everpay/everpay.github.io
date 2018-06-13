@@ -1,19 +1,30 @@
 ---
 layout: default
 ---
-<section id="featured1" class="tp--section tp--section-dark tp--pattern-1 tp--hero tp--padding-md">
-      <div class="container">
-        <div class="row tp--col-sm-vertical-align">
-          <div class="col-md-12 text-center text-md-left post-header p-top-md-40">
-    <h1 class="text-center post-title">
-     <hr class="dash dash--center dash--white">
-          {{ page.title }}</h1>
-            </div>
-          </div>
-        </div>
-</section>
 
-<section class="tp--section p-top-sm-0 p-bottom-sm-0">
+
+  <!-- Inner Page Header
+    ================================================== -->
+    <section class="tp--inner-header tp--section tp--section-with-bg-overlay tp--section-with-bg-cover tp--height-50 text-center" style="background: url('images/bg-intro-1.jpg');">
+
+      <div class="container tp--vertical-align">
+        
+        <div class="row">
+          
+          <div class="col-xs-12">
+            
+            <h2>{{ page.title }}</h2>
+            <p>{{ page.subtitle }}</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+<section class="tp--section p-top-sm-0 m-bottom-sm-40">
     <div class="aos-init aos-animate" data-aos="fade-up" data-aos-duration="750">
         <div class="row-fluid clearfix">
     {{ content }}
