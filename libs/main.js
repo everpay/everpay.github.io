@@ -278,23 +278,28 @@ function owlCarousel() {
       var el = $(this);
       el.owlCarousel($.extend({
           loop: true,
-          items: 4,
+          items: 6,
           nav: false,
           dots: false,
           margin: 0,
-          navText : ['<i class="fa fa-chevron-left fa-lg" aria-hidden="true"></i>','<i class="fa fa-chevron-right fa-lg" aria-hidden="true"></i>'],
-          responsive:{
+            responsive:{
             0: {
               items: 1
             },
-            600: {
+            500: {
               items: 2
             },
             700: {
               items: 3
             },
-            1300: {
+	    900: {
               items: 4
+            },	    
+	    1300: {
+              items: 5
+            },	    
+            1700: {
+              items: 6
             }
           }
       }, el.data('carousel-options')));
