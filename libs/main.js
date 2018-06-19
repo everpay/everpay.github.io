@@ -280,7 +280,7 @@ function owlCarousel() {
           loop: true,
           items: 6,
           nav: false,
-          dots: false,
+          dots: true,
           margin: 0,
             responsive:{
             0: {
