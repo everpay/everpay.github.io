@@ -279,8 +279,8 @@ function owlCarousel() {
       el.owlCarousel($.extend({
           loop: true,
           items: 6,
-          nav: false,
-          dots: true,
+          nav: true,
+          dots: false,
           margin: 0,
             responsive:{
             0: {
