@@ -1,2 +1,1 @@
-# Redirect default Netlify subdomain to primary domain
-https://geteverpay.netlify.com/* https://www.everpayinc.com/:splat 301!
+
