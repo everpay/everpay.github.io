@@ -1,6 +1,6 @@
 ---
 layout: 404page
-title: Error - Page Not Found
+title: Error 404
 description: This page does not exist
 permalink: /404.html
 sitemap: false
@@ -22,7 +22,11 @@ sitemap: false
 #footer {
     display: none!important;
 }
-  
+
+.tp--hero h1 {
+    color:#FFFFFF;
+}
+	
 body {
   background: url('https://res.cloudinary.com/lmj6rf6tz/image/upload/v1496224834/error-404_wyhkbe.png') no-repeat center center fixed #048864;
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
@@ -146,17 +150,16 @@ body a:hover {
 
 <div class="clearfix"> </div>
 
-<div class="container">
-<div class="row-fluid clearfix text-center">
+<div class="container p-top-sm-60 p-bottom-sm-100">
+<div class="row clearfix text-center">
               
 <div class="col-sm-12">
-<div class="error-message-container">
+<div class="error-message-container tp--section p-top-sm-0 p-bottom-sm-0">
 
 		<a href="{{ .Site.BaseURL }}" class="logo"></a>
 
 		<div class="error-message">
-      <h1><b>Error 404:</b> </h1>
-			<p class="title">Page Not Found</p>
+			<h1 class="title">Page Not Found</h1>
 			<p class="message">The link you clicked may be broken or it's pointing to something that doesn't exist.</p>
 			<p class="small">You can <a class="" href="{{ .Site.BaseURL }}"> Go Back</a> or <a href="https://everpayinc.com/company/contact" title="Learn more about EverPay">contact us</a> about the problem</p>
 		</div>
