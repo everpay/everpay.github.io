@@ -6,6 +6,140 @@ permalink: /404.html
 sitemap: false
 ---
 
+<style rel="stylesheet" type="text/css">
+  
+.tp--header {
+    display: none!important;
+}
+ 
+#footer.tp--footer.tp--diagonal {
+    display: none;
+}
+
+#footer {
+    display: none!important;
+}
+  
+body {
+  background: url('https://res.cloudinary.com/lmj6rf6tz/image/upload/v1496224834/error-404_wyhkbe.png') no-repeat center center fixed #048864;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  background-size: 560px;
+background-position-x: 20%;
+  -webkit-font-smoothing: antialiased;
+  margin: 0px;
+  display: table;
+  vertical-align: middle;
+}
+body a {
+  text-decoration: none;
+    color: #cecece;
+}
+body a:hover {
+  color: #cccccc;
+    text-decoration: none;
+}
+
+.error-message-container {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  text-align: center;
+}
+
+.logo {
+  position: absolute;
+  background: top center no-repeat;
+  background-image: url('https://res.cloudinary.com/lmj6rf6tz/image/upload/v1496853334/Everpaylogo-261x67_jrwizm.png');
+  background: 125px;
+  display: block;
+  width: 160px;
+  height: 58px;
+  top: 85px;
+  left: 45%;
+  margin-left: -15px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .logo {
+    background-image: url('https://res.cloudinary.com/lmj6rf6tz/image/upload/v1496853334/Everpaylogo-261x67_jrwizm.png');
+    background-size: 50px 168px;
+  }
+}
+
+.error-message {
+  max-width: 960px;
+  margin: 0px auto;
+  padding: 80px 20px 30px 20px;
+}
+
+.title {
+  font-size: 4.5em;
+  font-weight: 600;
+      font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0.1em;
+    color: #fcfcfc;
+    text-shadow: 0px 1px 0px #000000;
+    line-height: 1.5;
+  letter-spacing: 2px;
+  margin-top: -180px;
+}
+
+.message {
+  color: #ffffff;
+  text-shadow: 0px 1px 0px #000000;
+  font-weight: 500;
+  margin-top: 0.75em;
+  font-size:  1.65em;
+   margin-bottom: 1em;
+}
+
+.small {
+  font-family: inherit;
+  color: #ffffff;
+  text-shadow: 0px 1px 0px #000000;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+    font-size:  1.45em;
+}
+
+@media (max-height: 750px) {
+  .title {
+    margin-top: -100px;
+  }
+}
+@media (max-height: 500px) {
+  .title {
+    margin-top: 0px;
+  }
+}
+@media (max-height: 580px) {
+  .logo {
+    top: 40px;
+  }
+}
+@media (max-height: 370px) {
+  .logo {
+    top: 20px;
+  }
+}
+@media (max-width: 475px) {
+  .title {
+    font-size: 35px;
+  }
+
+  .message {
+    font-size: 20px;
+  }
+
+  .small {
+    width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+    </style>
 
 <div class="clearfix"> </div>
 
@@ -13,11 +147,18 @@ sitemap: false
 <div class="row-fluid clearfix text-center">
               
 <div class="col-sm-12">
-  
-<h1><b>Error 404:</b> Page not found</h1>
-    <p>
-    Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. <a href="{{ .Site.BaseURL }}">Head back home</a> to try finding it again.
-    </p>
+<div class="error-message-container">
+
+		<a href="{{ .Site.BaseURL }}" class="logo"></a>
+
+		<div class="error-message">
+      <h1><b>Error 404:</b> </h1>
+			<p class="title">Page Not Found</p>
+			<p class="message">The link you clicked may be broken or it's pointing to something that doesn't exist.</p>
+			<p class="small">You can <a class="" href="{{ .Site.BaseURL }}"> Go Back</a> or <a href="https://everpayinc.com/company/contact" title="Learn more about EverPay">contact us</a> about the problem</p>
+		</div>
+
+	</div>
 </div>
           
 </div>
