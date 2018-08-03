@@ -4412,8 +4412,8 @@ footer .pull-center {
     top: 0;
     bottom: 0;
     margin: auto;
-    width: 81%;
-    margin-left: 22%;
+    width: 82%;
+    margin-left: 19%;
 }
 
 #content #sidebar {
@@ -4528,7 +4528,7 @@ width: 95%;
       font-weight: bold;
       letter-spacing: .3px; }
   #content .content-wrapper {
-    margin-top: 20px; }
+    margin-top: 10px; }
 
 
 .uploader {
