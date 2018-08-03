@@ -4386,7 +4386,7 @@ footer .pull-center {
 #content {
     top: 0;
     position: relative;
-    margin-left: 17.55%;
+    margin-left: 16.55%;
     padding: 0px;
     padding-bottom: 80px;
     position: relative;
@@ -4411,8 +4411,8 @@ footer .pull-center {
     top: 0;
     bottom: 0;
     margin: auto;
-    width: 75%;
-    margin-left: 33%;
+    width: 81%;
+    margin-left: 22%;
 }
 
 #content #sidebar {
@@ -4420,8 +4420,8 @@ footer .pull-center {
     top: 0;
     bottom: 0;
     position: absolute;
-    width: 22%;
-    min-width: 160px;
+    width: 21%;
+    min-width: 200px;
     background: none;
     border-right: 1px solid #E8ECF1;
 }
@@ -4450,7 +4450,7 @@ footer .pull-center {
 #content {
   padding: 40px;
   padding-top: 85px;
-  width: 87%;
+  width: 82%;
   position: relative;
   min-height: 900px;
   -webkit-transition: all 0.3s ease-out;
