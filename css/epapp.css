@@ -1339,7 +1339,9 @@ tbody {
       margin: 0;
       text-align: center;
       font-size: 19px;
-      padding: 22px 0; }
+      padding: 22px 0; 
+    margin-top: 7.5px;
+}
       @media (max-width: 767px) {
         #account #content #sidebar h3 {
           padding: 22px 0 0; } }
