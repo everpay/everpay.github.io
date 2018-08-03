@@ -1297,7 +1297,7 @@ tbody {
 
 .sidebar .nav .nav-item .nav-link i {
     width: 32px;
-    font-size: 16px;
+    font-size: 18px;
     margin: 0 0.55rem 0 0;
     color: ;
     text-align: center;
@@ -1305,9 +1305,9 @@ tbody {
 
 .sidebar .nav .nav-item .nav-link {
     display: block;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500!important;
-    padding: 0.75rem 0.95rem;
+    padding: 0.95rem 0.95rem;
     color: #fff;
     text-decoration: none;
     background: transparent;
