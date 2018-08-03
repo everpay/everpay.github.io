@@ -4391,11 +4391,14 @@ footer .pull-center {
     #content {
       margin-left: 80px; } }
   @media (max-width: 767px) {
-    #content {
-      margin-left: 0px;
-      z-index: 9999;
-      padding-left: 20px;
-      padding-right: 20px; } }
+#content {
+    margin-left: 0px;
+    z-index: 99;
+width: 95%;	
+    padding-left: 20px;
+    padding-right: 20px;
+    top: 20px;
+} }
   #content .menubar {
     position: absolute;
     top: 0;
@@ -6806,7 +6809,7 @@ button {
 .app-footer {
     margin-left: 0px !important; }
   .sidebar-hidden .sidebar {
-    margin-left: -180px; }
+    margin-left: -240px; }
   .sidebar-mobile-show .sidebar {
     width: 220px;
     margin-left: 0; }
