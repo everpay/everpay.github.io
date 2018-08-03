@@ -1303,10 +1303,12 @@ tbody {
 
 .sidebar .nav .nav-item {
     position: relative;
-    margin: 0;
-    padding-left: 0px;
+    margin: 0px;
+    padding-left: 20px;
     font-size: 14px;
     transition: background .3s ease-in-out;
+     text-align: left;
+    float: left;
 }
 
 .page-title {
