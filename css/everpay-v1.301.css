@@ -13025,19 +13025,20 @@ a:hover {
 */
 
 div#notices div {
-	    font-size: 17px;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	padding: 6px 15px 5px 15px;
-	text-align: center;
-	display: block;
-	position: relative;
-	top: 10px;
-	margin: 0 auto;
-	line-height: 22px;
-	width: 420px;
-	z-index: 500;
+    font-size: 17px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 15px 20px 20px 15px;
+    text-align: center;
+    display: block;
+    position: relative;
+    top: 0px;
+    margin: 0 auto;
+    line-height: 25px;
+    min-width: 420px;
+    z-index: 500;
+    left: 0px;
 }
 
 div#notices div.icon, div#notices div i {
