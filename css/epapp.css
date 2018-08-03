@@ -4443,6 +4443,15 @@ footer .pull-center {
     background: #fff;
     border-right: 1px solid #E8ECF1;
 }
+	
+#console-inner {
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 94%;
+    margin-left: 30%;
+}	
 
 }
 
