@@ -4739,6 +4739,76 @@ li > .nav-item   {
           #everpay--header .current-user .menu li a:hover {
             color: #000; }
 
+#everpay--header .header .navbar-nav .nav .nav-item {
+	margin-right: 15px;
+	font-size: .85rem;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.navbar-nav .nav .nav-item.active > a {
+	color: #ec6952 !important;
+	background: none;
+}
+
+.navbar-nav .nav .nav-item.nav-item-cta a.btn-cta-secondary {
+	margin: 5.5px 0;
+	padding: 8px 15px;
+	font-size: .85rem;
+	font-weight: inherit;
+	color: #fff;
+	vertical-align: middle;
+	border: 1px solid;
+}
+
+.navbar-nav .nav .nav-item.nav-item-cta a.btn-cta-secondary:hover {
+	background-color: #ec6952;
+	border-color: #ec6952;
+}
+
+.navbar-nav .nav .nav-item a {
+	color: #444;
+	display: inline-block;
+}
+
+.navbar-nav .nav .nav-item a:hover, .navbar-nav .nav .nav-item a:focus {
+	color: #ec6952;
+	background: none;
+}
+
+.navbar-nav .nav .nav-item.active {
+	color: #ec6952;
+}
+
+.navbar-nav .nav.active {
+	position: relative;
+}
+
+.navbar-nav .nav.active > a {
+	background-color: #da3518;
+	color: #fff;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar-nav .nav.active > a:before {
+	content: "\f0d8";
+	position: absolute;
+	bottom: -8px;
+	left: 0;
+	text-align: center;
+	font-family: FontAwesome;
+	display: block;
+	font-size: 12px;
+	width: 100%;
+}
+
+.navbar-nav .nav.active > a.dropdown-toggle:before {
+	display: none;
+}
+
+.navbar-nav .nav.open a {
+	background: none;
+}
 
 .account-widget {
     position: relative;
