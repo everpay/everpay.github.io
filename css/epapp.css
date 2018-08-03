@@ -9054,9 +9054,9 @@ hr.transparent {
 
 
 .content-header {
-    margin-top: 5px;
+    margin-top: 10px;
     margin-bottom: 5px;
-    padding-left: 15px;
+    padding-left: 1px;
     padding-right: 15px;
     padding-top: 5px;
     height: 60px;
@@ -9064,7 +9064,7 @@ hr.transparent {
 
 .content-header h1 {
     margin: 0px;
-    width: :40%
+    width: :40%;
 }
 
 .page-title {
@@ -9089,7 +9089,7 @@ hr.transparent {
     font-weight: 400;
     font-size: 16px;
     position: relative;
-    top: -3px;
+    top: -0px;
     bottom: 5px;
     right: 1px;
     float: right;
