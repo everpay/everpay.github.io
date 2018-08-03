@@ -3185,7 +3185,6 @@ margin-left: 300px!important;
 .app-header.navbar {
     position: fixed;
     flex-direction: row;
-    height: auto;
     padding: 0;
     margin: 0;
     background: #fff;
