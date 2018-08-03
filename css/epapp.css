@@ -4430,9 +4430,14 @@ footer .pull-center {
     margin-left: 24.55%;	
 	}}
 
+#header-btn {
+  margin-top: 40px;
+  position: relative;
+ }
+
 #content {
   padding: 40px;
-  padding-top: 67px;
+  padding-top: 85px;
   width: 87%;
   position: relative;
   min-height: 900px;
