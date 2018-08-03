@@ -9,7 +9,7 @@
 ** ------------------------------------------
 **/@charset "UTF-8";/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 @import "https://cdn.rawgit.com/tonystar/bootstrap-float-label/v4.0.0/dist/bootstrap-float-label.css";
-@import "https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.3.0/collection/icon/icon.css";
+@import "https://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css";
 @media print {
 
   *,
