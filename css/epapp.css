@@ -3968,6 +3968,7 @@ ul.site-footer-links {
 .btn-footer {
     padding: 0 0;
     color: #444;
+    font-family: "proxima-nova", "Helvetica Neue", sans-serif!important;
     background-color: transparent!important;
     border-color: #fff;
 	
