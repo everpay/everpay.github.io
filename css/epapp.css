@@ -3969,6 +3969,7 @@ ul.site-footer-links {
     color: #444;
     background-color: transparent!important;
     border-color: #fff;
+	
 }
 
 .btn-footer:hover {
@@ -4054,7 +4055,7 @@ ul.site-footer-links {
 
 
 #session-language {
-    margin: 20px 15px 0 10px;
+    margin: 0px 20px 0 20px;
     font-size: 12px;
     color: #444;
 }
@@ -7257,9 +7258,9 @@ a, area, button, [role="button"], input, label, select, summary, textarea {
   left: 0; }
 
 .app-footer {
-  min-height: 50px;
+  min-height: 20px;
   padding: 0 1rem;
-  line-height: 50px;
+  line-height: 20px;
   font-size: 12px;
   color: #666;
   background: #fff;
