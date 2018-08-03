@@ -4377,6 +4377,7 @@ footer .pull-center {
 #content {
   padding: 40px;
   padding-top: 67px;
+  width: 87%;
   position: relative;
   min-height: 900px;
   -webkit-transition: all 0.3s ease-out;
