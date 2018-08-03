@@ -1158,13 +1158,13 @@ tbody {
 }
 
 .sidebar-hidden .sidebar {
-    margin-left: -260px;
+    margin-left: -240px;
 }
 
 
 .sidebar {
     position: fixed;
-    margin-left: -260px;
+    margin-left: -240px;
 }
 .sidebar-mobile-show .sidebar {
     width: 220px;
@@ -9440,9 +9440,12 @@ be a descendant of the grid when it is being dragged.
 .main-panel__switch__button:focus,.main-panel__switch__button:hover{color:#fff!important;text-decoration:none;box-shadow:0 3px 12px 0 rgba(0,0,0,.25);background-color:#1ec89a;border:1px solid #1ec89a}
 .main-panel__switch__button:active{box-shadow:0 1px 4px rgba(0,0,0,.2)}
 
+
 #notices {
-z-index: 2000;
-margin: auto 0px;
+    z-index: 2000;
+    margin: auto 0px;
+    position: fixed;
+    width: 100%;
 }
 
 #notices .error {
