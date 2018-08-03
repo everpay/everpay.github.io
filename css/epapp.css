@@ -4369,6 +4369,16 @@ footer .pull-center {
     margin: auto;
 }
 
+
+#console-inner {
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 75%;
+    margin-left: 24%;
+}
+
 #content #sidebar {
     left: 0;
     top: 0;
