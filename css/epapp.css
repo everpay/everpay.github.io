@@ -3239,13 +3239,13 @@ a.btn:active {
 
 .header-fixed .app-body {
     margin-top: 80px;
-    margin-bottom: 60px;
 }
 
 
 
 .app-body {
-    margin-top: 60px;
+    margin-top: 60px;    
+    margin-bottom: 20px;
 }
 
 .app-header {
@@ -3289,11 +3289,13 @@ a.btn:active {
 
 
 .sidebar-fixed .main {
-    margin-right: 0px;
+margin-right: auto;
+margin-left: auto;
+margin: auto;	
 }
 
-.sidebar-fixed .main, .sidebar-fixed .app-footer {
-margin-left: 300px!important;
+.sidebar-fixed .app-footer {
+margin-left: 280px;
 }
 
 .sidebar-compact.sidebar-fixed.sidebar-hidden .main, .sidebar-compact.sidebar-fixed.sidebar-hidden .app-footer {
@@ -3308,7 +3310,7 @@ margin-left: 300px!important;
 
 .app-body .main {
     flex: 1;
-    min-width: 79.5%;
+    min-width: auto;
     padding-bottom: 40px;
 }
 
