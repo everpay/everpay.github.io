@@ -4370,7 +4370,11 @@ footer .pull-center {
     background: #fcfcfc;
     border-right: 1px solid #E8ECF1;
 }
-
+@media (max-width: 1199px) {
+#content {
+  width: 75%;
+    margin-left: 24.55%;	
+	}}
 
 #content {
   padding: 40px;
@@ -4640,11 +4644,6 @@ li > .nav-item   {
     line-height: 1.5; }
   .app-header.navbar .dropdown-item {
     min-width: 180px; }
-
-.navbar-brand {
-  color: #29363d; }
-  .navbar-brand:hover, .navbar-brand:focus {
-    color: #29363d; }
 
 .navbar-nav .nav-link, .navbar-nav .navbar .dropdown-toggle, .navbar .navbar-nav .dropdown-toggle {
   color: #536c79; }
@@ -7011,9 +7010,6 @@ hr.transparent {
 
 .open > a, .show > a {
   outline: 0; }
-
-.modal-open .modal {
-  display: block; }
 
 .navbar .dropdown-toggle .img-avatar {
   height: 30px;
