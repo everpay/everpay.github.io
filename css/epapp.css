@@ -4354,6 +4354,15 @@ footer .pull-center {
     transition: all 0.3s ease-out;
 }
 
+#console {
+    left: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    width: 70%;
+    margin: auto;
+}
+
 #content #sidebar {
     left: 0;
     top: 0;
