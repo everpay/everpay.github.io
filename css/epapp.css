@@ -4339,13 +4339,30 @@ footer .pull-center {
     transition: opacity .4s ease,transform .4s cubic-bezier(.7,0,.3,1);
 }
 
-#console {
+#content {
     top: 0;
     position: relative;
-    width: 74%;
-    margin-left: 25%;
-    padding: 24px 20px;
+    width: 87.45%;
+    margin-left: 12.55%;
+    padding: 0px;
     padding-bottom: 80px;
+    position: relative;
+    min-height: 900px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+#content #sidebar {
+    left: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    width: 22%;
+    background: #fcfcfc;
+    border-right: 1px solid #E8ECF1;
 }
 
 
