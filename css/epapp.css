@@ -4742,11 +4742,10 @@ li > .nav-item   {
 
 .account-widget {
     position: relative;
-    background: #fff;
     border-left: 0px solid #1f2532;
 	margin-left: 12px;
 	margin-right: 2px;
-	width: 85px;
+	width: 100px;
 }
 
 .account-widget > a {
@@ -4760,9 +4759,10 @@ li > .nav-item   {
 
 .account-widget .icon {
     background: inherit;
+   color: #1f2532;
 }
 
-.account-widget .icon {
+.account-widget .icon i {
     width: 48px;
     height: 48px;
     float: left;
@@ -4770,10 +4770,12 @@ li > .nav-item   {
     position: relative;
     z-index: 1;
 	top: 7px;
+	    color: #1f2532;
 }
 
-.account-widget .icon  i.fa {
+.account-widget .icon  i {
     margin-right: 3px;
+	color: #444444;
 	width: 48px;
     height: 48px;
     float: left;
