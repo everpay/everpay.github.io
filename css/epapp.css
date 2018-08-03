@@ -4420,8 +4420,8 @@ footer .pull-center {
     top: 0;
     bottom: 0;
     position: absolute;
-    width: 21%;
-    min-width: 200px;
+    width: 16%;
+    min-width: 180px;
     background: none;
     border-right: 1px solid #E8ECF1;
 }
@@ -4435,7 +4435,7 @@ footer .pull-center {
     top: 0;
     bottom: 0;
     position: absolute;
-    width: 22%;
+    width: 20%;
     background: #fff;
     border-right: 1px solid #E8ECF1;
 }
