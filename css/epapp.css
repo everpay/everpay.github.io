@@ -1365,7 +1365,8 @@ tbody {
 #sidebar .menu li a.active, #sidebar .menu li a:hover {
           color: #12a56f; }
 #sidebar .menu li a i {
-          min-width: 30px; }
+          min-width: 30px; 
+margin-right: 15px;}
 #sidebar .menu li a i.ion-ios7-person-outline {
             font-size: 30px;
             position: relative;
