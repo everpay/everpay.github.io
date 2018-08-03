@@ -1355,9 +1355,9 @@ tbody {
           padding-bottom: 10px; } }
 #sidebar .menu li a {
         display: block;
-        padding: 13px 30px;
-        font-size: 15px;
-        color: #555;
+        padding: 5.5px 1px;
+        font-size: 14px;
+        color: #444;
         text-decoration: none;
         -webkit-transition: all 0.2s linear;
         -moz-transition: all 0.2s linear;
