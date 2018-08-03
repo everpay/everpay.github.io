@@ -690,7 +690,7 @@ float: right;
 }
 
 .sidebar-compact.sidebar-fixed .main, .sidebar-compact.sidebar-fixed .app-footer {
-    margin-left: 260px;
+    margin-left: 300px;
 }
 
 .sidebar-minimized .sidebar .nav {
@@ -798,7 +798,7 @@ margin-left: 280px;
 
 .app-header.navbar .navbar-brand {
     display: inline-block;
-    width: 239px;
+    width: 259px;
     height: 80px;
     padding: 0.5rem 0.9rem;
     margin-right: 0px;
@@ -839,12 +839,12 @@ a:hover, a:focus {
 
 .sidebar-fixed .sidebar {
     position: fixed;
-    width: 240px;
+    width: 260px;
     height: 100%;
 }
 
 .app-body .sidebar {
-    flex: 0 0 240px;
+    flex: 0 0 260px;
     order: -1;
 }
 
@@ -4386,7 +4386,7 @@ footer .pull-center {
 #content {
     top: 0;
     position: relative;
-    margin-left: 12.55%;
+    margin-left: 17.55%;
     padding: 0px;
     padding-bottom: 80px;
     position: relative;
@@ -4412,7 +4412,7 @@ footer .pull-center {
     bottom: 0;
     margin: auto;
     width: 75%;
-    margin-left: 24%;
+    margin-left: 33%;
 }
 
 #content #sidebar {
@@ -4421,14 +4421,26 @@ footer .pull-center {
     bottom: 0;
     position: absolute;
     width: 22%;
-    background: #fcfcfc;
+    min-width: 160px;
+    background: none;
     border-right: 1px solid #E8ECF1;
 }
 @media (max-width: 1199px) {
 #content {
   width: 75%;
-    margin-left: 24.55%;	
-	}}
+    margin-left: 24.55%;
+}
+#content #sidebar {
+    left: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    width: 22%;
+    background: #fff;
+    border-right: 1px solid #E8ECF1;
+}
+
+}
 
 #header-btn {
   margin-top: 40px;
@@ -6859,7 +6871,7 @@ button {
     position: fixed;
     width: 220px;
     height: 100%;
-    margin-left: -240px; }
+    margin-left: -260px; }
     .sidebar .sidebar-nav,
     .sidebar .nav {
       width: 220px !important; }
@@ -6868,7 +6880,7 @@ button {
 .app-footer {
     margin-left: 0px !important; }
   .sidebar-hidden .sidebar {
-    margin-left: -240px; }
+    margin-left: -260px; }
   .sidebar-mobile-show .sidebar {
     width: 220px;
     margin-left: 0; }
