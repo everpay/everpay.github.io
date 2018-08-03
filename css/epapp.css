@@ -4425,6 +4425,7 @@ footer .pull-center {
     min-width: 180px;
     background: none;
     border-right: 1px solid #E8ECF1;
+    margin-top: 100px;
 }
 @media (max-width: 1199px) {
 #content {
