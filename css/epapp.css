@@ -4349,20 +4349,20 @@ footer .pull-center {
 #console {
     top: 0;
     position: relative;
-    width: 78%;
-    margin-left: 22%;
-    padding: 24px 40px;
+    width: 74%;
+    margin-left: 25%;
+    padding: 24px 20px;
     padding-bottom: 80px;
 }
 
 
-@media (max-width: 991px)
+@media (max-width: 991px){
 #console {
     top: 20px;
     position: relative;
     width: 90%;
-    margin-left: 22%;
-    padding: 55px 10px;
+    margin-left: 5%;
+    padding: 25px 10px;
     padding-bottom: 40px;
 } }
 
