@@ -1385,6 +1385,11 @@ margin-right: 15px;}
             font-size: 21px;
             position: relative;
             top: 3px; }
+#sidebar .menu li a i.ion-gear {
+    font-size: 24px;
+    position: relative;
+    top: 3px;
+}
 
 
 
