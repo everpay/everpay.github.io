@@ -4298,7 +4298,7 @@ fieldset[disabled] .checkbox, fieldset[disabled] .checkbox input[type=checkbox],
 }
 
 .navbar .navbar-nav > li > a {
-  color: inherit;
+     color: #536c79;
   padding-top: 15px;
   padding-bottom: 15px;
   font-weight: 400;
