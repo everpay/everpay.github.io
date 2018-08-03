@@ -2756,30 +2756,47 @@ output {
 
 .label {
   border-radius: 3px;
+padding: 5px 2px;
+font-size: 11px;	
 }
-.label, .label.label-default {
-  background-color: #FFFFFF;
+
+.label {
+  background-color: ;
+	
 }
+
+.label.label-default  {
+  background-color: #CCCCCC;
+	
+}
+
 .label.label-inverse {
   background-color: #212121;
+		color: #FFFFFF;
 }
 .label.label-primary {
   background-color: #9c27b0;
+		color: #FFFFFF;
 }
 .label.label-success {
   background-color: #4caf50;
+		color: #FFFFFF;
 }
 .label.label-info {
   background-color: #00bcd4;
+		color: #FFFFFF;
 }
 .label.label-warning {
   background-color: #ff9800;
+		color: #FFFFFF;
 }
 .label.label-danger {
   background-color: #f44336;
+		color: #FFFFFF;
 }
 .label.label-rose {
   background-color: #e91e63;
+		color: #FFFFFF;
 }
 
 .form-control,
