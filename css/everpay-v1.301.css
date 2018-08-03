@@ -518,7 +518,7 @@ blockquote.blockquote-large {
     border-color: #FFF;
 }
 
-.btn-custom:hover, input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover, button:hover, .btn-custom.btn-green:hover, input[type="button"].btn-green:hover, input[type="submit"].btn-green:hover, input[type="reset"].btn-green:hover, button.btn-green:hover {
+.btn-custom:hover, input[type="reset"]:hover, .btn-custom.btn-green:hover, input[type="button"].btn-green:hover, input[type="submit"].btn-green:hover, input[type="reset"].btn-green:hover, button.btn-green:hover {
     color: #FFF;
     background-color: #04df89;
     border-color: #04df89;
