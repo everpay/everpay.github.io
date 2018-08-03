@@ -3377,9 +3377,9 @@ margin-left: 280px;
 
 .app-header.navbar .navbar-brand {
     display: inline-block;
-    width: 260px;
+    width: 239px;
     height: 80px;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.9rem;
     margin-right: 0px;
     margin-top: 0px;
     background-color: #12a56f;
@@ -3418,12 +3418,12 @@ a:hover, a:focus {
 
 .sidebar-fixed .sidebar {
     position: fixed;
-    width: 260px;
+    width: 240px;
     height: 100%;
 }
 
 .app-body .sidebar {
-    flex: 0 0 260px;
+    flex: 0 0 240px;
     order: -1;
 }
 
@@ -6944,6 +6944,17 @@ footer .pull-center {
     padding-bottom: 80px;
 }
 
+
+@media (max-width: 991px)
+#console {
+    top: 20px;
+    position: relative;
+    width: 90%;
+    margin-left: 22%;
+    padding: 55px 10px;
+    padding-bottom: 40px;
+} }
+
 .uploader {
     border-radius: 3px;
 }
@@ -9019,15 +9030,14 @@ button {
       color: #1f2532; }
     .app-header.navbar .navbar-brand {
       position: absolute;
-      left: 50%;
-      margin-left: -40px; }
+      }
   .app-body {
     margin-top: 50px; }
   .sidebar {
     position: fixed;
     width: 220px;
     height: 100%;
-    margin-left: -260px; }
+    margin-left: -240px; }
     .sidebar .sidebar-nav,
     .sidebar .nav {
       width: 220px !important; }
