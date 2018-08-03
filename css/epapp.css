@@ -545,7 +545,12 @@ float: right;
 
 .title {
     padding: 5px 0px 5px;
-    font-weight: 700;
+    font-size: 1.61429em!important;
+    font-style: inherit;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    line-height: 32px;
+    margin-top: 0px;
 }
 
 .margin-left-10 {
