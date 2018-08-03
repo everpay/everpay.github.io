@@ -1337,7 +1337,7 @@ tbody {
       cursor: pointer; }
 #sidebar h3 {
       margin: 0;
-      text-align: center;
+      text-align: left;
       font-size: 19px;
       padding: 22px 0; 
     margin-top: 7.5px;
