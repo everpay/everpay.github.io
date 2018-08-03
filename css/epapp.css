@@ -503,6 +503,14 @@ a.btn:active {
   color: #fff;
 }
 
+.pull-left {
+float: left;
+}
+
+.pull-right {
+float: right;
+}
+
 .content-header .btn.btn-success, .content-header .btn-default.new {
     padding: 10px 18px;
 }
