@@ -4609,6 +4609,82 @@ li > .nav-item   {
     margin-left: 3px;
 }
 
+.app-header.navbar .navbar-nav {
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-align: center;
+        align-items: center; }
+  .app-header.navbar .nav-item {
+    position: relative;
+    min-width: 50px;
+    margin: 0 !important;
+    text-align: center; }
+    .app-header.navbar .nav-item button {
+      margin: 0 auto; }
+    .app-header.navbar .nav-item .nav-link, .app-header.navbar .nav-item .dropdown-toggle {
+      padding-top: 0;
+      padding-bottom: 0;
+      background: 0;
+      border: 0; }
+      .app-header.navbar .nav-item .nav-link .badge, .app-header.navbar .nav-item .dropdown-toggle .badge {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -16px;
+        margin-left: 0; }
+      .app-header.navbar .nav-item .nav-link > .img-avatar, .app-header.navbar .nav-item .dropdown-toggle > .img-avatar {
+        height: 35px;
+        margin: 0 10px; }
+  .app-header.navbar .dropdown-menu {
+    padding-bottom: 0;
+    line-height: 1.5; }
+  .app-header.navbar .dropdown-item {
+    min-width: 180px; }
+
+.navbar-brand {
+  color: #29363d; }
+  .navbar-brand:hover, .navbar-brand:focus {
+    color: #29363d; }
+
+.navbar-nav .nav-link, .navbar-nav .navbar .dropdown-toggle, .navbar .navbar-nav .dropdown-toggle {
+  color: #536c79; }
+  .navbar-nav .nav-link:hover, .navbar-nav .navbar .dropdown-toggle:hover, .navbar .navbar-nav .dropdown-toggle:hover, .navbar-nav .nav-link:focus, .navbar-nav .navbar .dropdown-toggle:focus, .navbar .navbar-nav .dropdown-toggle:focus {
+    color: #29363d; }
+
+.navbar-nav .open > .nav-link, .navbar-nav .navbar .open > .dropdown-toggle, .navbar .navbar-nav .open > .dropdown-toggle, .navbar-nav .open > .nav-link:hover, .navbar-nav .navbar .open > .dropdown-toggle:hover, .navbar .navbar-nav .open > .dropdown-toggle:hover, .navbar-nav .open > .nav-link:focus, .navbar-nav .navbar .open > .dropdown-toggle:focus, .navbar .navbar-nav .open > .dropdown-toggle:focus,
+.navbar-nav .active > .nav-link,
+.navbar-nav .navbar .active > .dropdown-toggle, .navbar
+.navbar-nav .active > .dropdown-toggle,
+.navbar-nav .active > .nav-link:hover,
+.navbar-nav .navbar .active > .dropdown-toggle:hover, .navbar
+.navbar-nav .active > .dropdown-toggle:hover,
+.navbar-nav .active > .nav-link:focus,
+.navbar-nav .navbar .active > .dropdown-toggle:focus, .navbar
+.navbar-nav .active > .dropdown-toggle:focus,
+.navbar-nav .nav-link.open,
+.navbar-nav .navbar .open.dropdown-toggle, .navbar
+.navbar-nav .open.dropdown-toggle,
+.navbar-nav .nav-link.open:hover,
+.navbar-nav .navbar .open.dropdown-toggle:hover, .navbar
+.navbar-nav .open.dropdown-toggle:hover,
+.navbar-nav .nav-link.open:focus,
+.navbar-nav .navbar .open.dropdown-toggle:focus, .navbar
+.navbar-nav .open.dropdown-toggle:focus,
+.navbar-nav .nav-link.active,
+.navbar-nav .navbar .active.dropdown-toggle, .navbar
+.navbar-nav .active.dropdown-toggle,
+.navbar-nav .nav-link.active:hover,
+.navbar-nav .navbar .active.dropdown-toggle:hover, .navbar
+.navbar-nav .active.dropdown-toggle:hover,
+.navbar-nav .nav-link.active:focus,
+.navbar-nav .navbar .active.dropdown-toggle:focus, .navbar
+.navbar-nav .active.dropdown-toggle:focus {
+  color: #29363d; }
+
+.navbar-divider {
+  background-color: rgba(0, 0, 0, 0.075); }
+
+
 
 .searchWrap .indicator {
     display: none;
@@ -9967,83 +10043,6 @@ div.list-view-content div.filter div.control:active,div.list-view-content div.fi
 div#no-data-view {
   padding: 30px;
   text-align: center;
-}
-
-.modal-backdrop {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 1040;
-  background-color: #000;
-}
-
-.modal-backdrop.in {
-  opacity: .5;
-  filter: alpha(opacity=50);
-}
-
-.modal.in .modal-dialog {
-  -webkit-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
-}
-
-.half-screen-modal .modal-content, .half-screen-modal .modal-dialog {
-  height: 100%;
-}
-
-.modal{top:10%;left:50%}.modal .modal-dialog{margin:0}
-.modal .modal-content{border-radius:0;border:none;-webkit-box-shadow:none 0 3px #999;-moz-box-shadow:none 0 3px #999;box-shadow:none 0 3px #999}.modal form{background-color:#fff}
-.modal .modal-header {
-  position: relative;
-  padding: 20px 45px 15px;
-  background-color: #05101b;
-  border-bottom: none;
-  color: #fff;
-}
-.modal .modal-header .everpay-logo-24{background-image:url(../img/logo/square-logo.png);background-size:30px 27px;width:30px;height:27px;margin-top:20px;margin-bottom:10px}
-.modal .modal-header .close{font-size:26px;line-height:28px;color:#FFF;background-color:transparent;position:absolute;right:10px;top:10px;border:none;opacity:1;padding:4px 8px 0}
-.modal .modal-header .close:hover{color:#000}
-.modal .modal-header h2 {
-  font: normal normal normal 32px "Proxima Nova Semi Bold",arial,sans-serif;
-  line-height: 40px;
-  color: #fff;
-  padding: 0;
-  margin: 0;
-}
-
-.modal .modal-header h3{font:normal normal normal 16px "Proxima Nova Semi Bold",arial,sans-serif;line-height:24px;color:#000}
-.modal .modal-body{overflow-y:auto;margin:0;padding:0 40px}
-.modal .modal-body .content{padding:45px 0}
-.modal .modal-body .form-section{border-top:1px solid #d2d6d9}
-.modal .modal-body .form-section h3{font:normal normal normal 14px "Proxima Nova Semi Bold",arial,sans-serif;line-height:20px;color:#000;margin:10px 0}
-.modal .modal-body .form-section .description{color:#59606b;margin:15px 0 60px;padding:0}
-.modal .modal-body .form-section .description ul{font:normal normal normal 12px "Proxima Nova Reg",arial,sans-serif;line-height:16px;color:#303540;margin-left:25px}.modal .modal-body .form-section .description ul li{list-style:disc;padding:3px 0}.modal .modal-body .row-full{margin-left:-35px;margin-right:-35px;padding-left:35px;padding-right:35px}.modal .modal-body .modal-content{padding:45px}.modal .modal-body .modal-content.no-top-content{padding-top:0}.modal .modal-body .modal-content.no-bottom-content{padding-bottom:0}.modal .modal-body .modal-content input.half{width:155px}.modal .modal-body .modal-content input.half.pull-right{margin-right:-2px}.modal .modal-footer{padding:15px 0;margin:0 45px;border-top:1px solid #d2d6d9}.modal .modal-footer .before-submit-text{font-size:12px;float:left;margin:6px 0}.modal .modal-footer .btn+.btn{margin-left:0}.wide-modal{width:600px;margin-left:-300px}.half-screen-modal{overflow:auto;right:0;top:0;left:calc(100% - 704px)}.half-screen-modal h2{font:normal normal normal 32px "Proxima Nova Semi Bold",arial,sans-serif;line-height:40px;color:#000;padding:0;margin:40px 0 0}.half-screen-modal .modal-dialog{background-color:#fff;width:704px;margin:0}.half-screen-modal .modal-content,.half-screen-modal .modal-dialog{height:100%}.search-screen-modal{width:100%;height:100%;background-color:#fff;margin:0;padding:0;position:fixed;top:0;left:0}.search-screen-modal .modal-header{padding:0;margin-left:180px}.search-screen-modal .modal-header .close{right:15px;top:15px}
-.search-screen-modal .modal-body{margin-left:180px;padding:45px;height:100%}
-
-
-.modal .modal-header .close {
-  font-size: 42px;
-  line-height: 46px;
-  color: #444;
-  background-color: transparent;
-  position: absolute;
-  right: 10px;
-  top: 10px;
-  border: none;
-  opacity: 1;
-  padding: 4px 8px 0;
-}
-
-.modal {
-  top: 10%;
-  left: 20%!important;
-}
-.modal .modal-footer {
-  padding: 20px 10px!important;
-  margin: 0px;
-  border-top: 1px solid #d2d6d9;
 }
 
 #next-step .form-section:last-of-type{border-bottom:1px solid #d2d6d9}#verify-bank-account .row-borders{border-top:1px solid #9196a1;border-bottom:1px solid #9196a1}#verify-bank-account .row-pad{padding:20px}#verify-bank-account .row-pad p:last-of-type{margin:0}#verify-bank-account .row-pad p.label1a{margin-bottom:20px}#verify-bank-account .row-full{min-height:50px}#confirm-verification .row-borders{border-top:1px solid #9196a1;border-bottom:1px solid #9196a1}#confirm-verification .row-pad{padding:20px}#confirm-verification .row-pad p:last-of-type{margin:0}#confirm-verification .row-pad p.label1a{margin-bottom:20px}#confirm-verification #verification-attempts{background-color:#d2d6d9}#confirm-verification #verification-attempts .label1a{margin-bottom:0}#evidence-portal textarea{height:120px}#evidence-portal .fileinput-button{position:relative}#evidence-portal .fileinput-button:hover{cursor:pointer}
