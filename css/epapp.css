@@ -6923,7 +6923,345 @@ footer .pull-center {
     width: 100%;
   }
 }
+.content {
+    -webkit-transform: translate3d(0,-20px,0);
+    transform: translate3d(0,-20px,0);
+    -webkit-transition: opacity .4s ease,-webkit-transform .4s cubic-bezier(.7,0,.3,1);
+    transition: opacity .4s ease,transform .4s cubic-bezier(.7,0,.3,1);
+}
 
+
+.uploader {
+    border-radius: 3px;
+}
+
+div.uploader, div.uploader span.action {
+    background-image: url(../img/sprite1.png);
+    background-repeat: no-repeat;
+    -webkit-font-smoothing: antialiased;
+}
+
+div.uploader {
+    overflow: hidden;
+    cursor: default;
+}
+
+
+span .user-profile-box {
+    width: 100%;
+    /* height: 48px; */
+    /* min-width: 160px; */
+    /* max-width: 90%; */
+    overflow: hidden;
+    /* padding: 7px 15px 1px 0px; */
+    text-align: left;
+}
+
+span .user-profile-box strong.profile-title {
+    font-size: 14px;
+    line-height: 18px;
+    display: block;
+    font-weight: 500;
+    margin: 0 0 2px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+	text-align: left;
+    overflow: hidden;
+}
+
+span .user-profile-box span.profile-name {
+    font-size: 10px;
+    line-height: 14px;
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+
+
+.user-menu .dropdown-menu .text {
+    float: left;
+    width: 180px;
+}
+
+.dropdown-menu .text {
+    float: left;
+    width: 180px;
+}
+
+.dropdown-menu .nav {
+    border-top: 1px solid #e8e9ea;
+    float: left;
+    clear: both;
+    width: 100%;
+    margin: 24px 0 0;
+    padding: 12px 0 0;
+}
+
+.dropdown-menu .nav .profile-button {
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .4px;
+    background: #FF4070;
+    border-radius: 2px;
+    border: 1px solid #ff3187;
+    width: 113px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.btn .profile-button {
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .4px;
+    background: #FF4070;
+    border-radius: 2px;
+    border: 1px solid #ff3187;
+    width: 113px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.profile-button {
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .4px;
+    background: #FF4070;
+    border-radius: 2px;
+    border: 1px solid #ff3187;
+    width: 113px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.dropdown-menu .nav .profile-button:hover {
+    background: #ff5a83;
+}
+
+.btn .profile-button:hover {
+    background: #ff5a83;
+}
+
+.app-header.navbar .nav-item > .megamenu.megamenu-quarter-width {
+    left: auto;
+    width: 25%;
+}
+
+
+.app-header.navbar .nav-item .megamenu {
+    border: 1px solid #efefef;
+    border-top: none;
+    background: #fff;
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.175);
+    box-shadow: 0 3px 6px rgba(0,0,0,.175);
+    border-radius: 2px;
+}
+
+li > .nav-item   {
+    position: absolute;
+    z-index: 1000;
+    left: 0;
+    display: none;
+    width: 100%;
+    padding: 20px;
+    border-top: solid 1px #f0f0f0;
+    background: #fff;
+}
+@media (min-width: 769px){
+.app-header.navbar .nav-item.dropdown, .l-navbar-wrapper_has-sticky .l-navbar, .l-navbar_s-left {
+    box-shadow: 0 0px 0px rgba(0, 0, 0, .1);
+}}
+@media (min-width: 769px){
+.app-header.navbar .nav-item.megamenu  {
+    text-align: left;
+    border: 0 !important;
+}}
+
+.app-header.navbar .nav-item .indicator {
+    margin-left: 3px;
+}
+
+
+.searchWrap .indicator {
+    display: none;
+}
+
+
+.navbar-search .form-control {
+    border-radius: 0;
+}
+
+.profile-button:hover {
+    background: #ff5a83;
+}
+
+.account-widget {
+    position: relative;
+    background: #fff;
+    border-left: 0px solid #1f2532;
+	margin-left: 12px;
+	margin-right: 2px;
+	width: 85px;
+}
+
+.account-widget > a {
+    height: 48px;
+    min-width: 80px;
+    display: block;
+    color: #1f2532;
+    position: relative;
+    text-decoration: none;
+}
+
+.account-widget .icon {
+    background: inherit;
+}
+
+.account-widget .icon {
+    width: 48px;
+    height: 48px;
+    float: left;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+	top: 7px;
+}
+
+.account-widget .icon  i.fa {
+    margin-right: 3px;
+	width: 48px;
+    height: 48px;
+    float: left;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+	top: 12px;
+}
+
+.account-widget .txt {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    display: none;
+}
+
+.account-widget > a .arrow {
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    right: 9px;
+    top: 50%;
+    margin: -12px 0 0;
+    border: 1px solid #1f2532;
+    border-radius: 2px;
+    display: none;
+}
+
+.user-box {
+    width: 70px;
+    height: 50px;
+    min-width: 70px;
+    max-width: 80px;
+    overflow: hidden;
+   text-align: left;
+}
+
+.budi-big {
+    font-size: 26px;
+    }
+
+.budi-bigger{
+    font-size: 34px;
+}
+
+.budi-biggest{
+    font-size: 50px;
+}
+ .user-box .title {
+    font-size: 14px;
+    line-height: 18px;
+    display: block;
+    font-weight: 500;
+    margin: 0 0 2px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+	text-align: left;
+    overflow: hidden;
+}
+
+.user-box .username {
+    font-size: 11px;
+    line-height: 14px;
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.user-box:after {
+    content: '';
+    position: absolute;
+    border-style: solid dashed;
+    border-color: transparent;
+    border-width: 5px 5px 0;
+    border-top-color: #1f2532;
+    top: 22px;
+    right: 20px;
+    left: auto;
+}
+
+.settings-link {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.settings-link img {
+    width: 10px;
+    height: 10px;
+}
+
+.nav-item .dropdown-toggle {
+    padding-top: 0;
+    padding-bottom: 0;
+    background: 0;
+    border: 0;
+    color: #1f2532;
+    padding-right: 0;
+    padding-left: 0;
+    display: block;
+}
+
+.app-header.navbar .nav-item .dropdown-toggle>.user-box, .app-header.navbar .nav-item .nav-link>.user-box{
+    height:;
+    margin: 0 10px;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+a, area, button, [role="button"], input, label, select, summary, textarea {
+    touch-action: manipulation;
+}
+
+.app-header .navbar-nav .dropdown-menu-left {
+  right: auto;
+  left: 0; }
+
+.app-footer {
+  min-height: 50px;
+  padding: 0 1rem;
+  line-height: 50px;
+  font-size: 12px;
+  color: #666;
+  background: #fff;
+  border-top: 0px solid #e4e6eb; }
 /*            Navigation menu                */
 
 .wizard-card .nav-pills > li {
