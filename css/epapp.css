@@ -1928,28 +1928,6 @@ Licensed under MIT
   color: #5f6f7e;
 }
 
-.modal {
-    top: 10%;
-    left: 29%!important;
-}
-
-.modal .modal-content {
-    border-radius: 25px;
-    border: none;
-    -webkit-box-shadow: none 0 3px #999;
-    -moz-box-shadow: none 0 3px #999;
-    box-shadow: none 0 3px #999;
-}
-
-.modal .modal-header {
-    position: relative;
-    padding: 20px 45px 15px;
-    background-color: #05101b;
-    border-bottom: none;
-    color: #fff;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-}
 
 .alert {
     padding: .95rem 0.85rem;
