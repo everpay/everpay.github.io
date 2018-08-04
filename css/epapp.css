@@ -343,16 +343,21 @@ a:hover {
 pre {
   border: 0;
 }
+
 h1,
 h2,
 h3,
 h4,
-h5,
+h5 {
+  margin: 20px 0;
+}
+
 p,
 li,
 pre {
-  margin: 20px 0;
+  margin: 10px 0;
 }
+
 h1:first-child {
   margin-top: 0;
 }
