@@ -140,7 +140,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 .form__select>select{background:0 0;border:none;font-family:"Open Sans",open-sans,sans-serif;width:110%;-webkit-appearance:none;-moz-appearance:none;appearance:none}
 .enterprise-panel__footer__lead,.enterprise-panel__header,.form__button,.main-panel__switch__button{font-family:brandon-grotesque,"Open Sans",open-sans,sans-serif}
 .form__select.form__select--empty select{color:#C6CCD7}
-.form__help{position:absolute;top:0;right:0;font-size:12px;color:#8C96A9;-webkit-transition:color .2s ease;transition:color .2s ease}
+.form__help{position:relative;top:0;right:0;font-size:12px;color:#8C96A9;-webkit-transition:color .2s ease;transition:color .2s ease}
 .main-panel,.panel-wrapper{position:relative}
 .form__help:focus,.form__help:hover{color:#434C5E}
 
