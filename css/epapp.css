@@ -10432,5 +10432,16 @@ input {
 	border-radius: 0.2rem;
 	border: none;
 }
-
+	
+.modal {
+    position: fixed;
+    top: 12%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    display: none;
+    overflow: hidden;
+    outline: 0;
+}
 	
