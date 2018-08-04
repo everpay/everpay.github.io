@@ -10445,6 +10445,10 @@ input {
     outline: 0;
 }
 	
+.modal-title {
+    font-size: 1.05rem!important;
+}
+	
 .modal-backdrop.show {
     opacity: 0.95;
 }
