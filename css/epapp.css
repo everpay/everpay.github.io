@@ -6933,7 +6933,7 @@ hr.transparent {
     position: relative;
     font-size: 28px!important;
     line-height: 36px;
-        width: 33%;	
+        width: 35%!important;	
     padding-top: 2px;
     padding-bottom: 2px;
     left: 0px!important;
