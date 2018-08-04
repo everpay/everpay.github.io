@@ -10447,6 +10447,8 @@ input {
 	
 .modal-title {
     font-size: 1.05rem!important;
+    margin: 10px 10px!important;	
+   float: left;
 }
 	
 .modal-backdrop.show {
@@ -10462,4 +10464,6 @@ input {
     z-index: 1040;
     background-color: #fff;
 }
+	
+	
 	
