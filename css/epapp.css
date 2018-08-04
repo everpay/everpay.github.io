@@ -6931,8 +6931,9 @@ hr.transparent {
     min-height: 36px;
     vertical-align: bottom;
     position: relative;
-    font-size: 32px!important;
+    font-size: 28px!important;
     line-height: 36px;
+        width: 33%;	
     padding-top: 2px;
     padding-bottom: 2px;
     left: 0px!important;
