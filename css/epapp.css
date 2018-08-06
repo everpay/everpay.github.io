@@ -1329,11 +1329,17 @@ tbody {
 }
 
 #sidebar {
-        width: 28%; } }
+        width: 28%; 
+	padding-left: 20px;
+} }
     @media (max-width: 767px) {
 #sidebar {
         position: relative;
-        width: 100%; } }
+        width: 100%; } 
+#content {
+    margin-left: 20.55%;
+	    }}
+
 #sidebar .sidebar-toggler {
       position: absolute;
       top: 8px;
@@ -10043,15 +10049,15 @@ margin-right: 15px;  }
 }
 
 .paymentWrap .paymentBtnGroup .paymentMethod .method.amex {
-	background-image: url("http://www.paymentscardsandmobile.com/wp-content/uploads/2015/08/Amex-icon.jpg");
+	background-image: url("https://www.paymentscardsandmobile.com/wp-content/uploads/2015/08/Amex-icon.jpg");
 }
 
 .paymentWrap .paymentBtnGroup .paymentMethod .method.vishwa {
-	background-image: url("http://i.imgur.com/VkiM7PL.jpg");
+	background-image: url("https://i.imgur.com/VkiM7PL.jpg");
 }
 
 .paymentWrap .paymentBtnGroup .paymentMethod .method.ez-cash {
-	background-image: url("http://www.busbooking.lk/img/carousel/BusBooking.lk_ezCash_offer.png");
+	background-image: url("https://www.busbooking.lk/img/carousel/BusBooking.lk_ezCash_offer.png");
 }
 
 
@@ -10059,6 +10065,877 @@ margin-right: 15px;  }
 	border-color: #4cd264;
 	outline: none !important;
 }
+
+
+/* Body Class */
+.Modal-open--html {
+  overflow: hidden; }
+
+.Modal-open--body {
+  overflow: hidden; }
+
+/* Modal Classes */
+.Modal {
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  left: 0;
+  min-width: 320px;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  transition: opacity 0.3s cubic-bezier(0, 1, 0.5, 1);
+  width: 100%;
+  z-index: 900; }
+
+.Modal-fullheight {
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+              -ms-grid-row-align: flex-start;
+          align-items: flex-start;
+  z-index: 1000; }
+
+.ErrorPage + .Modal {
+  z-index: 1001; }
+
+.Modal-inner {
+  padding: 0 20px;
+  position: relative;
+  width: 100%; }
+  @media (min-width: 680px) {
+    .Modal-inner {
+      padding: 0 62px; } }
+  @media (min-width: 1200px) {
+    .Modal-inner {
+      padding: 0 80px; } }
+
+.Modal-overlay {
+  background-color: #000;
+  display: none;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  transition: opacity 0.3s cubic-bezier(0, 1, 0.5, 1);
+  width: 100%; }
+
+.Modal-overlay--isOpen {
+  opacity: 0.5; }
+
+.Modal-body {
+  background-color: #FFF;
+  border-radius: 3px;
+  color: #0B2343;
+  margin: 20px auto;
+  opacity: 0;
+  overflow: hidden;
+  padding-top: 68px;
+  position: relative;
+  -webkit-transform: scale(0.8);
+      -ms-transform: scale(0.8);
+          transform: scale(0.8);
+  transition: opacity 0.3s cubic-bezier(0, 1, 0.5, 1), -webkit-transform 0.3s cubic-bezier(0, 1, 0.5, 1);
+  transition: opacity 0.3s cubic-bezier(0, 1, 0.5, 1), transform 0.3s cubic-bezier(0, 1, 0.5, 1);
+  transition: opacity 0.3s cubic-bezier(0, 1, 0.5, 1), transform 0.3s cubic-bezier(0, 1, 0.5, 1), -webkit-transform 0.3s cubic-bezier(0, 1, 0.5, 1);
+  width: 100%; }
+  @media (min-width: 680px) {
+    .Modal-body {
+      margin: 40px auto;
+      padding-top: 80px; } }
+  .Modal-body.has-noDefaultTopBar {
+    padding-top: 0; }
+  .Modal-body.is-fullScreen {
+    margin: 0 auto; }
+  .Modal-body:focus {
+    outline: 1px dotted #0B2343;
+    outline-offset: -2px; }
+
+.Modal-body--isOpen {
+  opacity: 1;
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1); }
+
+.Modal-body--small {
+  margin: 20px auto;
+  max-width: 280px; }
+
+.Modal-body--medium {
+  max-width: 610px; }
+  @media (min-width: 735px) {
+    .Modal-body--medium {
+      margin: 20px auto; } }
+
+.Modal-body--standard {
+  max-width: 800px; }
+  @media (min-width: 600px) {
+    .Modal-body--standard {
+      margin: 20px auto; } }
+
+.Modal-body--medium-large {
+  max-width: 730px; }
+  @media (min-width: 1281px) {
+    .Modal-body--medium-large {
+      margin: 20px auto; } }
+
+.Modal-body--large {
+  max-width: 1120px; }
+  @media (min-width: 1281px) {
+    .Modal-body--large {
+      margin: 20px auto; } }
+
+/* Modal Content */
+.Modal-container {
+  padding-top: 68px;
+  position: relative; }
+  @media (min-width: 680px) {
+    .Modal-container {
+      padding-top: 80px; } }
+  .Modal-container.has-noDefaultTopBar {
+    padding-top: 0; }
+
+.Modal-topBar {
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: inherit;
+  border-radius: 3px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 68px;
+  padding: 0 56px 0 20px;
+  position: absolute;
+  top: 0;
+  width: 100%; }
+  @media (min-width: 680px) {
+    .Modal-topBar {
+      padding: 0 56px 0 30px; } }
+
+.Modal-title {
+  font-family: "proxima-nova", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  line-height: 20px; }
+  @media (min-width: 680px) {
+    .Modal-title {
+      font-size: 24px;
+      line-height: 28px; } }
+
+.Modal-close {
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 15px;
+  height: 36px;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -18px;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  width: 36px; }
+  @media (min-width: 680px) {
+    .Modal-close {
+      font-size: 16px;
+      height: 56px;
+      margin-top: -28px;
+      width: 56px; } }
+
+.Modal-content {
+  background-color: inherit;
+  height: 100%;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: auto; }
+
+.ModalCta {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #F7FBFD;
+  padding: 20px; }
+  @media (min-width: 680px) {
+    .ModalCta {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-justify-content: space-around;
+          -ms-flex-pack: distribute;
+              justify-content: space-around;
+      padding: 30px 18px; } }
+
+@media (max-width: 679px) {
+  .ModalCta-btnWrap:first-child {
+    margin-bottom: 5px; }
+  .ModalCta-btnWrap:last-child:not(:only-child) {
+    margin-top: 20px; } }
+
+@media (min-width: 680px) {
+  .ModalCta-btnWrap {
+    margin: 0 12px;
+    width: calc(50% - 24px); }
+    .ModalCta--3Across .ModalCta-btnWrap {
+      margin: 0 8px;
+      width: calc(33.3333% - 16px); }
+      .ModalCta--3Across .ModalCta-btnWrap > .Btn {
+        padding-left: 24px;
+        padding-right: 24px; } }
+
+.ModalCta-btn {
+  width: 100%; }
+
+.ModuleGrid-container {
+  margin: 0 auto;
+  max-width: 1440px; }
+
+.ModuleGrid-inner {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  @media (min-width: 680px) {
+    .ModuleGrid-inner {
+      margin: 0 62px; } }
+  @media (min-width: 1200px) {
+    .ModuleGrid-inner {
+      margin: 0 80px; } }
+
+.ModuleGrid-content {
+  width: 100%; }
+  @media (min-width: 960px) {
+    .ModuleGrid-content {
+      width: calc(83.33333% - 4px); } }
+  @media (min-width: 1200px) {
+    .ModuleGrid-content {
+      max-width: 800px;
+      width: 100%; } }
+
+.NotSupportedModal-body {
+  color: #666;
+  font-size: 12px;
+  padding: 0 20px 20px; }
+  @media (min-width: 680px) {
+    .NotSupportedModal-body {
+      font-size: 16px;
+      padding: 0 30px 30px; } }
+
+.Form--giftCard .PaymentForm {
+  padding-bottom: 40px; }
+
+.PaymentForm-section {
+  padding: 24px 0 28px; }
+  .PaymentForm-section:not(:first-child) {
+    border-top: 1px solid #E5E5E5; }
+
+.PaymentForm-title {
+  font-family: "proxima-nova", "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 28px; }
+
+.PaymentForm-cardList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 28px; }
+
+.PaymentForm-cardListItem {
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-right: 1px solid #E5E5E5;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 8px;
+  padding-right: 8px; }
+  .PaymentForm-cardListItem > img {
+    display: block; }
+  .PaymentForm-cardListItem.is-inactive > img {
+    opacity: 0.25; }
+
+@media (min-width: 960px) {
+  .PaymentForm-wrapInstallmentPlanWrapper {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; } }
+
+.Payment-form-saved-content.is-loading .UserProfileLogin-loadingComponent {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+@media (min-width: 680px) {
+  .PaymentForm-wrapInstallmentPlan .PaymentForm-installmentPlanBankName {
+    max-width: 314px; } }
+
+@media (min-width: 960px) {
+  .PaymentForm-wrapInstallmentPlan .PaymentForm-installmentPlanBankName {
+    max-width: 284px; } }
+
+.PaymentForm-installmentPlanBankName,
+.PaymentForm-installmentPlanType {
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+  .PaymentForm-installmentPlanBankName label,
+  .PaymentForm-installmentPlanType label {
+    margin-bottom: 10px;
+    width: 100%; }
+  @media (min-width: 960px) {
+    .PaymentForm-installmentPlanBankName .FormInput-error,
+    .PaymentForm-installmentPlanType .FormInput-error {
+      padding-left: 0; } }
+
+.PaymentForm-installmentLabelWrapper {
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.PaymentForm-installmentLabel {
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0; }
+
+.PaymentForm-installmentFeeLabel {
+  color: #666;
+  margin-left: 5px; }
+
+.PaymentForm-submit > .Btn {
+  width: 100%; }
+
+.PaymentGiftCardForm .Form-section {
+  padding-top: 0; }
+  @media (min-width: 960px) {
+    .PaymentGiftCardForm .Form-section {
+      padding-bottom: 40px; } }
+
+.PaymentOption {
+  border: 1px solid #E5E5E5;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  padding: 30px 20px 1px; }
+  .PaymentOption:last-child {
+    margin-bottom: 0; }
+  .PaymentOption.is-selected {
+    border: 2px solid #007CC2;
+    cursor: default;
+    padding: 29px 19px; }
+  .PaymentOption.is-singleOption {
+    border: 0;
+    padding: 0; }
+  .no-touch .PaymentOption:hover {
+    border: 2px solid #007CC2;
+    padding: 29px 19px 0; }
+    .no-touch .PaymentOption:hover.is-selected {
+      padding: 29px 19px; }
+    .no-touch .PaymentOption:hover.is-singleOption {
+      border: 0;
+      padding: 0; }
+  @media (min-width: 680px) {
+    .PaymentOption {
+      padding: 30px 30px 1px; }
+      .PaymentOption.is-selected {
+        padding: 29px; }
+      .PaymentOption.is-singleOption {
+        padding: 0; }
+      .no-touch .PaymentOption:hover {
+        padding: 29px 29px 0; }
+        .no-touch .PaymentOption:hover.is-selected {
+          padding: 29px; }
+        .no-touch .PaymentOption:hover.is-singleOption {
+          padding: 0; } }
+
+.PaymentOption-label {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .PaymentOption-label {
+      -webkit-flex-wrap: nowrap;
+          -ms-flex-wrap: nowrap;
+              flex-wrap: nowrap; } }
+  @media all and (-ms-ime-align: auto) {
+    .PaymentOption-label {
+      -webkit-flex-wrap: nowrap;
+          -ms-flex-wrap: nowrap;
+              flex-wrap: nowrap; } }
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .PaymentOption-label .FormCardList {
+      width: 155px; } }
+  @media all and (-ms-ime-align: auto) {
+    .PaymentOption-label .FormCardList {
+      width: 155px; } }
+
+.PaymentOption-name {
+  margin: 0 20px 30px 0; }
+
+@media (min-width: 680px) {
+  .PaymentOption-name--CREDIT {
+    max-width: calc(100% - 200px); } }
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .PaymentOption-name--CREDIT {
+    width: 425px; } }
+
+@media all and (-ms-ime-align: auto) {
+  .PaymentOption-name--CREDIT {
+    width: 425px; } }
+
+@media (max-width: 679px) {
+  .PaymentOption-name--CREDIT {
+    max-width: auto; } }
+
+.PaymentOption-heading {
+  display: inline-block;
+  font-size: 16px; }
+  @media (min-width: 680px) {
+    .PaymentOption-heading {
+      font-size: 24px;
+      line-height: 32px; } }
+
+.PaymentOption-change {
+  color: #007CC2;
+  display: inline-block;
+  font-size: 12px;
+  margin-left: 10px;
+  text-decoration: underline; }
+
+.PaymentOption-icon {
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  height: 20px; }
+  @media (min-width: 680px) {
+    .PaymentOption-icon {
+      height: 32px; } }
+
+.PaymentOption-icon--paypal {
+  height: 20px;
+  margin-top: 9px;
+  width: 20px; }
+
+.PaymentOption-icon--uatp {
+  height: 8px;
+  margin-top: 14px;
+  width: 25px; }
+
+.PaymentOption-icon--visaCheckout {
+  height: 12px;
+  margin-top: 10px;
+  width: 80px; }
+
+.PaymentPaypal {
+  padding: 5px; }
+  .PaymentPaypal .Form-section--agree {
+    font-size: 14px; }
+    @media (min-width: 960px) {
+      .PaymentPaypal .Form-section--agree {
+        border-top: 0;
+        max-width: 100%; } }
+  .PaymentPaypal .PaymentForm-fields .PaymentForm-fields--input {
+    margin-right: 14px; }
+
+.PaymentPaypal-content {
+  margin-bottom: 40px; }
+  @media (min-width: 680px) {
+    .PaymentPaypal-content {
+      -webkit-align-items: flex-start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; } }
+
+.PaymentPaypal-wrapContent {
+  border-bottom: 1px solid #E5E5E5;
+  margin-bottom: 30px; }
+  .PaymentPaypal-wrapContent::after {
+    clear: both;
+    content: '';
+    display: table; }
+
+.PaymentPaypal-wrapImg {
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #FFF;
+  border-radius: 50%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+  height: 120px;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+  width: 120px; }
+  @media (min-width: 680px) {
+    .PaymentPaypal-wrapImg {
+      margin: 0 40px 0 0; } }
+
+.PaymentPaypal-img {
+  padding: 0 8px;
+  position: relative;
+  width: 100%; }
+
+.PaymentPaypal-wrapDetails {
+  color: #0B2343; }
+
+.PaymentPaypal-title {
+  margin-bottom: 20px; }
+
+.PaymentPaypal-link {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-left: 22px; }
+
+.PaymentPaypal-footer {
+  font-family: "proxima-nova", "Helvetica Neue", sans-serif;
+  color: #0B2343;
+  font-size: 14px; }
+
+.PaymentPaypal-wrapTotal {
+  border-bottom: 1px solid #E5E5E5;
+  padding-bottom: 30px; }
+  .PaymentPaypal-wrapTotal::after {
+    clear: both;
+    content: '';
+    display: table; }
+
+.PaymentPaypal-totalDescription {
+  font-family: "proxima-nova", "Helvetica Neue", sans-serif;
+  float: left;
+  font-size: 20px;
+  line-height: 2;
+  padding-top: 6px; }
+
+.PaymentPaypal-wrapTotalPrice {
+  float: right; }
+
+.PaymentPaypal-totalPrice {
+  font-family: "proxima-nova", "Helvetica Neue", sans-serif;
+  font-size: 36px;
+  margin-right: 5px; }
+
+.PaymentPaypal-totalCurrency {
+  font-size: 24px; }
+
+.PaymentPaypal .PaymentForm-fields {
+  font-size: 10px; }
+
+@media (min-width: 960px) {
+  .PaymentRemote .Form-section--agree {
+    border-top: 0; } }
+
+.PaymentRemote-title {
+  font-family: "proxima-nova", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  margin-bottom: 28px; }
+
+.PaymentRemote-description {
+  color: #0B2343; }
+
+.PaymentRemote-wrapTotal {
+  border-bottom: 1px solid #E5E5E5;
+  padding-bottom: 30px; }
+  .PaymentRemote-wrapTotal::after {
+    clear: both;
+    content: '';
+    display: table; }
+
+.PaymentRemote-total--description {
+  font-family: "proxima-nova", "Helvetica Neue", sans-serif;
+  float: left;
+  font-size: 20px;
+  line-height: 2;
+  padding-top: 6px; }
+
+.PaymentRemote-total--wrapPrice {
+  float: right; }
+
+.PaymentRemote-total--price {
+  font-family: "proxima-nova", "Helvetica Neue", sans-serif;
+  font-size: 36px;
+  margin-right: 5px; }
+
+.PaymentRemote-total--currency {
+  font-size: 24px; }
+
+.PaymentRemote-submit {
+  margin-bottom: 50px;
+  width: 100%; }
+
+.PaymentRemote-establishmentsWrapper {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  overflow: hidden; }
+
+.PaymentRemote-establishmentLogoWrapper {
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px #E5E5E5 solid;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80px;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%; }
+  .PaymentRemote-establishmentLogoWrapper:nth-child(odd) {
+    border-right: 1px #E5E5E5 solid; }
+
+.PaymentRemote-establishmentLogo {
+  max-height: 50px; }
+  @media (max-width: 679px) {
+    .PaymentRemote-establishmentLogo {
+      max-width: 135px; } }
+
+.Payment {
+  min-width: 100%; }
+
+@media (min-width: 960px) {
+  .Payment--twoColumn {
+    border-right: 1px solid #E5E5E5;
+    /* stylelint-disable */
+    /* stylelint-enable */
+    -webkit-flex: 0 1 auto;
+        -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
+    padding-right: 48px;
+    width: calc(66.66667% - 8px); } }
+
+@media (min-width: 680px) {
+  .Payment--twoColumn {
+    -webkit-align-self: stretch;
+        -ms-flex-item-align: stretch;
+            align-self: stretch;
+    padding-bottom: 40px; } }
+
+@media (min-width: 1200px) {
+  .Payment--twoColumn {
+    -webkit-flex: 0 1 auto;
+        -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
+    padding-right: 80px;
+    width: calc(66.66667% - 10.6666px); } }
+
+.no-flex .Payment--twoColumn {
+  display: inline-block; }
+
+.Payment-title {
+  font-family: "proxima-nova", "Helvetica Neue", sans-serif;
+  font-size: 36px;
+  left: -2px;
+  line-height: 32px;
+  padding: 34px 0 30px;
+  position: relative; }
+  @media (min-width: 680px) {
+    .Payment-title {
+      font-size: 54px;
+      left: -4px;
+      line-height: 48px;
+      padding: 34px 0 40px; } }
+  @media (min-width: 1200px) {
+    .Payment-title {
+      padding: 60px 0 40px; } }
+
+.Payment .Form-privacyPolicy {
+  max-width: 540px;
+  padding-top: 20px; }
+
+.Payment-opts-toggle {
+  margin-bottom: 50px; }
+
+.Payment-opts-toggle .Toggle-listItem {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: 25%;
+      -ms-flex-preferred-size: 25%;
+          flex-basis: 25%; }
+
+.Payment-wrapSubmitBtn {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.Payment-cancelBtn,
+.Payment-submitBtn {
+  min-width: calc(50% - 15px); }
+
+.PNRConfirmationPayment {
+  background-color: #FFF; }
+  @media (max-width: 679px) {
+    .PNRConfirmationPayment {
+      border-bottom: 1px solid #E5E5E5; } }
+  @media (min-width: 680px) {
+    .PNRConfirmationPayment {
+      padding: 0 30px; } }
+
+.PNRConfirmationPayment-header {
+  border-bottom: 1px solid #E5E5E5;
+  padding: 30px 0; }
+  @media (max-width: 679px) {
+    .PNRConfirmationPayment-header {
+      margin: 0 20px; } }
+
+@media (min-width: 680px) {
+  .PNRConfirmationPayment-payment {
+    border-bottom: 1px solid #E5E5E5;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; } }
+
+.PNRConfirmationPayment-cart {
+  background-color: #F7FBFD;
+  padding: 0 20px; }
+  @media (min-width: 680px) {
+    .PNRConfirmationPayment-cart {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-basis: 58.33333%;
+          -ms-flex-preferred-size: 58.33333%;
+              flex-basis: 58.33333%;
+      max-width: 58.33333%; }
+      .PNRConfirmationPayment-cart .ShoppingCart-header,
+      .PNRConfirmationPayment-cart .ShoppingCart-container {
+        width: 100%; } }
+  @media (min-width: 960px) {
+    .PNRConfirmationPayment-cart {
+      background-color: #FFF;
+      -webkit-flex-basis: 62.5%;
+          -ms-flex-preferred-size: 62.5%;
+              flex-basis: 62.5%;
+      max-width: 62.5%;
+      padding: 0; } }
+
+@media (max-width: 679px) {
+  .PNRConfirmationPayment-paymentSummary {
+    padding: 0 20px; } }
+
+@media (min-width: 680px) {
+  .PNRConfirmationPayment-paymentSummary {
+    -webkit-flex-basis: 41.66667%;
+        -ms-flex-preferred-size: 41.66667%;
+            flex-basis: 41.66667%;
+    max-width: 41.66667%;
+    padding-right: 20px; } }
+
+@media (min-width: 960px) {
+  .PNRConfirmationPayment-paymentSummary {
+    -webkit-flex-basis: 37.5%;
+        -ms-flex-preferred-size: 37.5%;
+            flex-basis: 37.5%;
+    max-width: 37.5%; } }
+
+.PNRConfirmationPayment-date {
+  font-family: "proxima-nova", "Helvetica Neue", sans-serif;
+  display: block;
+  font-size: 24px;
+  margin-bottom: 30px; }
+  @media (min-width: 680px) {
+    .PNRConfirmationPayment-date {
+      margin-bottom: 50px; } }
+
+.PNRConfirmationPayment-paymentSummarySectionTitle {
+  font-family: "proxima-nova", "Helvetica Neue", sans-serif;
+  color: #666;
+  font-size: 12px;
+  margin-bottom: 16px; }
+
+.PNRConfirmationPayment-cardInfo {
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.PNRConfirmationPayment-cardType {
+  border: 1px solid rgba(11, 35, 67, 0.25);
+  border-radius: 4px;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+  height: 30px;
+  margin-right: 15px;
+  padding: 7px; }
+
+.PNRConfirmationPayment-cardNumber {
+  font-family: 'NeueHaasUnicaPro-Medium', sans-serif;
+  font-size: 18px; }
+
+.PNRConfirmationPayment-billingSummary {
+  padding: 30px 0; }
+  .PNRConfirmationPayment-billingSummary:not(:last-child) {
+    border-bottom: 1px solid #E5E5E5; }
+
+.PNRConfirmationPayment-billingAddress,
+.PNRConfirmationPayment-paymentPlan {
+  display: block;
+  font-size: 14px;
+  font-style: normal; }
+  .PNRConfirmationPayment-billingAddress > span,
+  .PNRConfirmationPayment-paymentPlan > span {
+    display: block; }
+
+.PNRConfirmationPayment-paymentPlanMonthly {
+  text-transform: lowercase; }
+
+
+
 
 div#section {
   border: 1px solid #eee;
