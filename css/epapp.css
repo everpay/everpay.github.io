@@ -4464,9 +4464,7 @@ footer .pull-center {
     margin: auto;
     width: 94%;
     margin-left: 30%;
-}	
-
-}
+}}
 
 #header-btn {
   margin-top: -0px;
@@ -4476,7 +4474,7 @@ footer .pull-center {
 #content {
   padding: 40px;
   padding-top: 85px;
-  width: 82%;
+  width: auto;
   position: relative;
   min-height: 900px;
   -webkit-transition: all 0.3s ease-out;
