@@ -5829,7 +5829,7 @@ footer .site-footer-links  ul {
     width: 635px;
 }
 
-.tp--portfolio.tp--portfolio-hover-2 .tp--portfolio-grid .tp--portfolio-item business-solutions {
+.tp--portfolio.tp--portfolio-hover-2 .tp--portfolio-grid .tp--portfolio-item .tp--portfolio-item-biz-solutions {
     float: left;
  position: absolute; 
 	left: 631px!important; 
