@@ -15200,12 +15200,38 @@ sw-grid-flex__cell-1-3 {
 
 @media (min-width: 1440px) {
 .sw-dms-panel-header--big {
-    font-size: 3.214rem;
-	}
+    font-size: 3.724rem;
+	 color: #FFF;
+    font-weight: bold;
+    line-height: 1.3;
+    margin: 0 0 1.2rem 0;
+    -webkit-font-smoothing: antialiased;
+    zoom: 1;
 }
 
+.sw-dms-panel-header--big {
+    font-size: 3.214rem;
+ color: #FFF;
+font-weight: bold;
+    line-height: 1.3;
+    margin: 0 0 1.2rem 0;
+    -webkit-font-smoothing: antialiased;
+    zoom: 1;
+}
 
-
+.sw-sell-panel__bg {
+    background-image: url(https://static1.sw-cdn.net/files/cms/dms/homepage/sell-slice-02.jpg);
+    -webkit-transition: opacity 0.9s ease-in-out;
+    transition: opacity 0.9s ease-in-out;
+}
+.sw-bg-panel {
+    -webkit-transition: opacity 1s ease-in-out;
+    transition: opacity 4s ease-in-out;
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
 
 
 
