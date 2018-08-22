@@ -663,10 +663,14 @@ blockquote.blockquote-large {
   margin-bottom: 0;
 }
 
-.tp--header nav .navbar .nav-left {
+.tp--header nav .navbar .nav {
+  text-align: center;
+}
+
+.tp--header nav .navbar .nav .nav-left {
   float: left;
 }
-.tp--header nav .navbar .nav-right {
+.tp--header nav .navbar .nav .nav-right {
     float: right;
 }
 
