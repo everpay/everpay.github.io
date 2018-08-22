@@ -1539,8 +1539,9 @@ blockquote.blockquote-large {
 }
 
 .tp--header .logo a img.logo-main {
-	  line-height: 80px;
-	  margin-top: 20px;
+    line-height: 80px;
+    margin-top: 30px;
+    margin-left: 20px;
 }
 
 .tp--header-shrink nav .nav > li a {
