@@ -15117,20 +15117,20 @@ canvas {
 }
 
 .sw--font-size-18 {
-    font-size: 1.286rem;
+    font-size: 2.286rem;
 }
 
 .sw-dms-button--red.sw-dms-button--red, .btn-primary, .btn-buy-now, .btn-secondary {
     color: #fff;
 }
 .sw-dms-button.sw-dms-button, .btn, .btn-primary, .btn-buy-now, .btn-secondary, .sw-image-edit__file-upload-button, .btn-white {
-    color: #000;
+    color: #FFF;
 }
 .sw-dms-button--red.sw-dms-button--red, .btn-primary, .btn-buy-now, .btn-secondary {
     color: #fff;
 }
 .sw-dms-button.sw-dms-button, .btn, .btn-primary, .btn-buy-now, .btn-secondary, .sw-image-edit__file-upload-button, .btn-white {
-    color: #000;
+    color: #FFF;
 }
 .sw-dms-button--red, .btn-primary, .btn-buy-now, .btn-secondary {
     background-color: #FF4B5A;
@@ -15186,6 +15186,10 @@ canvas {
 }
 .touch .sw--is-hidden-on-touch, .sw--is-hidden {
     display: none;
+}
+
+sw-grid-flex__cell-1-3 {
+    flex: 0 0 33.33%;
 }
 
 .sw-make-panel__bg {
