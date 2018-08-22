@@ -663,9 +663,13 @@ blockquote.blockquote-large {
   margin-bottom: 0;
 }
 
-.tp--header nav .navbar .nav {
-  float: right;
+.tp--header nav .navbar .nav-left {
+  float: left;
 }
+.tp--header nav .navbar .nav-right {
+    float: right;
+}
+
 
 .tp--header nav .navbar .nav > li > a {
      font-size: 0.8375em;
