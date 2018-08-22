@@ -5829,6 +5829,13 @@ footer .site-footer-links  ul {
     width: 635px;
 }
 
+.tp--portfolio.tp--portfolio-hover-2 .tp--portfolio-grid .tp--portfolio-item business-solutions {
+    float: left;
+ position: absolute; 
+	left: 631px!important; 
+	top: 297px!important;
+}
+
 .tp--testimonial .tp--padded .tp--contentwrap {
     width: 75%;
     padding: 0;
