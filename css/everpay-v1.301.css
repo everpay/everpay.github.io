@@ -269,7 +269,7 @@
 }
 
 body {
-  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-family:"ubuntu-mono",sans-serif;
   font-size: 16px;
   color: #7d8a93;
 }
@@ -283,7 +283,7 @@ ul li, ol li {
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: 'Open Sans', sans-serif;
+  font-family:"karmina-sans",sans-serif;
   margin-bottom: 1em;
   color: #38454e;
   line-height: 1.5;
@@ -14926,3 +14926,302 @@ canvas {
     z-index: -0;
     opacity: .7;
 }
+
+
+/********************************/
+/*        Landing header        */
+/********************************/
+
+.sw--position-relative {
+    position: relative;
+}
+
+.sw--clearfix:before, .sw--clearfix:after {
+    display: table;
+    content: " ";
+}
+
+.sw--width-full {
+    width: 100%;
+}
+
+
+.sw-grid-flex {
+    display: flex;
+}
+
+.sw-dms-banner {
+    background-color: #1e2740;
+}
+.sw--padding-hor-7 {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.sw--width-full {
+    width: 100%;
+}
+.sw--position-relative {
+    position: relative;
+}
+.sw-grid-flex__cell-1-4 {
+    flex: 0 0 25%;
+}
+
+
+.sw-logo-container {
+    position: absolute;
+    top: 28.5%;
+    width: 51%;
+}
+
+.sw-logo {
+    margin-bottom: 51px;
+    width: 100%;
+}
+
+.sw-dms-banner__text {
+    top: 36%;
+}
+.sw--position-absolute, .sw--ratio__img {
+    position: absolute;
+}
+
+.sw-green-cursor {
+    height: 35px;
+    width: 35px;
+    bottom: 25px;
+    left: 25px;
+    position: absolute;
+    animation: bounce .9s infinite linear;
+}
+
+.sw--position-relative {
+    position: relative;
+}
+.sw-grid-flex__cell-3-4 {
+    flex: 0 0 75%;
+}
+.sw-grid-flex {
+    display: flex;
+}
+.sw--text-white, .text-white {
+    color: white;
+}
+
+.sw-dms-panel-container-bg__design {
+    background-image: url(https://static1.sw-cdn.net/files/cms/dms/homepage/design-image-02.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+}
+.sw-dms-panel-container-bg--active {
+    -webkit-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+.sw-dms-panel-container-bg {
+    -webkit-transition: opacity 1.3s ease-in-out;
+    transition: opacity 1.3s ease-in-out;
+    opacity: 0;
+}
+
+.sw-dms-panel-container-bg__design {
+    background-image: url(https://static1.sw-cdn.net/files/cms/dms/homepage/design-image-02.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+}
+.sw-dms-panel-container-bg--active {
+    -webkit-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+.sw-dms-panel-container-bg {
+    -webkit-transition: opacity 1.3s ease-in-out;
+    transition: opacity 1.3s ease-in-out;
+    opacity: 0;
+}
+
+.sw-dms-panel-container-bg__design {
+    background-image: url(https://static1.sw-cdn.net/files/cms/dms/homepage/design-image-02.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+}
+.sw-dms-panel-container-bg--active {
+    -webkit-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+.sw-dms-panel-container-bg {
+    -webkit-transition: opacity 1.3s ease-in-out;
+    transition: opacity 1.3s ease-in-out;
+    opacity: 0;
+}
+
+.sw-dms-panel-container-bg__design {
+    background-image: url(https://static1.sw-cdn.net/files/cms/dms/homepage/design-image-02.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+}
+.sw-dms-panel-container-bg--active {
+    -webkit-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+.sw-dms-panel-container-bg {
+    -webkit-transition: opacity 1.3s ease-in-out;
+    transition: opacity 1.3s ease-in-out;
+    opacity: 0;
+}
+
+.sw-design-panel__bg {
+    background-image: url(https://static1.sw-cdn.net/files/cms/dms/homepage/design-slice-02.jpg);
+    height: 100%;
+    -webkit-transition: opacity 0.9s ease-in-out;
+    transition: opacity 0.9s ease-in-out;
+}
+.sw-bg-panel {
+    -webkit-transition: opacity 1s ease-in-out;
+    transition: opacity 4s ease-in-out;
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.sw-dms-panel__inner-div {
+    top: 36%;
+}
+
+.sw--padding-hor-7 {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.sw--position-absolute, .sw--ratio__img {
+    position: absolute;
+}
+
+@media (min-width: 1440px)
+.sw-dms-panel-header--big {
+    font-size: 3.214rem;
+}
+.sw--margin-bottom-1 {
+    margin-bottom: 5px;
+}
+
+.sw--margin-bottom-7 {
+    margin-bottom: 35px;
+}
+
+.sw--font-size-18 {
+    font-size: 1.286rem;
+}
+
+.sw-dms-button--red.sw-dms-button--red, .btn-primary, .btn-buy-now, .btn-secondary {
+    color: #fff;
+}
+.sw-dms-button.sw-dms-button, .btn, .btn-primary, .btn-buy-now, .btn-secondary, .sw-image-edit__file-upload-button, .btn-white {
+    color: #000;
+}
+.sw-dms-button--red.sw-dms-button--red, .btn-primary, .btn-buy-now, .btn-secondary {
+    color: #fff;
+}
+.sw-dms-button.sw-dms-button, .btn, .btn-primary, .btn-buy-now, .btn-secondary, .sw-image-edit__file-upload-button, .btn-white {
+    color: #000;
+}
+.sw-dms-button--red, .btn-primary, .btn-buy-now, .btn-secondary {
+    background-color: #FF4B5A;
+    border: none;
+}
+.sw-dms-button, .btn, .btn-primary, .btn-buy-now, .btn-secondary, .sw-image-edit__file-upload-button, .btn-white {
+    font-family: inherit;
+    border: thin solid #DAD8DA;
+    border-radius: 1.18rem;
+    line-height: 1.1rem;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    padding: .42rem 1.07rem;
+    white-space: nowrap;
+    background-color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.sw--margin-bottom-5 {
+    margin-bottom: 25px;
+}
+
+.sw-dms-button--red, .btn-primary, .btn-buy-now, .btn-secondary {
+    background-color: #FF4B5A;
+    border: none;
+}
+
+.sw-dms-panel__inner-div__main-text {
+    opacity: 0;
+    -webkit-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+.sw--margin-top-1 {
+    margin-top: 5px;
+}
+
+.sw-dms-panel {
+    height: 100vh;
+    -webkit-transition: background-image 0.6s ease-in-out;
+    transition: background-image 0.6s ease-in-out;
+}
+
+.sw-make-panel__left-border {
+    border-left: 1px solid white;
+    position: absolute;
+    top: 16%;
+    bottom: 10%;
+    left: 0;
+    opacity: 0.5;
+}
+.touch .sw--is-hidden-on-touch, .sw--is-hidden {
+    display: none;
+}
+
+.sw-make-panel__bg {
+    background-image: url(https://static1.sw-cdn.net/files/cms/dms/homepage/make-slice-04.jpg);
+    -webkit-transition: opacity 0.9s ease-in-out;
+    transition: opacity 0.9s ease-in-out;
+}
+
+@media (min-width: 1440px) {
+.sw-dms-panel-header--big {
+    font-size: 3.214rem;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
