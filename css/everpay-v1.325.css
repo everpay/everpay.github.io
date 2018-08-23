@@ -1428,7 +1428,7 @@ blockquote.blockquote-large {
     opacity: 1;
   }
 .tp--header .content {
-    padding: 1.75em 1.75em 1.75em 1.5em;
+    padding: 2.75em 1.55em 0.25em 1.55em;
     transition: transform .3s;
     text-align: left;
     font-size: 0.9em;
