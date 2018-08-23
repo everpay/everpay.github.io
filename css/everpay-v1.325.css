@@ -15344,8 +15344,9 @@ font-weight: bold;
 }
 	
 .tp--shape-bottom svg {
-    height: 120px;
     transform: translateX(-50%) rotateY(180deg);
+    width: calc(300% + 1.3px);
+    height: 458px;
 }	
 
 .tp--shape svg {
