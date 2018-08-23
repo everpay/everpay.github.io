@@ -15298,10 +15298,7 @@ font-weight: bold;
     line-height: 0;
     direction: ltr;
 }
-.ep *, .ep :after, .ep :before {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}	
+	
 	
 .ep-container {
     min-height: 558px;
