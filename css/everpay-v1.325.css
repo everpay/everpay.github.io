@@ -15325,11 +15325,9 @@ font-weight: bold;
     position: relative;
 }
 	
-@media (min-width: 768px){
 .ep-column.elementor-col-50, .ep-column[data-col="50"] {
     width: 50%;
   }	
-}
 
 .ep-column-wrap, .ep-widget-wrap {
     width: 100%;
@@ -15346,22 +15344,9 @@ font-weight: bold;
     position: relative;
 }	
 
-.ep-element .ep-widget-container {
-    -webkit-transition: background .3s,border .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
-    transition: background .3s,border .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
-    -o-transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
-    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
-    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
-}
-
-
 .ep-column-gap-default>.ep-row>.ep-column>.ep-element-populated {
     padding: 10px;
 }
-
-.ep-widget-image {
-    text-align: center;
-}	
 
 .ep-widget-container {
     -webkit-transition: background .3s,border .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
@@ -15375,7 +15360,7 @@ font-weight: bold;
     text-align: center;
 }
 
-.ep-widget-image .elp-image img {
+.ep-widget-image .ep-image img {
     vertical-align: middle;
     display: inline-block;
 }
@@ -15400,10 +15385,7 @@ font-weight: bold;
 .ep-button .ep-button-text {
     display: inline-block;
 }
-
-.ep-button span {
-    text-decoration: inherit;
-}	
+	
 
 
 
