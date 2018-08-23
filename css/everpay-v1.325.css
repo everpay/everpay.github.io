@@ -1454,6 +1454,7 @@ blockquote.blockquote-large {
     opacity: 0.7;
     transition: opacity 0.3s;
   }
+	
   .tp--header .content a:hover {
     text-decoration: none;
     opacity: 1;
