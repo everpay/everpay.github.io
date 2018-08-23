@@ -10517,6 +10517,32 @@ a:hover {
   /* reset Font Awesome's display:inline-block */
 }
 
+.tp--shape-bottom {
+    z-index: 2;
+    pointer-events: none;
+}
+.tp--shape[data-negative=false].tp--shape-bottom, .tp--shape[data-negative=true].tp--shape-top {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.tp--shape {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    direction: ltr;
+}
+.tp--shape-bottom {
+    bottom: -1px;
+}
+.tp--shape-top {
+    top: -1px;
+}
+
+
 .tp--gradient-18.tp--section.tp--diagonal {
   background: none !important;
 }
