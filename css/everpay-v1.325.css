@@ -15331,7 +15331,7 @@ font-weight: bold;
 	
 	
 .tp--shape-bottom {
-    bottom: -1px;
+    bottom: -60px;
 }
 	
 .tp--shape-bottom .tp--shape-fill {
@@ -15346,7 +15346,7 @@ font-weight: bold;
 .tp--shape-bottom svg {
     transform: translateX(-50%) rotateY(180deg);
     width: calc(300% + 1.3px);
-    height: 458px;
+    height: 148px;
 }	
 
 .tp--shape svg {
