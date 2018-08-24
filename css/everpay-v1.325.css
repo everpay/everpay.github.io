@@ -3952,11 +3952,11 @@ div.landing--call--us {
 }
 
 .tp--diagonal.tp--diagonal-2:before {
-  -webkit-transform: skewY(9deg);
-  -moz-transform: skewY(9deg);
-  -ms-transform: skewY(9deg);
-  -o-transform: skewY(9deg);
-  transform: skewY(9deg);
+  -webkit-transform: skewY(5deg);
+  -moz-transform: skewY(5deg);
+  -ms-transform: skewY(5deg);
+  -o-transform: skewY(5deg);
+  transform: skewY(5deg);
 }
 
 .tp--floating-box {
