@@ -15346,7 +15346,7 @@ font-weight: bold;
 .tp--shape-bottom svg {
     transform: translateX(-50%) rotateY(180deg);
     width: calc(300% + 1.3px);
-    height: 148px;
+    height: 240px;
 }	
 
 .tp--shape svg {
@@ -15364,7 +15364,11 @@ svg:not(:root) {
     overflow: hidden;
 }
 
-
+.tp--shape[data-negative=false].tp--shape-bottom, .tp--shape[data-negative=true].tp--shape-top {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
 
 
 
