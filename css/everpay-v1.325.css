@@ -15335,7 +15335,16 @@ font-weight: bold;
 }
 	
 .tp--shape-bottom .tp--shape-fill {
-    fill: #fff;
+    fill: #ffffff;
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}	
+	
+.tp--shape-bottom .tp--shape-fill-1 {
+    fill: #f7f7f7;
     -webkit-transform-origin: center;
     -ms-transform-origin: center;
     transform-origin: center;
