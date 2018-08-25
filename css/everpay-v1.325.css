@@ -3311,32 +3311,13 @@ padding-top: 0.9em;
 }
 
 .owl-carousel .owl-item img.tp-main {
-    width: 45%;
+    width: 33%;
     display: block;
 	 max-width: none;
     position: absolute;
     float: left;
 }
 
-img.tp-main {
-    width: 45%;
-    display: block;
-	 max-width: none;
-    position: absolute;
-    float: left;
-}
-
-img.tp-main {
-    width: 45%;
-    display: block;
-	 max-width: none;
-    position: absolute;
-    float: left;
-}
-
-img.tp-main {
-    max-width: none;
-}
 
 .tp--dark-green2 {
   background-color: #048864;
@@ -3386,10 +3367,12 @@ img.tp-main {
     margin-left: 46.5%;
     line-height: 337px;
 }
+
 .caro--text {
-    height: 420px;
-    margin-left: 46.5%;
+   height: 420px;
+    margin-left: -1.5%;
     line-height: 420px;
+    width: 95%;
 }
 
 .mrkting-txtBg {
