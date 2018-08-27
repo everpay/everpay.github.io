@@ -3958,6 +3958,21 @@ div.landing--call--us {
   transform: skewY(3deg);
 }
 
+.tp--diagonal.tp--diagonal-4:before {
+  -webkit-transform: skewY(3deg);
+  -moz-transform: skewY(3deg);
+  -ms-transform: skewY(3deg);
+  -o-transform: skewY(3deg);
+  transform: skewY(3deg);
+}
+.tp--diagonal.tp--diagonal-3:after {
+  -webkit-transform: skewY(0deg);
+  -moz-transform: skewY(0deg);
+  -ms-transform: skewY(0deg);
+  -o-transform: skewY(0deg);
+  transform: skewY(0deg);
+}
+
 .tp--floating-box {
   background-color: white;
   box-shadow: 0 10px 50px rgba(20, 50, 81, 0.04), 0 10px 50px rgba(0, 0, 0, 0.05);
@@ -10540,6 +10555,11 @@ a:hover {
 .tp--shape-top {
     top: -1px;
 }
+
+#pos-devices {
+    height: 620px;
+}
+
 
 
 .tp--gradient-18.tp--section.tp--diagonal {
