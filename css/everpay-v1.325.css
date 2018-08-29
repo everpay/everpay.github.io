@@ -5800,6 +5800,19 @@ footer .site-footer-links  ul {
   padding: 0px 0px 0 0;
 }
 
+
+.tp--portfolio.tp--portfolio-hover-2 .tp--portfolio-grid .tp--portfolio-item {
+    position: absolute!important;
+    left: 632px!important;
+   top: 297px!important;
+}
+
+.tp--portfolio.tp--portfolio-hover-2 .tp--portfolio-grid .tp--portfolio-item-biz-solutions {
+    position: absolute!important;
+    left: 632px!important;
+   top: 297px!important;
+}
+
 .tp--testimonial.tp--padded {
     background-color: #048864;
     height: 100%!important;
