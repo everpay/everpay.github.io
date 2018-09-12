@@ -14818,12 +14818,12 @@ height: 100%;
 
 	
 .affa-feature-col.tp--icon-wrapper {
-    margin: 2em auto 0;
+    margin: 1.5em auto 0;
     color: #FFFFFF;
 }
 	
 .tp--icon-wrapper .icon-large {
-    font-size: 3em;
+    font-size: 3.75em;
     line-height: inherit;
 }
 
@@ -14836,9 +14836,9 @@ height: 100%;
              color: inherit;   
     position: absolute;
     top: 11%;
-    left: 23%;
+    left: 27%;
     margin: 0px auto;
-		font-size:280px;
+		font-size:290px;
 		opacity:.2;
 		-webkit-transition:opacity .2s ease-in-out;
 		transition:opacity .2s ease-in-out;
