@@ -433,6 +433,7 @@ blockquote.blockquote-large {
   background-color: black;
 }
 
+
 .browserupgrade {
   position: absolute;
   left: 0px;
@@ -14835,7 +14836,7 @@ height: 100%;
 .affa-feature-col .feature-icon {
              color: inherit;   
     position: absolute;
-    top: 11%;
+    top: 13%;
     left: 27%;
     margin: 0px auto;
 		font-size:290px;
