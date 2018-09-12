@@ -166,8 +166,35 @@
 	
         </div>
     </footer>
+<!-- Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3 text-center">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">×</button>
+        <br><br>
+        <h1></h1>
+      <div id="widget-container"></div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
+<script>
+  var signIn = new OktaSignIn({baseUrl: 'https://{yourOktaDomain}'});
+  signIn.renderEl({
+    el: '#widget-container'
+  }, function success(res) {
+    if (res.status === 'SUCCESS') {
+      console.log('Do something with this sessionToken', res.session.token);
+    } else {
+    // The user can be in another authentication state that requires further action.
+    // For more information about these states, see:
+    //   https://github.com/okta/okta-signin-widget#rendereloptions-success-error
+    }
+  });
+</script>
 </div><!--//wrapper-->
 
 
@@ -244,6 +271,7 @@
       });
     </script>
 <script src="{{ site.baseurl }}/libs/main.js"></script>
+
 
 <!-- LoginModal -->
 <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
