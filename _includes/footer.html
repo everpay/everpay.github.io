@@ -166,8 +166,20 @@
 	
         </div>
     </footer>
+<!-- Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3 text-center">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">×</button>
+        <br><br>
+        <h1></h1>
+      <div id="widget-container"></div>
+      </div>
+    </div>
+  </div>
+</div>
 
-<div id="widget-container"></div>
 
 <script>
   var signIn = new OktaSignIn({baseUrl: 'https://{yourOktaDomain}'});
