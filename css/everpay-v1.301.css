@@ -4619,6 +4619,7 @@ div.landing--call--us {
 
 .tp--footer  {
   margin-top: 0em;
+  margin-top: 1.52em;
    margin-left: 0em;
   padding-top: 0em;
 }
@@ -15029,7 +15030,6 @@ canvas {
     z-index: -0;
     opacity: .7;
 }
-
 
 /********************************/
 /*        Landing header        */
