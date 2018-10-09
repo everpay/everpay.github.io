@@ -160,9 +160,9 @@
 <ul class="col-sm-2 col-sm-offset-1  site-footer-links hidden" id=""><li><a href="{{ site.baseurl }}/#/">VISA</a></li><li><a href="https://everpayinc.com/www/#">MasterCard</a></li><li><a href="https://everpayinc.com/www/#">PCI-DSS</a></li></ul>
 
 <ul class="site-footer-links col-sm-4 text-lg-left text-xs-center text-xs-center" id="">
-<li class="cpl-link1"><a href="{{ site.baseurl }}/legal/terms">Terms</a></li>
-<li class="cpl-link2"><a href="{{ site.baseurl }}/legal/privacy/">Privacy</a></li>
-<li class="cpl-link1"><a href="{{ site.baseurl }}/legal/security/">Security</a></li>
+<li class="cpl-link1"><a href="{{ site.baseurl }}/terms">Terms</a></li>
+<li class="cpl-link2"><a href="{{ site.baseurl }}/privacy/">Privacy</a></li>
+<li class="cpl-link1"><a href="{{ site.baseurl }}/security/">Security</a></li>
 <li class="cpl-link0"><a href="https://status.everpayinc.com" target="_blank" data-status-link-for="everpayapp" title="Visit our status page">Status</a>
         </li>
 		</ul>
@@ -187,7 +187,7 @@
 
 
 <script>
-  var signIn = new OktaSignIn({baseUrl: 'https://{yourOktaDomain}'});
+  var signIn = new OktaSignIn({baseUrl: 'https://everpay.okta.com/'});
   signIn.renderEl({
     el: '#widget-container'
   }, function success(res) {
