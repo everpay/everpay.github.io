@@ -1,5 +1,5 @@
 /**
- * SVG Injector wrapper.
+ * Toggle State wrapper.
  *
  * @author Htmlstream
  * @version 1.0
@@ -7,7 +7,7 @@
  */
 ;(function ($) {
   'use strict';
-  $.HSCore.components.HSSVGIngector = {
+  $.HSCore.components.HSToggleState = {
     /**
      *
      *
@@ -40,12 +40,12 @@
 
       this.config.itemSelector = selector;
 
-      this.initSVGInjector();
+      this.initToggleState();
 
       return this.pageCollection;
     },
 
-    initSVGInjector: function () {
+    initToggleState: function () {
       //Variables
       var $self = this,
         collection = $self.pageCollection;
@@ -54,32 +54,42 @@
       this.collection.each(function (i, el) {
         //Variables
         var $this = $(el),
-          array = JSON.parse(el.getAttribute('data-img-paths')),
-          arrayLength = array ? array.length : 0,
-          $parent = $($this.data('parent')),
-          targetId,
-          newPath;
+          $target = $this.data('target'),
+          slaves = $this.data('slaves');
 
-        $parent.css('height', $parent.outerHeight());
+        $this.on('click', function (e) {
+          e.preventDefault();
 
-        SVGInjector($this, {
-          each: function (svg) {
-            if (arrayLength > 0) {
-              for (i = 0; i < arrayLength; i++) {
-                targetId = array[i].targetId;
-                newPath = array[i].newPath;
+          $this.toggleClass('toggled');
 
-                $(targetId).attr('xlink:href', newPath);
-              }
+          if (slaves) {
+            if ($this.hasClass('toggled')) {
+              $(slaves).addClass('toggled');
+            } else {
+              $(slaves).removeClass('toggled');
             }
-
-            $parent.removeClass('svg-preloader').css('height', '');
           }
+
+          $self.checkedState($this, $target, 'toggled');
+        });
+
+        $(slaves).on('click', function (e) {
+          e.preventDefault();
+
+          $('[data-slaves="' + slaves + '"]').removeClass('toggled');
         });
 
         //Actions
         collection = collection.add($this);
       });
+    },
+
+    checkedState: function (toggler, target, toggleClass) {
+      if ($(toggler).hasClass(toggleClass)) {
+        $(target).prop('checked', true);
+      } else {
+        $(target).prop('checked', false);
+      }
     }
   };
 })(jQuery);

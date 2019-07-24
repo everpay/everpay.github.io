@@ -1,13 +1,25 @@
 /**
- * SVG Injector wrapper.
+ * File attach wrapper.
  *
  * @author Htmlstream
  * @version 1.0
+ * @requires
  *
  */
 ;(function ($) {
   'use strict';
-  $.HSCore.components.HSSVGIngector = {
+
+  function formatData(option) {
+    if (!option.id) {
+      return option.text;
+    }
+
+    var result = option.element.dataset.optionTemplate ? option.element.dataset.optionTemplate : '<span>' + option.text + '</span>';
+
+    return $.parseHTML(result);
+  }
+
+  $.HSCore.components.HSFileAttach = {
     /**
      *
      *
@@ -23,14 +35,13 @@
     pageCollection: $(),
 
     /**
-     * Initialization of Go To wrapper.
+     * Initialization of File attach wrapper.
      *
      * @param String selector (optional)
      * @param Object config (optional)
      *
      * @return jQuery pageCollection - collection of initialized items.
      */
-
     init: function (selector, config) {
       this.collection = selector && $(selector).length ? $(selector) : $();
       if (!$(selector).length) return;
@@ -40,46 +51,34 @@
 
       this.config.itemSelector = selector;
 
-      this.initSVGInjector();
+      this.initFileAttach();
 
       return this.pageCollection;
     },
 
-    initSVGInjector: function () {
+    initFileAttach: function () {
       //Variables
       var $self = this,
+        config = $self.config,
         collection = $self.pageCollection;
 
       //Actions
       this.collection.each(function (i, el) {
         //Variables
         var $this = $(el),
-          array = JSON.parse(el.getAttribute('data-img-paths')),
-          arrayLength = array ? array.length : 0,
-          $parent = $($this.data('parent')),
-          targetId,
-          newPath;
+          thisResultTextTarget = $this.data('result-text-target');
 
-        $parent.css('height', $parent.outerHeight());
+        $this.on('change', function () {
+          var thisVal = $(this).val();
 
-        SVGInjector($this, {
-          each: function (svg) {
-            if (arrayLength > 0) {
-              for (i = 0; i < arrayLength; i++) {
-                targetId = array[i].targetId;
-                newPath = array[i].newPath;
+          console.log(thisVal.replace(/.+[\\\/]/, ''));
 
-                $(targetId).attr('xlink:href', newPath);
-              }
-            }
-
-            $parent.removeClass('svg-preloader').css('height', '');
-          }
+          $(thisResultTextTarget).text(thisVal.replace(/.+[\\\/]/, ''));
         });
 
         //Actions
         collection = collection.add($this);
       });
     }
-  };
+  }
 })(jQuery);

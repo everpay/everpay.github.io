@@ -1,5 +1,5 @@
 /**
- * SVG Injector wrapper.
+ * Toggle State wrapper.
  *
  * @author Htmlstream
  * @version 1.0
@@ -7,7 +7,7 @@
  */
 ;(function ($) {
   'use strict';
-  $.HSCore.components.HSSVGIngector = {
+  $.HSCore.components.HSSelectPicker = {
     /**
      *
      *
@@ -40,12 +40,12 @@
 
       this.config.itemSelector = selector;
 
-      this.initSVGInjector();
+      this.initSelectPicker();
 
       return this.pageCollection;
     },
 
-    initSVGInjector: function () {
+    initSelectPicker: function () {
       //Variables
       var $self = this,
         collection = $self.pageCollection;
@@ -53,28 +53,17 @@
       //Actions
       this.collection.each(function (i, el) {
         //Variables
-        var $this = $(el),
-          array = JSON.parse(el.getAttribute('data-img-paths')),
-          arrayLength = array ? array.length : 0,
-          $parent = $($this.data('parent')),
-          targetId,
-          newPath;
+        var $this = $(el);
 
-        $parent.css('height', $parent.outerHeight());
+        $this.selectpicker();
 
-        SVGInjector($this, {
-          each: function (svg) {
-            if (arrayLength > 0) {
-              for (i = 0; i < arrayLength; i++) {
-                targetId = array[i].targetId;
-                newPath = array[i].newPath;
+        $this.on('loaded.bs.select', function (e) {
+          var $searchbox = $this.siblings('.dropdown-menu ').find('.bs-searchbox'),
+            searchBoxClasses = $this.data('searchbox-classes');
 
-                $(targetId).attr('xlink:href', newPath);
-              }
-            }
+          if(!searchBoxClasses) return;
 
-            $parent.removeClass('svg-preloader').css('height', '');
-          }
+          $searchbox.addClass(searchBoxClasses);
         });
 
         //Actions
