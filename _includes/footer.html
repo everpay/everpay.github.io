@@ -265,6 +265,25 @@ bablic.element(document.querySelector('#site-footer-languages'));
       });
     </script>
 <script src="https://cdn.everpayinc.com/assets/v1.2/js/base.js"></script>
+<!-- JS Implementing Plugins -->
+<script src="{{ site.baseurl }}/assets/vendor/svg-injector/dist/svg-injector.min.js"></script>
+
+<!-- JS Implementing Plugins -->
+<script src="{{ site.baseurl }}/assets/js/components/hs.svg-injector.js"></script>
+<script src="{{ site.baseurl }}/assets/js/components/hs.sticky-block.js"></script>
+
+<!-- JS Plugins Init. -->
+<script>
+  $(window).on('load', function () {
+    // initialization of svg injector module
+    $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
+  });
+
+  $(document).on('ready', function () {
+    // initialization of sticky blocks
+    $.HSCore.components.HSStickyBlock.init('.js-sticky-block');
+  });
+</script>
 
 <script src="https://cdn.everpayinc.com/assets/js/cookies-message.min.js"></script>
 <script>
