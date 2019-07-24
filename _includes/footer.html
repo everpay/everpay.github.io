@@ -250,6 +250,7 @@ bablic.element(document.querySelector('#site-footer-languages'));
 </footer>
 
   
+<script src="{{ site.baseurl }}/assets/js/svg-injector.min.js"></script>
 <script type="text/javascript" src="https://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
 <script src="{{ site.baseurl }}/libs/classie/classie.js"></script>
   <script src="{{ site.baseurl }}/libs/plugins/owl-carousel/owl.carousel.min.js"></script>
@@ -258,26 +259,35 @@ bablic.element(document.querySelector('#site-footer-languages'));
     <script src="{{ site.baseurl }}/libs/plugins/aos/aos.js"></script>
     <script src="{{ site.baseurl }}/libs/plugins/loaders-css/loaders.css.js"></script>
    <script src="{{ site.baseurl }}/libs/back-to-top.js"></script>
+
+  <script src="{{ site.baseurl }}/assets/js/svg-injector.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/appear.js"></script>
+
+<script src="{{ site.baseurl }}/assets/js/slick.js"></script>
  <script src="{{ site.baseurl }}/libs/jquery.mb.YTPlayer.min.js"></script>
 <script>
       jQuery(function () {
           jQuery(".player").mb_YTPlayer();
       });
     </script>
-<script src="https://cdn.everpayinc.com/assets/v1.2/js/base.js"></script>
-<!-- JS Implementing Plugins -->
-<script src="{{ site.baseurl }}/assets/js/svg-injector.min.js"></script>
-
-<!-- JS Implementing Plugins -->
-<script src="{{ site.baseurl }}/assets/js/hs.svg-injector.js"></script>
-<script src="{{ site.baseurl }}/assets/js/hs.sticky-block.js"></script>
+<script src="{{ site.baseurl }}/assets/js/hs.core.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/hs.unfold.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/hs.show-animation.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/hs.slick-carousel.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/hs.svg-injector.js"></script>
 
 <!-- JS Plugins Init. -->
 <script>
-  $(window).on('load', function () {
-    // initialization of svg injector module
-    $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
-  });
+ // initialization of slick carousel
+      $.HSCore.components.HSSlickCarousel.init('.js-slick-carousel');
+
+      // initialization of show animations
+      $.HSCore.components.HSShowAnimation.init('.js-animation-link', {
+        afterShow: function() {
+          $('.js-slick-carousel').slick('setPosition');
+        }
+      });
+
 
   $(document).on('ready', function () {
     // initialization of sticky blocks
@@ -285,6 +295,7 @@ bablic.element(document.querySelector('#site-footer-languages'));
   });
 </script>
 
+<script src="https://cdn.everpayinc.com/assets/v1.2/js/base.js"></script>
 <script src="https://cdn.everpayinc.com/assets/js/cookies-message.min.js"></script>
 <script>
 $(document).ready(function() {
