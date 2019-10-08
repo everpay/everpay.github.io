@@ -249,7 +249,35 @@ bablic.element(document.querySelector('#site-footer-languages'));
 
 </footer>
 
-  
+      <script type="text/javascript">
+      $(function() {
+        createAuth0Client({
+          domain: 'auth.brucke.club',
+          client_id: 'wLSIP47wM39wKdDmOj6Zb5eSEw3JVhVp'
+        }).then(function(auth0) {
+          window.auth0 = auth0;
+          $('#login_popup').click(function() {
+            auth0
+              .loginWithPopup({
+                redirect_uri: 'http://localhost:3000/callback.html'
+              })
+              .then(function() {
+                auth0.getTokenSilently().then(function(token) {
+                  console.log(token);
+                });
+                auth0.getUser().then(function(user) {
+                  console.log(user);
+                });
+              });
+          });
+          $('#login_redirect').click(function() {
+            auth0.loginWithRedirect({
+              redirect_uri: 'http://localhost:3000/'
+            });
+          });
+        });
+      });
+    </script>
 <script src="{{ site.baseurl }}/assets/js/svg-injector.min.js"></script>
 <script type="text/javascript" src="https://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
 <script src="{{ site.baseurl }}/libs/classie/classie.js"></script>
