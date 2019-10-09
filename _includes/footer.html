@@ -259,7 +259,7 @@ bablic.element(document.querySelector('#site-footer-languages'));
           $('#login_popup').click(function() {
             auth0
               .loginWithPopup({
-                redirect_uri: 'https://www.everpayinc.com/callback.html'
+                redirect_uri: 'https://app.everpayinc.com/callback'
               })
               .then(function() {
                 auth0.getTokenSilently().then(function(token) {
