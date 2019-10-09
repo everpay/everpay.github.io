@@ -259,7 +259,7 @@ bablic.element(document.querySelector('#site-footer-languages'));
           $('#login_popup').click(function() {
             auth0
               .loginWithPopup({
-                redirect_uri: 'http://localhost:3000/callback.html'
+                redirect_uri: 'https://www.everpayinc.com/callback.html'
               })
               .then(function() {
                 auth0.getTokenSilently().then(function(token) {
@@ -272,7 +272,7 @@ bablic.element(document.querySelector('#site-footer-languages'));
           });
           $('#login_redirect').click(function() {
             auth0.loginWithRedirect({
-              redirect_uri: 'http://localhost:3000/'
+              redirect_uri: 'https://app.everpayinc.com/'
             });
           });
         });
